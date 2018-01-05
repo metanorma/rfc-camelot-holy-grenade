@@ -1,0 +1,242 @@
+= The Holy Hand Grenade of Antioch
+:doctype: internet-draft
+:abbrev: Hand Grenade of Antioch
+:submission-type: independent
+:name: draft-camelot-holy-grenade-00
+:status: informational
+:consensus: false
+:ipr: trust200902
+:toc-include: true
+:fullname: Arthur son of Uther Pendragon
+:forename_initials: A.
+:lastname: Pendragon
+:email: arthur@camelot.gov.uk
+:forename_initials: A.
+:organization: Camelot
+:uri: http://camelot.gov.uk
+:street: Palace\ Camel Lot 1
+:city: Camelot
+:country: England
+:fullname_2: Patsy
+:lastname_2: Patsy
+:role_2: editor
+:email_2: patsy@camelot.gov.uk
+:organization_2: Camelot
+:postal-line_2: Camel Lot 9\ Camelot\ England
+:revdate: 932-06-23
+:area: General, Operations and Management
+//:workgroup: Internet Architecture Board
+:keyword: rabbits, grenades
+:smart-quotes: false
+:obsoletes: 10, 20
+:updates: 2010
+:sort-refs: true
+:comments: yes
+:notedraftinprogress: yes
+:link: https://en.wikipedia.org/wiki/Rabbit_of_Caerbannog
+  convertedFrom,  http://questionthekillerrabbit.tumblr.com preview
+
+[abstract]
+The Killer Rabbit of Caerbannog is a fictional character in the Monty
+Python film _Monty Python and the Holy Grail_. The scene in _Holy Grail_
+was written by Graham Chapman and John Cleese. The rabbit is the
+antagonist in a major set piece battle, and makes a similar appearance
+in _Spamalot_, a musical inspired by the movie. See also
+<<RFC2635,1 of What is Spam*?>>
+
+[NOTE,remove-in-rfc=false]
+.Spamalot
+The iconic status of this scene was important in establishing
+the viability of the musical.
+
+[toc=exclude]
+:sectnums!:
+== Terminology
+
+In this document, the key words *MUST*, *MUST NOT*, *REQUIRED*,
+*SHALL*, *SHALL NOT*, *SHOULD*, *SHOULD NOT*, *RECOMMENDED*, *MAY*, and
+*OPTIONAL* are to be interpreted as described in BCP 14, <<RFC2119>>.
+
+:sectnums:
+== In The Film
+
+The Cave of Caerbannog (_caer bannog_ being Welsh for "turreted
+castle", thus making its title a pun on the English dish "Welsh
+rabbit") is the home of the Legendary Black Beast of Arrrghhh
+(((Killer Rabbit of Caerbannog)))
+(named for the last utterance of anyone who ever saw it). This is
+guarded by a monster which is initially unknown. ((King Arthur)) and
+his knights are led to the cave by ((Tim the Enchanter)) and find that
+they must face its guardian beast.
+
+****
+The rabbit scene was shot outside the Tomnadashan mine, a cave 4 miles
+(6.5 km) from the Perthshire village of Killin. For the 25th
+anniversary DVD, Michael Palin and Terry Jones returned to be
+interviewed in front of the cave but they could not remember the
+location.
+****
+
+* Tim verbally paints a picture of
+a terrible monster with "nasty, big, pointy teeth!", so terrifying
+that Sir Robin soils his armour at the mere description.
+(((Sir Robin, soiling armour)))
+* When the
+guardian appears to be an innocuous white rabbit
+(<<killer_bunny,See depiction>>:
+http://ascii.co.uk/art/rabbit[RABBIT - ASCII ART]), surrounded
+by the bones of the fallen, Arthur and his knights no longer take it
+seriously.
+** Ignoring Tim's warnings ("a vicious streak a mile wide!"),
+King Arthur
+orders Bors to chop its head off.
+[upperalpha,group=Victims]
+... Bors confidently approaches it,
+sword drawn, and is immediately decapitated by the rabbit biting
+clean through his neck, to the sound of a can opener.
+** Despite their
+initial shock, Sir Robin soiling his armor again, and Tim's loud
+scoffing, the knights attack in force.
+[upperalpha,group=Victims]
+... But the rabbit injures several
+of the knights and kills Gawain and Ector with ease. The knights
+themselves have no hope of killing or injuring the rabbit.
+** Arthur
+panics and shouts for the knights to retreat ("Run away!").
+* Knowing
+they cannot risk attacking again, they try to find another way to
+defeat the beast.
+* The Holy Hand Grenade of Antioch is ultimately
+used to kill it and allow the quest to proceed.
+
+[NOTE,display=false,source=Lancelot]
+.Tip for the Bridge scene
+What is Lancelot's favourite colour? Will come in handy later.
+
+[[killer_bunny]]
+.Figure 1
+====
+[alt=Killer Bunny]
+....
+
+           /\ /|
+          |||| |
+           \ | \
+       _ _ /  @ @
+     /    \   =>X<=
+   /|      |   /
+   \|     /__| |
+     \_____\ \__\
+
+
+unknown
+....
+====
+
+.Dramatis Personae
+[grid=all]
+|===
+|Actor |Role
+
+|Graham Chapman >|King Arthur
+|John Cleese >|Tim the Enchanter
+.2+|Eric Idle >|Sir Robin
+>|Brother Maynard
+|Terry Gilliam >|Sir Bors
+|Michael Palin >|The Lector
+|===
+
+=== Holy Hand Grenade of Antioch
+
+[[sovereign_orb]]
+.Figure 2
+====
+.Sovereign's Orb
+[link=https://en.wikipedia.org/wiki/File:British_Sovereigns_Orb.jpg,align=right]
+image::https://en.wikipedia.org/wiki/File:British_Sovereigns_Orb.jpg[Orb,124,135]
+====
+
+The Holy Hand Grenade of Antioch is a visual satire of the Sovereign's
+Orb of the United Kingdom, Figure <<sovereign_orb,format=counter>>,
+and may refer to the mythical Holy Spear of Antioch. The Holy Hand
+Grenade is described as one of the "sacred relics" carried by Brother
+Maynard. Despite its ornate appearance and long-winded instructions,
+it functions much the same as any other hand grenade. At King Arthur's
+prompting, instructions for its use are read aloud from the fictitious
+_Book of Armaments_, Chapter 2, verses 9-21.
+
+NOTE: Verses parodying the King James Bible and the Athanasian Creed.
+
+[keep-with-previous=true]
+[quote,Book of Armaments 2:9-21,
+  https://genius.com/Monty-python-holy-hand-grenade-of-antioch-lyrics]
+And Saint Attila raised the hand grenade up on high, saying,
+"O *LORD*, bless this Thy hand grenade that with it Thou
+[bcp14]#mayest# blow Thine enemies to tiny bits, in Thy mercy." And
+the *LORD* did grin and
+the people did feast upon the lambs and sloths and carp and anchovies
+and orangutans and breakfast cereals, and fruit bats and large chu...
+[At this point, the friar is urged by ((Brother Maynard)) to
+"skip a bit, brother"]... And the *LORD* spake, saying, "First
+[bcp14]#shalt# thou take out the Holy Pin, then [bcp14]#shalt# thou
+count to three, no more, no less. Three
+[bcp14]#shall# be the number thou [bcp14]#shalt# count, and the number
+of the counting [bcp14]#shall# be three. Four [bcp14]#shalt# thou not
+count, neither count thou two,
+excepting that thou then proceed to three. Five is right out. Once
+the number three, being the third number, be reached, then lobbest
+thou thy Holy Hand Grenade of Antioch towards thy foe, who being
+naughty in My sight, [bcp14]#shall# snuff it."
+
+=== Code Example
+
+.Sample Python program
+[source,python,align=center]
+----
+ready = True
+if ready:
+    print("Hello World!")
+----
+
+
+[bibliography]
+== Normative References
+++++
+<reference anchor="RFC2119"
+    target="https://www.rfc-editor.org/info/rfc2119">
+  <front>
+    <title>Key words for use in RFCs to Indicate
+      Requirement Levels</title>
+    <author initials="S." surname="Bradner" fullname="S. Bradner">
+      <organization/>
+    </author>
+    <date year="1997" month="March"/>
+  </front>
+  <seriesInfo name="BCP" value="14"/>
+  <seriesInfo name="RFC" value="2119"/>
+  <seriesInfo name="DOI" value="10.17487/RFC2119"/>
+</reference>
+++++
+
+[bibliography]
+== Informative References
+++++
+<reference anchor="RFC2635"
+    target="https://www.rfc-editor.org/info/rfc2635">
+  <front>
+    <title>DON'T SPEW A Set of Guidelines for Mass Unsolicited
+    Mailings and Postings (spam*)</title>
+    <author initials="S." surname="Hambridge" fullname="S. Hambridge">
+      <organization />
+    </author>
+    <author initials="A." surname="Lunde" fullname="A. Lunde">
+      <organization />
+    </author>
+    <date year="1999" month="June" />
+  </front>
+  <seriesInfo name="FYI" value="35" />
+  <seriesInfo name="RFC" value="2635" />
+  <seriesInfo name="DOI" value="10.17487/RFC2635" />
+</reference>
+++++
+
