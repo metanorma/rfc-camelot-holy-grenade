@@ -1,53 +1,46 @@
 = The Holy Hand Grenade of Antioch
+Arthur son of Uther Pendragon
 :doctype: internet-draft
 :abbrev: Hand Grenade of Antioch
+:updates: 8140
 :submission-type: independent
 :name: draft-camelot-holy-grenade-00
 :status: informational
 :consensus: false
+:area: General, Operations and Management
+:keyword: rabbits, grenades
 :ipr: trust200902
 :toc-include: true
+:sort-refs: true
+:link: http://questionthekillerrabbit.tumblr.com preview
+:revdate: 0932-06-23
 :fullname: Arthur son of Uther Pendragon
 :forename_initials: A.
 :lastname: Pendragon
 :email: arthur@camelot.gov.uk
-:forename_initials: A.
 :organization: Camelot
 :uri: http://camelot.gov.uk
 :street: Palace\ Camel Lot 1
 :city: Camelot
 :country: England
-:fullname_2: Patsy
-:lastname_2: Patsy
-:role_2: editor
-:email_2: patsy@camelot.gov.uk
-:organization_2: Camelot
-:postal-line_2: Camel Lot 9\ Camelot\ England
-:revdate: 932-06-23
-:area: General, Operations and Management
-//:workgroup: Internet Architecture Board
-:keyword: rabbits, grenades
-:smart-quotes: false
-:obsoletes: 10, 20
-:updates: 2010
-:sort-refs: true
 :comments: yes
 :notedraftinprogress: yes
-:link: https://en.wikipedia.org/wiki/Rabbit_of_Caerbannog
-  convertedFrom,  http://questionthekillerrabbit.tumblr.com preview
+:smart-quotes: false
 
 [abstract]
-The Killer Rabbit of Caerbannog is a fictional character in the Monty
-Python film _Monty Python and the Holy Grail_. The scene in _Holy Grail_
-was written by Graham Chapman and John Cleese. The rabbit is the
-antagonist in a major set piece battle, and makes a similar appearance
-in _Spamalot_, a musical inspired by the movie. See also
-<<RFC2635,1 of What is Spam*?>>
+The menagerie of beasts and artefacts depicted in <<RFC8140>>
+may be usefully supplemented by other renowned figures
+of Internet and more general lore. This is a preliminary
+attempt to extend the menagerie to the seminal fable of the
+Holy Hand Grenade of Antioch, as depicted in the Monty Python
+film _Monty Python and the Holy Grail_, as well as
+_Spamalot_, the musical inspired by the movie.
 
 [NOTE,remove-in-rfc=false]
 .Spamalot
-The iconic status of this scene was important in establishing
-the viability of the musical.
+The relevance of the musical _Spamalot_ to Internet lore
+should be obvious to the reader; but in case of doubt,
+see also <<RFC2635,1 of What is Spam*?>>
 
 [toc=exclude]
 :sectnums!:
@@ -237,6 +230,20 @@ if ready:
   <seriesInfo name="FYI" value="35" />
   <seriesInfo name="RFC" value="2635" />
   <seriesInfo name="DOI" value="10.17487/RFC2635" />
+</reference>
+
+<reference anchor="RFC8140" target="https://www.rfc-editor.org/info/rfc8140">
+<front>
+<title>
+The Arte of ASCII: Or, An True and Accurate Representation of an Menagerie of Thynges Fabulous and Wonderful in Ye Forme of Character
+</title>
+<author initials="A." surname="Farrel" fullname="A. Farrel">
+<organization/>
+</author>
+<date year="2017" month="April"/>
+</front>
+<seriesInfo name="RFC" value="8140"/>
+<seriesInfo name="DOI" value="10.17487/RFC8140"/>
 </reference>
 ++++
 
