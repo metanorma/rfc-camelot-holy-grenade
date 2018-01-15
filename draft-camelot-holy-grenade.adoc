@@ -28,7 +28,7 @@ Arthur son of Uther Pendragon
 :smart-quotes: false
 
 [.comment]
-tag::myTag[] 
+tag::preamble[] 
 // tag::preamble[]
 
 [abstract]
@@ -48,7 +48,11 @@ see also <<RFC2635,1 of What is Spam*?>>
 
 // end::preamble[]
 [.comment]
-end::myTag[] 
+end::preamble[] 
+
+[.comment]
+tag::sectnums[] 
+// tag::sectnums[]
 
 [toc=exclude]
 :sectnums!:
@@ -59,9 +63,84 @@ In this document, the key words *MUST*, *MUST NOT*, *REQUIRED*,
 *OPTIONAL* are to be interpreted as described in BCP 14, <<RFC2119>>.
 
 :sectnums:
-== In The Film
+== The Mythos of Caerbannog
 
-The Cave of Caerbannog (_caer bannog_ being Welsh for "turreted
+The _Cave of Caerbannog_ was well-established in the mythology of
+Camelot (as recounted by Monty Python) as the lair of the Legendary
+Black Beast of Arrrghhh, more commonly known today as the
+*Killer Rabbit of Caerbannog*. It is the encounter between
+the Killer Rabbit of Caerbannog and the Knights of the Round Table,
+armed with the Holy Hand Grenade of Antioch, that we recount here
+through monospace font and repeated spaces.
+
+=== The Killer Rabbit of Caerbannog
+
+The *Killer Rabbit of Caerbannog*, that most formidable foe of
+the Knights and of all that is holy or carrot-like, has been
+depicted diversely in lay and in song.
+
+// end::sectnums[]
+[.comment]
+end::sectnums[]
+
+<<killer_bunny,The following depiction>> of the fearsome beast
+has been sourced from
+http://ascii.co.uk/art/rabbit[RABBIT - ASCII ART], accompanied
+by some C code that was certainly not utilised to generate it
+(from https://github.com/symisc/ascii_art):
+
+[.comment]
+tag::figure[]
+// tag::figure[]
+
+[[killer_bunny]]
+.Figure 1
+====
+[alt=Killer Bunny ASCII art]
+....
+
+           /\ /|
+          |||| |
+           \ | \
+       _ _ /  @ @
+     /    \   =>X<=
+   /|      |   /
+   \|     /__| |
+     \_____\ \__\
+
+
+unknown
+....
+
+[source,c]
+----
+/* Load an image from disk */
+int width, height;
+unsigned char *zBlob = AsciiArtLoadImage(argv[1],&width,&height);
+if( zBlob == 0 ){
+	puts("Cannot load image");
+	return;
+}
+	
+/* Allocate a buffer big enough to hold the entire text output */
+size_t nBytes = AsciiArtTextBufSize(&sRender, width, height);
+unsigned char *zText = malloc(nBytes);
+	
+/* Finally, process */ 
+AsciiArtRender(&sRender, zBlob, &width, &height, zText,1);
+/* zBlob[] hold the binary ASCII glyphs now */
+----
+====
+
+// end::figure[]
+[.comment]
+end::figure[]
+
+
+
+
+
+(_caer bannog_ being Welsh for "turreted
 castle", thus making its title a pun on the English dish "Welsh
 rabbit") is the home of the Legendary Black Beast of Arrrghhh
 (((Killer Rabbit of Caerbannog)))
@@ -114,25 +193,49 @@ used to kill it and allow the quest to proceed.
 .Tip for the Bridge scene
 What is Lancelot's favourite colour? Will come in handy later.
 
-[[killer_bunny]]
-.Figure 1
+[.comment]
+tag::figure2[]
+// tag::figure2[]
+
+
+[[holy_hand_grenade]]
+.Figure 2
 ====
-[alt=Killer Bunny]
+[alt=Holy Hand Grenade of Antioch]
 ....
 
-           /\ /|
-          |||| |
-           \ | \
-       _ _ /  @ @
-     /    \   =>X<=
-   /|      |   /
-   \|     /__| |
-     \_____\ \__\
+                          __                         
+                         |  | 
+                       __|  |__
+                      |   /\   |
+                      |__ \/ __|
+                         |  |                        
+                         |  |                         
+                         |  |                           
+                      ,--'#`--.                       
+                      |#######|                       
+                   _.-'#######`-._                    
+                ,-'###############`-.                 
+              ,'#####################`,               
+             /#########################\              
+            |###########################|             
+           |#############################|            
+           |#############################|            
+           |#############################|            
+           |#############################|            
+            |###########################|             
+             \#########################/              
+              `.#####################,'               
+                `._###############_,'                 
+                   `--..#####..--'      
 
 
-unknown
 ....
 ====
+
+// end::figure2[]
+[.comment]
+end::figure2[]
 
 .Dramatis Personae
 [grid=all]
