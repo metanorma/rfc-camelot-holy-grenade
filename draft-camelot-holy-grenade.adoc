@@ -80,6 +80,7 @@ the Knights and of all that is holy or carrot-like, has been
 depicted diversely in lay and in song.
 
 // end::sectnums[]
+
 [.comment]
 end::sectnums[]
 
@@ -132,11 +133,12 @@ AsciiArtRender(&sRender, zBlob, &width, &height, zText,1);
 ----
 ====
 
+
 // end::figure[]
+
+
 [.comment]
 end::figure[]
-
-
 
 
 
@@ -195,12 +197,11 @@ What is Lancelot's favourite colour? Will come in handy later.
 
 [.comment]
 tag::figure2[]
-// tag::figure2[]
 
+// tag::figure2a[]
 
 [[holy_hand_grenade]]
 .Figure 2
-====
 [alt=Holy Hand Grenade of Antioch]
 ....
 
@@ -231,9 +232,9 @@ tag::figure2[]
 
 
 ....
-====
 
-// end::figure2[]
+// end::figure2a[]
+
 [.comment]
 end::figure2[]
 
