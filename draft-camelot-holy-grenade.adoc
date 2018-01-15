@@ -27,6 +27,10 @@ Arthur son of Uther Pendragon
 :notedraftinprogress: yes
 :smart-quotes: false
 
+[.comment]
+tag::myTag[] 
+// tag::preamble[]
+
 [abstract]
 The menagerie of beasts and artefacts depicted in <<RFC8140>>
 may be usefully supplemented by other renowned figures
@@ -41,6 +45,10 @@ _Spamalot_, the musical inspired by the movie.
 The relevance of the musical _Spamalot_ to Internet lore
 should be obvious to the reader; but in case of doubt,
 see also <<RFC2635,1 of What is Spam*?>>
+
+// end::preamble[]
+[.comment]
+end::myTag[] 
 
 [toc=exclude]
 :sectnums!:
