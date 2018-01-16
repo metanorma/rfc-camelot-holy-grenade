@@ -62,10 +62,67 @@ In this document, the key words *MUST*, *MUST NOT*, *REQUIRED*,
 *SHALL*, *SHALL NOT*, *SHOULD*, *SHOULD NOT*, *RECOMMENDED*, *MAY*, and
 *OPTIONAL* are to be interpreted as described in BCP 14, <<RFC2119>>.
 
-:sectnums:
+:sectnums
+== Introduction
+
+<<RFC8140>> refers to the intended move of RFC formatting to
+XML2RFC v3 <<RFC7790>>, in the following terms:
+
+// end::sectnums[]
+[.comment]
+end::sectnums[]
+
+[.comment]
+tag::quote1[] 
+// tag::quote[]
+
+[quote,attribution="A. Farrel"]
+____
+Although the RFC Editor has recently dragged the IETF kicking and
+   screaming into the twentieth century [RFC7990] [RFC7996], there is a
+   yearning among all right-thinking Internet architects to "keep it
+   simple" and to return to the olden days when pigs could be given
+   thrust without anyone taking undue offence.
+____
+
+// end::quote[]
+[.comment]
+end::quote1[]
+
+While no pigs, flying or otherwise, are involved in the transition
+to RFC XML v3, it is opportune to enhance the <<RFC8140>> legendarium
+in the service of RFC XML v3, by illustrating its functionality
+through references to the mythology of Camelot, and particularly
+the incidents at the Cave of Caerbannog.
+
+There are two references to rabbits in _Monty Python and the Holy Grail_
+which are expounded on herewith:
+
+[.comment]
+tag::listcontinuation1[] 
+// tag::listcontinuation[]
+
+Trojan Rabbit::
+In their siege of the French-occupied castle which may already contain 
+an instance of the Grail,
+Sir Bedevere the Wise proposes to use a Trojan Rabbit to infiltrate
+the castle, with a raiding party to take the French "not only by
+surprise, but totally unarmed."
++
+The proposal, unsurprisingly, proved abortive. The more so as the
+raiding party forgot to go inside the Trojan Rabbit before the French
+take the Trojan Rabbit inside.
+Killer Rabbit of Caerbannog::
+Guarding the entrance to the Cave of Caerbannog; see <<caerbannog>>.
+
+// end::listcontinuation[]
+[.comment]
+end::listcontinuation1[]
+
+[[caerbannog]]
 == The Mythos of Caerbannog
 
-The _Cave of Caerbannog_ was well-established in the mythology of
+The _Cave of Caerbannog_ has been well-established in the mythology of
 Camelot (as recounted by Monty Python) as the lair of the Legendary
 Black Beast of Arrrghhh, more commonly known today as the
 *Killer Rabbit of Caerbannog*. It is the encounter between
@@ -79,11 +136,6 @@ The *Killer Rabbit of Caerbannog*, that most formidable foe of
 the Knights and of all that is holy or carrot-like, has been
 depicted diversely in lay and in song.
 
-// end::sectnums[]
-
-[.comment]
-end::sectnums[]
-
 <<killer_bunny,The following depiction>> of the fearsome beast
 has been sourced from
 http://ascii.co.uk/art/rabbit[RABBIT - ASCII ART], accompanied
@@ -91,8 +143,8 @@ by some C code that was certainly not utilised to generate it
 (from https://github.com/symisc/ascii_art):
 
 [.comment]
-tag::figure[]
-// tag::figure[]
+tag::figure1[]
+// tag::figure1a[]
 
 [[killer_bunny]]
 .Figure 1
@@ -134,11 +186,37 @@ AsciiArtRender(&sRender, zBlob, &width, &height, zText,1);
 ====
 
 
-// end::figure[]
+// end::figure1a[]
+[.comment]
+end::figure1[]
 
+On the beast's encounter with the Knights of the Round Table,
+the following personnel engaged with it in combat:
 
 [.comment]
-end::figure[]
+tag::ul1[]
+// tag::ul[]
+
+* Killed
+** Sir Bors
+** Sir Gawain
+** Sir Ector
+* Soiled Himself
+** Sir Robin
+* Panicked
+** King Arthur
+* Employed Ordnance
+** The Lector
+** Brother Maynard
+* Scoffed
+** Tim the Enchanter
+
+// end::ul[]
+[.comment]
+end::ul1[]
+
+
+
 
 
 
@@ -159,41 +237,24 @@ interviewed in front of the cave but they could not remember the
 location.
 ****
 
-* Tim verbally paints a picture of
-a terrible monster with "nasty, big, pointy teeth!", so terrifying
-that Sir Robin soils his armour at the mere description.
-(((Sir Robin, soiling armour)))
-* When the
-guardian appears to be an innocuous white rabbit
-(<<killer_bunny,See depiction>>:
-http://ascii.co.uk/art/rabbit[RABBIT - ASCII ART]), surrounded
-by the bones of the fallen, Arthur and his knights no longer take it
-seriously.
-** Ignoring Tim's warnings ("a vicious streak a mile wide!"),
-King Arthur
-orders Bors to chop its head off.
-[upperalpha,group=Victims]
-... Bors confidently approaches it,
-sword drawn, and is immediately decapitated by the rabbit biting
-clean through his neck, to the sound of a can opener.
-** Despite their
-initial shock, Sir Robin soiling his armor again, and Tim's loud
-scoffing, the knights attack in force.
-[upperalpha,group=Victims]
-... But the rabbit injures several
-of the knights and kills Gawain and Ector with ease. The knights
-themselves have no hope of killing or injuring the rabbit.
-** Arthur
-panics and shouts for the knights to retreat ("Run away!").
-* Knowing
-they cannot risk attacking again, they try to find another way to
-defeat the beast.
-* The Holy Hand Grenade of Antioch is ultimately
-used to kill it and allow the quest to proceed.
-
 [NOTE,display=false,source=Lancelot]
 .Tip for the Bridge scene
 What is Lancelot's favourite colour? Will come in handy later.
+
+.Dramatis Personae
+[grid=all]
+|===
+|Actor |Role
+
+|Graham Chapman >|King Arthur
+|John Cleese >|Tim the Enchanter
+.2+|Eric Idle >|Sir Robin
+>|Brother Maynard
+|Terry Gilliam >|Sir Bors
+|Michael Palin >|The Lector
+|===
+
+=== Holy Hand Grenade of Antioch
 
 [.comment]
 tag::figure2[]
@@ -238,32 +299,44 @@ tag::figure2[]
 [.comment]
 end::figure2[]
 
-.Dramatis Personae
-[grid=all]
-|===
-|Actor |Role
-
-|Graham Chapman >|King Arthur
-|John Cleese >|Tim the Enchanter
-.2+|Eric Idle >|Sir Robin
->|Brother Maynard
-|Terry Gilliam >|Sir Bors
-|Michael Palin >|The Lector
-|===
-
-=== Holy Hand Grenade of Antioch
 
 [[sovereign_orb]]
-.Figure 2
+.Figure 2a
 ====
 .Sovereign's Orb
 [link=https://en.wikipedia.org/wiki/File:British_Sovereigns_Orb.jpg,align=right]
 image::https://en.wikipedia.org/wiki/File:British_Sovereigns_Orb.jpg[Orb,124,135]
 ====
 
-The Holy Hand Grenade of Antioch is a visual satire of the Sovereign's
-Orb of the United Kingdom, Figure <<sovereign_orb,format=counter>>,
-and may refer to the mythical Holy Spear of Antioch. The Holy Hand
+The solution to the impasse at the Cave of Caerbannog was provided
+by the successful deployment of the *Holy Hand Grenade of Antioch*.
+Any similarity between the Holy Hand Grenade of Antioch and the
+mythical _Holy Spear of Antioch_ is purely intention; any similarity
+between the Holy Hand Grenade of Antioch and the
+_Sovereign's Orb of the United Kingdom_ is purely fortuitous.
+
+[.comment]
+tag::dl1[]
+// tag::dl[]
+
+Holy Hand Grenade of Antioch::
+  Ordnance deployed by Brother Maynard under the incantation of a lector,
+  in order to dispense with the Foes of the Virtuous.
+Holy Spear of Antioch::
+  A supposed relic of the crucifixion of Jesus Christ, this is one of at least 
+  four claimed instances of the lance that pierces Christ's side. Its
+  historical significance lies in inspiring crusaders to continue their
+  siege of Antioch in 1098.
+Sovereign's Orb of the United Kingdom::
+  Part of the Crown Jewels of the United Kingdom, the Sovereign's Orb
+  is a hollow gold sphere set with jewels and topped with a cross. It was
+  made for Charles II in 1661.
+
+// end::dl[]
+[.comment]
+end::dl1[]
+
+The Holy Hand
 Grenade is described as one of the "sacred relics" carried by Brother
 Maynard. Despite its ornate appearance and long-winded instructions,
 it functions much the same as any other hand grenade. At King Arthur's
@@ -292,6 +365,61 @@ excepting that thou then proceed to three. Five is right out. Once
 the number three, being the third number, be reached, then lobbest
 thou thy Holy Hand Grenade of Antioch towards thy foe, who being
 naughty in My sight, [bcp14]#shall# snuff it."
+
+The instructions in the _Book of Armaments_ on the proper deployment of
+the Holy Hand Grenade of Antioch may be summarised as follows:
+
+[.comment]
+tag::ol1[]
+// tag::ol[]
+
+. Preamble: St Attila Benediction
+. Feast of the People on Sundry Foods
+** Lambs
+** Sloths
+** Carp
+** Anchovies
+** Orangutangs
+** Breakfast Cereals
+** Fruit Bats
+** _et hoc genus omne_
+. Take out the Holy Pin
+. The Count
+[upperalpha]
+.. Count is to Three: no more, no less
+.. Not Four
+.. Nor Two, except if the count then proceeds to Three
+.. Five is Right Out
+. Lob the Holy Hand Grenade of Antioch towards the Foe
+. The Foe, being naughty in the *LORD's* sight, [bcp14]#shall# snuff it
+
+// end::ol[]
+[.comment]
+end::ol1[]
+
+This could also be represented in pseudocode as follows:
+
+[.comment]
+tag::listcontinuationblock1[]
+// tag::listcontinuationblock[]
+. Take out the Holy Pin
+. The Count
++
+----
+integer count;
+for count := 1 step 1 until 3 do
+  say(count)
+comment Five is Right Out
+----
+. Lob the Holy Hand Grenade of Antioch towards the Foe
+. Foe snuffs it
+
+// end::listcontinuationblock[]
+[.comment]
+end::listcontinuationblock1[]
+
+
+
 
 === Code Example
 
@@ -344,10 +472,23 @@ if ready:
   <seriesInfo name="DOI" value="10.17487/RFC2635" />
 </reference>
 
+<reference anchor="RFC7990" target="https://www.rfc-editor.org/info/rfc7990">
+<front>
+<title>RFC Format Framework</title>
+<author initials="H." surname="Flanagan" fullname="H. Flanagan">
+<organization/>
+</author>
+<date year="2016" month="December"/>
+</front>
+<seriesInfo name="RFC" value="7990"/>
+<seriesInfo name="DOI" value="10.17487/RFC7990"/>
+</reference>
+
 <reference anchor="RFC8140" target="https://www.rfc-editor.org/info/rfc8140">
 <front>
 <title>
-The Arte of ASCII: Or, An True and Accurate Representation of an Menagerie of Thynges Fabulous and Wonderful in Ye Forme of Character
+The Arte of ASCII: Or, An True and Accurate Representation of an Menagerie 
+of Thynges Fabulous and Wonderful in Ye Forme of Character
 </title>
 <author initials="A." surname="Farrel" fullname="A. Farrel">
 <organization/>
