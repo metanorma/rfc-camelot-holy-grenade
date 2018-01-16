@@ -402,6 +402,7 @@ This could also be represented in pseudocode as follows:
 [.comment]
 tag::listcontinuationblock1[]
 // tag::listcontinuationblock[]
+
 . Take out the Holy Pin
 . The Count
 +
