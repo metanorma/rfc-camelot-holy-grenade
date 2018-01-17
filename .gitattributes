@@ -1,2 +1,2 @@
-*.xslt linguist-vendored
+rfc2629*.* linguist-vendored
 draft-camelot-holy-grenade.adoc linguist-documentation=false
