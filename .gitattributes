@@ -1,2 +1,2 @@
 *.xslt linguist-vendored
-*.adoc linguist-language=AsciiDoc
+*.adoc linguist-language=Markdown
