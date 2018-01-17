@@ -1,2 +1,2 @@
 * linguist-vendored
-*.adoc linguist-vendored=false
+*.adoc linguist-language=AsciiDoc
