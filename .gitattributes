@@ -1,2 +1,2 @@
 *.xslt linguist-vendored
-*.adoc linguist-language=Java
+*.adoc linguist-language=AsciiDoc
