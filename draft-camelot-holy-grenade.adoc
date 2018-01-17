@@ -59,8 +59,9 @@ tag::sectnums1[]
 == Terminology
 
 In this document, the key words *MUST*, *MUST NOT*, *REQUIRED*,
-*SHALL*, *SHALL NOT*, *SHOULD*, *SHOULD NOT*, *RECOMMENDED*, *MAY*, and
-*OPTIONAL* are to be interpreted as described in BCP 14, <<RFC2119>>.
+*SHALL*, *SHALL NOT*, *SHOULD*, *SHOULD NOT*, *RECOMMENDED*, *MAY*, 
+and *OPTIONAL* are to be interpreted as described in BCP 14, 
+<<RFC2119>>.
 
 :sectnums:
 == Introduction
@@ -93,10 +94,23 @@ While no pigs, flying or otherwise, are involved in the transition
 to RFC XML v3, it is opportune to enhance the <<RFC8140>> legendarium
 in the service of RFC XML v3, by illustrating its functionality
 through references to the mythology of Camelot, and particularly
-the incidents at the Cave of Caerbannog.
+the incidents at the Cave of Caerbannog. 
 
-There are two references to rabbits in _Monty Python and the Holy Grail_
-which are expounded on herewith:
+[.comment]
+tag::escaped_hyperlink1[] 
+// tag::escaped_hyperlink[]
+
+The screaming move into
+the twenty-*first* century is accompanied by a move back to the
+late twentieth century, with Ascii stylings more wonted in haunts
+like \ftp://ftp.wwa.com/pub/Scarecrow (known to be accessible in 1996.)
+
+// end::escaped_hyperlink[]
+[.comment]
+end::escaped_hyperlink1[]
+
+There are two references to rabbits in 
+_Monty Python and the Holy Grail_ which are expounded on herewith:
 
 [.comment]
 tag::listcontinuation1[] 
@@ -110,8 +124,8 @@ the castle, with a raiding party to take the French "not only by
 surprise, but totally unarmed."
 +
 The proposal, unsurprisingly, proved abortive. The more so as the
-raiding party forgot to hide within the Trojan Rabbit, before the French
-soldiers took the Trojan Rabbit inside the castle.
+raiding party forgot to hide within the Trojan Rabbit, before the 
+French soldiers took the Trojan Rabbit inside the castle.
 Killer Rabbit of Caerbannog::
 Guarding the entrance to the Cave of Caerbannog; see <<caerbannog>>.
 
@@ -121,92 +135,101 @@ end::listcontinuation1[]
 
 == The French-occupied castle
 
-The participants of that renowned exercise in cross-cultural
-communication, is the exchange between the Knights of the Round Table
-and the taunting French soldiers under Guy de Lombard 
-are, properly speaking, outside the spoke of this menagerie,
-being more or less human. Notwithstanding, several beasts animate
-and wooden played a significant part in this encounter; most notably:
+[.comment]
+tag::inline_formatting1[]
+// tag::inline_formatting[]
 
-The projectile cow:
+The participants of that renowned exercise in cross-cultural
+communication, to wit the exchange between the 
+_Knights of the Round Table_
+and the taunting French soldiers serving under *Guy de Lombard*
+are, properly speaking, outside the spoke of this `menagerie`,
+being more or less human. Notwithstanding, several^ish^ beasts 
+both animate~d~ and wooden played a significant part in this 
+encounter; most notably:
+
+// end::inline_formatting[]
+[.comment]
+end::inline_formatting1[]
+
+
+The Projectile Cow:
 
 ....
-                        (__)                   
-                        (oo)                     
-         *-----\_______\/\/                    
-       ^_______/        \______^              
-      ^--------\        /\_____^              
-                \______/                       
-                                  
+                        (__)         
+                        (oo) 
+         *-----\_______\/\/
+       ^_______/        \______^    
+      ^--------\        /\_____^    
+                \______/   
+              
 ....
 
 And the Trojan Rabbit:
 
 ....
-                                                                                                                       
-                                                                                                   
-                            #%&%#                                                                  
-                         /%       /%                                                               
-                        %        /  %                                                              
-                       ((       /    %                                                             
-              /###   % %      %( /    %                                                            
-             %    #%  (#     &    /   %                                                            
-           /(         (/    (#        %                                                            
-           %          #      %/      /(                                                            
-           /# %/  (( /%      #/##&%                                                              
-                   /# &      %                                                                     
-                    % %     /(                                                                  
-                   (%       //%                                                                    
-                 /%            %/                              
-                &               /(                                                                 
-               #                 /                                                                 
-             /#/                  %                                                                
-            %/      /(#>           %                                                               
-           %      #(@ )/           %                                                              
-          %(      \---/              %                                                             
-         (                            ((                                                           
-       #(                           /  // &%#                                                      
-      (/                             /  /#/  ((                                                    
-      %  /                      /      ((//////(%                                                  
-      %/                         /   /(          /%                                                
-      (/               /          //(//////////// //%                                              
-       %                /         (( /////////////(///&                                            
-        # &&&&&&&%/_     /      /(//  ////  /           &                                          
-        || &        &          /                  // //  (%                                        
-        ((            #      (                            / %/                                     
-                       %   (/              //     //   //    /%                                    
-                       #/////////////////                       &                                  
-                       &/           /////                       //%(                               
-                     (#///////////////                             /(%                             
-                     %                                                (                            
-                     %                                 // /          ((                            
-                      %    /                                          #/                           
-                      %                                               /(                           
-                     &  /         //////                 /           /%         
-                     %                                  //////       //        
-                     %/               %%%%%%%#%%%%&%*                 &                             
-                     %/ //            &     /       %           /     %                            
-                     %           ////[]     /       %    /     //////#                             
-                     %               []  /  (  /    %     (          %                             
-                     %  /////         #  /  (  /    %                /(#&%%()                      
-                     %                #  (  (       %////            /( /   )                      
-                      /               #  (  (  /    %////////      /     /  )                      
-                    % /      /       /#  (  /  /    %                /     %                       
-                     &&%%%/    //     #  /          %           #&%%%/  # (#                       
-                   %(/  ( #&         /#     /       %        (%  /    %&/                          
-                 /##   /  / #/       []     /    /  &  /    % (  (///   %                          
-                 %  /    /   &///    []   / /       %       # (//       #/                         
-                (%/  /   (   %&&&&&&&&&&&%%%%##%&%#%#/((((#%%   #/  /   %                          
-                 %  (  (    %/                               %  /     /%                           
-                  (#     / &/                                 (%// / %)                            
-                     (%&%/                                      (%&%/                                   
-                                                                                                   
+                       #%&%#                                    
+                    /%       /%                                 
+                   %        /  %                                
+                  ((       /    %                               
+         /###   % %      %( /    %                              
+        %    #%  (#     &    /   %                              
+      /(         (/    (#        %                              
+      %          #      %/      /(                              
+      /# %/  (( /%      #/##&%                                
+              /# &      %                                       
+               % %     /(                                    
+              (%       //%                                      
+            /%            %/
+           &               /(                                   
+          #                 /                                   
+        /#/                  %                                  
+       %/      /(#>           %                                 
+      %      #(@ )/           %                                
+     %(      \---/              %                               
+    (                            ((                             
+  #(                           /  // &%#                        
+ (/                             /  /#/  ((                      
+ %  /                      /      ((//////(%                    
+ %/                         /   /(          /%                  
+ (/               /          //(//////////// //%                
+  %                /         (( /////////////(///&              
+   # &&&&&&&%/_     /      /(//  ////  /           &            
+   || &        &          /                  // //  (%          
+   ((            #      (                            / %/       
+                  %   (/              //     //   //    /%      
+                  #/////////////////                       &    
+                  &/           /////                       //%( 
+                (#///////////////                             /(% 
+                %                                                (
+                %                                 // /          ((
+                 %    /                                          #/
+                 %                                               /(
+                &  /         //////                 /           /% 
+                %                                  //////       //
+                %/               %%%%%%%#%%%%&%*                 & 
+                %/ //            &     /       %           /     %
+                %           ////[]     /       %    /     //////# 
+                %               []  /  (  /    %     (          % 
+                %  /////         #  /  (  /    %                /(#&%%()
+                %                #  (  (       %////            /( /   )
+                 /               #  (  (  /    %////////      /     /  )
+               % /      /       /#  (  /  /    %                /     %
+                &&%%%/    //     #  /          %           #&%%%/  # (#
+              %(/  ( #&         /#     /       %        (%  /    %&/ 
+            /##   /  / #/       []     /    /  &  /    % (  (///   % 
+            %  /    /   &///    []   / /       %       # (//       #/
+           (%/  /   (   %&&&&&&&&&&&%%%%##%&%#%#/((((#%%   #/  /   % 
+            %  (  (    %/                               %  /     /%
+             (#     / &/                                 (%// / %)
+                (%&%/                                      (%&%/     
+                                                                
 ....
 
 [.comment]
 tag::aside1[]
 
-// tag:aside[]
+// tag::aside[]
 
 ****
 While the exchange at the French-occupied castle is one of
@@ -229,11 +252,10 @@ end::aside1[]
 tag::note1[]
 // tag::note[]
 
-[NOTE,source=Author]
-.Credits
+[NOTE,display=true,source=Author]
 ====
 Image courtesy of 
-https://manytools.org/hacker-tools/convert-images-to-ascii-art/ 
+\https://manytools.org/hacker-tools/convert-images-to-ascii-art/ 
 ====
 
 // end::note[]
@@ -250,7 +272,7 @@ long-running fruitful relationship between the British and
 the French peoples,
 [comment]#TODO: Will need to verify that claim.# which
 arguably predates the traditional English enmity with the
-French. [comment]#Strictly speaking, the Knights are Welsh.##
+French. [comment]#Strictly speaking, the Knights are Welsh.#
 
 [.comment]
 --
@@ -273,7 +295,7 @@ Black Beast of Arrrghhh, more commonly known today as the
 *Killer Rabbit of Caerbannog*. It is the encounter between
 the Killer Rabbit of Caerbannog and the Knights of the Round Table,
 armed with the Holy Hand Grenade of Antioch, that we recount here
-through monospace font and repeated spaces.
+through monospace font and multiple spaces.
 
 === The Killer Rabbit of Caerbannog
 
@@ -281,11 +303,19 @@ The *Killer Rabbit of Caerbannog*, that most formidable foe of
 the Knights and of all that is holy or carrot-like, has been
 depicted diversely in lay and in song.
 
+[.comment]
+tag::hyperlink1[]
+// tag::hyperlink[]
+
 <<killer_bunny,The following depiction>> of the fearsome beast
 has been sourced from
 http://ascii.co.uk/art/rabbit[RABBIT - ASCII ART], accompanied
 by some C code that was certainly not utilised to generate it
 (from https://github.com/symisc/ascii_art):
+
+// end::hyperlink[]
+[.comment]
+end::hyperlink1[]
 
 [.comment]
 tag::figure1[]
@@ -316,14 +346,14 @@ unknown
 int width, height;
 unsigned char *zBlob = AsciiArtLoadImage(argv[1],&width,&height);
 if( zBlob == 0 ){
-	puts("Cannot load image");
-	return;
+  puts("Cannot load image");
+  return;
 }
-	
+
 /* Allocate a buffer big enough to hold the entire text output */
 size_t nBytes = AsciiArtTextBufSize(&sRender, width, height);
 unsigned char *zText = malloc(nBytes);
-	
+
 /* Finally, process */ 
 AsciiArtRender(&sRender, zBlob, &width, &height, zText,1);
 /* zBlob[] hold the binary ASCII glyphs now */
@@ -363,42 +393,6 @@ end::ul1[]
 
 
 
-
-
-(_caer bannog_ being Welsh for "turreted
-castle", thus making its title a pun on the English dish "Welsh
-rabbit") is the home of the Legendary Black Beast of Arrrghhh
-(((Killer Rabbit of Caerbannog)))
-(named for the last utterance of anyone who ever saw it). This is
-guarded by a monster which is initially unknown. ((King Arthur)) and
-his knights are led to the cave by ((Tim the Enchanter)) and find that
-they must face its guardian beast.
-
-****
-The rabbit scene was shot outside the Tomnadashan mine, a cave 4 miles
-(6.5 km) from the Perthshire village of Killin. For the 25th
-anniversary DVD, Michael Palin and Terry Jones returned to be
-interviewed in front of the cave but they could not remember the
-location.
-****
-
-[NOTE,display=false,source=Lancelot]
-.Tip for the Bridge scene
-What is Lancelot's favourite colour? Will come in handy later.
-
-.Dramatis Personae
-[grid=all]
-|===
-|Actor |Role
-
-|Graham Chapman >|King Arthur
-|John Cleese >|Tim the Enchanter
-.2+|Eric Idle >|Sir Robin
->|Brother Maynard
-|Terry Gilliam >|Sir Bors
-|Michael Palin >|The Lector
-|===
-
 === Holy Hand Grenade of Antioch
 
 [.comment]
@@ -411,29 +405,29 @@ tag::figure2[]
 [alt=Holy Hand Grenade of Antioch]
 ....
 
-                          __                         
+                          __     
                          |  | 
                        __|  |__
                       |   /\   |
                       |__ \/ __|
-                         |  |                        
-                         |  |                         
-                         |  |                           
-                      ,--'#`--.                       
-                      |#######|                       
-                   _.-'#######`-._                    
-                ,-'###############`-.                 
-              ,'#####################`,               
-             /#########################\              
-            |###########################|             
-           |#############################|            
-           |#############################|            
-           |#############################|            
-           |#############################|            
-            |###########################|             
-             \#########################/              
-              `.#####################,'               
-                `._###############_,'                 
+                         |  |    
+                         |  |     
+                         |  |       
+                      ,--'#`--.   
+                      |#######|   
+                   _.-'#######`-._
+                ,-'###############`-.       
+              ,'#####################`,     
+             /#########################\    
+            |###########################|   
+           |#############################|  
+           |#############################|  
+           |#############################|  
+           |#############################|  
+            |###########################|   
+             \#########################/    
+              `.#####################,'     
+                `._###############_,'       
                    `--..#####..--'      
 
 
@@ -453,66 +447,57 @@ end::figure2[]
 image::https://en.wikipedia.org/wiki/File:British_Sovereigns_Orb.jpg[Orb,124,135]
 ====
 
-The solution to the impasse at the Cave of Caerbannog was provided
-by the successful deployment of the *Holy Hand Grenade of Antioch*.
+[.comment]
+tag::index1[]
+// tag::index[]
+
+The solution to the impasse at the ((Cave of Caerbannog)) was provided
+by the successful deployment of the ((*Holy Hand Grenade of Antioch*)).
 Any similarity between the Holy Hand Grenade of Antioch and the
-mythical _Holy Spear of Antioch_ is purely intention; any similarity
+mythical _Holy Spear of Antioch_ is purely intentional; 
+(((relics, Christian))) any similarity
 between the Holy Hand Grenade of Antioch and the
-_Sovereign's Orb of the United Kingdom_ is purely fortuitous.
+_Sovereign's Orb of the United Kingdom_ is putatively fortuitous.
+(((relics, monarchic)))
+
+// end::index[]
+[.comment]
+end::index1[]
 
 [.comment]
 tag::dl1[]
 // tag::dl[]
 
 Holy Hand Grenade of Antioch::
-  Ordnance deployed by Brother Maynard under the incantation of a lector,
-  in order to dispense with the Foes of the Virtuous.
+  Ordnance deployed by Brother Maynard under the incantation of a 
+  lector, in order to dispense with the Foes of the Virtuous.
 Holy Spear of Antioch::
-  A supposed relic of the crucifixion of Jesus Christ, this is one of at least 
-  four claimed instances of the lance that pierces Christ's side. Its
-  historical significance lies in inspiring crusaders to continue their
-  siege of Antioch in 1098.
+  A supposed relic of the crucifixion of Jesus Christ, this is one of 
+  at least four claimed instances of the lance that pierces Christ's 
+  side. Its historical significance lies in inspiring crusaders to 
+  continue their siege of Antioch in 1098.
 Sovereign's Orb of the United Kingdom::
   Part of the Crown Jewels of the United Kingdom, the Sovereign's Orb
-  is a hollow gold sphere set with jewels and topped with a cross. It was
-  made for Charles II in 1661.
+  is a hollow gold sphere set with jewels and topped with a cross. 
+  It was made for Charles II in 1661.
 
 // end::dl[]
 [.comment]
 end::dl1[]
 
-The Holy Hand
-Grenade is described as one of the "sacred relics" carried by Brother
-Maynard. Despite its ornate appearance and long-winded instructions,
-it functions much the same as any other hand grenade. At King Arthur's
-prompting, instructions for its use are read aloud from the fictitious
-_Book of Armaments_, Chapter 2, verses 9-21.
-
-NOTE: Verses parodying the King James Bible and the Athanasian Creed.
-
-[keep-with-previous=true]
-[quote,Book of Armaments 2:9-21,
-  https://genius.com/Monty-python-holy-hand-grenade-of-antioch-lyrics]
-And Saint Attila raised the hand grenade up on high, saying,
-"O *LORD*, bless this Thy hand grenade that with it Thou
-[bcp14]#mayest# blow Thine enemies to tiny bits, in Thy mercy." And
-the *LORD* did grin and
-the people did feast upon the lambs and sloths and carp and anchovies
-and orangutans and breakfast cereals, and fruit bats and large chu...
-[At this point, the friar is urged by ((Brother Maynard)) to
-"skip a bit, brother"]... And the *LORD* spake, saying, "First
-[bcp14]#shalt# thou take out the Holy Pin, then [bcp14]#shalt# thou
-count to three, no more, no less. Three
-[bcp14]#shall# be the number thou [bcp14]#shalt# count, and the number
-of the counting [bcp14]#shall# be three. Four [bcp14]#shalt# thou not
-count, neither count thou two,
-excepting that thou then proceed to three. Five is right out. Once
-the number three, being the third number, be reached, then lobbest
-thou thy Holy Hand Grenade of Antioch towards thy foe, who being
-naughty in My sight, [bcp14]#shall# snuff it."
+[.comment]
+tag::bcp14_1[]
+// tag::bcp14[]
 
 The instructions in the _Book of Armaments_ on the proper deployment of
-the Holy Hand Grenade of Antioch may be summarised as follows:
+the Holy Hand Grenade of Antioch [bcp14]#may# be summarised as follows,
+although this summary *SHALL NOT* be used as a substitute for a reading
+from the Book of Armaments:
+
+// end::bcp14[]
+[.comment]
+end::bcp14_1[]
+
 
 [.comment]
 tag::ol1[]
@@ -564,18 +549,41 @@ comment Five is Right Out
 [.comment]
 end::listcontinuationblock1[]
 
+== Dramatis Personae
 
+The following human (more-or-less) protagonists were involved
+in the two incidents recounted as lore of the Knights of the
+Round Table:
 
+[.comment]
+tag::table1[]
+// tag::table[]
 
-=== Code Example
+[grid=all,options="footer"]
+|===
+|French Castle | Cave of Caerbannog
 
-.Sample Python program
-[source,python,align=center]
-----
-ready = True
-if ready:
-    print("Hello World!")
-----
+2+|King Arthur
+2+|Patsy
+2+|Sir Bedevere the Wise
+2+|Sir Galahad the Pure
+2+|Sir Lancelot the Brave
+2+|Sir Robin the Not-quite-so-brave-as-Sir-Lancelot
+|French Guard with Outrageous Accent| Tim the Enchanter
+|Other French Guards | Brother Maynard
+| | The Lector
+.3+^|not yet recruited
+>|Sir Bors
+>|Sir Gawain
+>|Sir Ector
+
+|Retinue of sundry knights 
+|Retinue of sundry more knights than at the French Castle
+|===
+
+// end::table[]
+[.comment]
+end::table1[]
 
 
 [bibliography]
@@ -618,7 +626,8 @@ if ready:
   <seriesInfo name="DOI" value="10.17487/RFC2635" />
 </reference>
 
-<reference anchor="RFC7990" target="https://www.rfc-editor.org/info/rfc7990">
+<reference anchor="RFC7990" 
+target="https://www.rfc-editor.org/info/rfc7990">
 <front>
 <title>RFC Format Framework</title>
 <author initials="H." surname="Flanagan" fullname="H. Flanagan">
@@ -630,11 +639,13 @@ if ready:
 <seriesInfo name="DOI" value="10.17487/RFC7990"/>
 </reference>
 
-<reference anchor="RFC8140" target="https://www.rfc-editor.org/info/rfc8140">
+<reference anchor="RFC8140" 
+target="https://www.rfc-editor.org/info/rfc8140">
 <front>
 <title>
-The Arte of ASCII: Or, An True and Accurate Representation of an Menagerie 
-of Thynges Fabulous and Wonderful in Ye Forme of Character
+The Arte of ASCII: Or, An True and Accurate Representation of 
+an Menagerie of Thynges Fabulous and Wonderful in Ye Forme of 
+Character
 </title>
 <author initials="A." surname="Farrel" fullname="A. Farrel">
 <organization/>
