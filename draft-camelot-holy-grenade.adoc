@@ -51,7 +51,7 @@ see also <<RFC2635,1 of What is Spam*?>>
 end::preamble[] 
 
 [.comment]
-tag::sectnums[] 
+tag::sectnums1[] 
 // tag::sectnums[]
 
 [toc=exclude]
@@ -62,7 +62,7 @@ In this document, the key words *MUST*, *MUST NOT*, *REQUIRED*,
 *SHALL*, *SHALL NOT*, *SHOULD*, *SHOULD NOT*, *RECOMMENDED*, *MAY*, and
 *OPTIONAL* are to be interpreted as described in BCP 14, <<RFC2119>>.
 
-:sectnums
+:sectnums:
 == Introduction
 
 <<RFC8140>> refers to the intended move of RFC formatting to
@@ -70,7 +70,7 @@ XML2RFC v3 <<RFC7790>>, in the following terms:
 
 // end::sectnums[]
 [.comment]
-end::sectnums[]
+end::sectnums1[]
 
 [.comment]
 tag::quote1[] 
@@ -110,14 +110,159 @@ the castle, with a raiding party to take the French "not only by
 surprise, but totally unarmed."
 +
 The proposal, unsurprisingly, proved abortive. The more so as the
-raiding party forgot to go inside the Trojan Rabbit before the French
-take the Trojan Rabbit inside.
+raiding party forgot to hide within the Trojan Rabbit, before the French
+soldiers took the Trojan Rabbit inside the castle.
 Killer Rabbit of Caerbannog::
 Guarding the entrance to the Cave of Caerbannog; see <<caerbannog>>.
 
 // end::listcontinuation[]
 [.comment]
 end::listcontinuation1[]
+
+== The French-occupied castle
+
+The participants of that renowned exercise in cross-cultural
+communication, is the exchange between the Knights of the Round Table
+and the taunting French soldiers under Guy de Lombard 
+are, properly speaking, outside the spoke of this menagerie,
+being more or less human. Notwithstanding, several beasts animate
+and wooden played a significant part in this encounter; most notably:
+
+The projectile cow:
+
+....
+                        (__)                   
+                        (oo)                     
+         *-----\_______\/\/                    
+       ^_______/        \______^              
+      ^--------\        /\_____^              
+                \______/                       
+                                  
+....
+
+And the Trojan Rabbit:
+
+....
+                                                                                                                       
+                                                                                                   
+                            #%&%#                                                                  
+                         /%       /%                                                               
+                        %        /  %                                                              
+                       ((       /    %                                                             
+              /###   % %      %( /    %                                                            
+             %    #%  (#     &    /   %                                                            
+           /(         (/    (#        %                                                            
+           %          #      %/      /(                                                            
+           /# %/  (( /%      #/##&%                                                              
+                   /# &      %                                                                     
+                    % %     /(                                                                  
+                   (%       //%                                                                    
+                 /%            %/                              
+                &               /(                                                                 
+               #                 /                                                                 
+             /#/                  %                                                                
+            %/      /(#>           %                                                               
+           %      #(@ )/           %                                                              
+          %(      \---/              %                                                             
+         (                            ((                                                           
+       #(                           /  // &%#                                                      
+      (/                             /  /#/  ((                                                    
+      %  /                      /      ((//////(%                                                  
+      %/                         /   /(          /%                                                
+      (/               /          //(//////////// //%                                              
+       %                /         (( /////////////(///&                                            
+        # &&&&&&&%/_     /      /(//  ////  /           &                                          
+        || &        &          /                  // //  (%                                        
+        ((            #      (                            / %/                                     
+                       %   (/              //     //   //    /%                                    
+                       #/////////////////                       &                                  
+                       &/           /////                       //%(                               
+                     (#///////////////                             /(%                             
+                     %                                                (                            
+                     %                                 // /          ((                            
+                      %    /                                          #/                           
+                      %                                               /(                           
+                     &  /         //////                 /           /%         
+                     %                                  //////       //        
+                     %/               %%%%%%%#%%%%&%*                 &                             
+                     %/ //            &     /       %           /     %                            
+                     %           ////[]     /       %    /     //////#                             
+                     %               []  /  (  /    %     (          %                             
+                     %  /////         #  /  (  /    %                /(#&%%()                      
+                     %                #  (  (       %////            /( /   )                      
+                      /               #  (  (  /    %////////      /     /  )                      
+                    % /      /       /#  (  /  /    %                /     %                       
+                     &&%%%/    //     #  /          %           #&%%%/  # (#                       
+                   %(/  ( #&         /#     /       %        (%  /    %&/                          
+                 /##   /  / #/       []     /    /  &  /    % (  (///   %                          
+                 %  /    /   &///    []   / /       %       # (//       #/                         
+                (%/  /   (   %&&&&&&&&&&&%%%%##%&%#%#/((((#%%   #/  /   %                          
+                 %  (  (    %/                               %  /     /%                           
+                  (#     / &/                                 (%// / %)                            
+                     (%&%/                                      (%&%/                                   
+                                                                                                   
+....
+
+[.comment]
+tag::aside1[]
+
+// tag:aside[]
+
+****
+While the exchange at the French-occupied castle is one of
+the more memorable scences of _Monty Python and the Holy Grail_,
+the Trojan Rabbit has not reached the same level of cultural
+resonance as its more murderous counterpart. Reasons for this
+may include:
+
+* Less overall screen-time dedicated to the Trojan Rabbit.
+* The Trojan Rabbit as projectile has already been anticipated
+by the Cow as projectile.
+****
+
+// end::aside[]
+
+[.comment]
+end::aside1[]
+
+[.comment]
+tag::note1[]
+// tag::note[]
+
+[NOTE,source=Author]
+.Credits
+====
+Image courtesy of 
+https://manytools.org/hacker-tools/convert-images-to-ascii-art/ 
+====
+
+// end::note[]
+[.comment]
+end::note1[]
+
+
+[.comment]
+tag::comment1[]
+// tag::comment[]
+
+The exchange of projectile animals was the beginning of a
+long-running fruitful relationship between the British and
+the French peoples,
+[comment]#TODO: Will need to verify that claim.# which
+arguably predates the traditional English enmity with the
+French. [comment]#Strictly speaking, the Knights are Welsh.##
+
+[.comment]
+--
+This document, as it turns out, has a profusion of XML comments.
+
+As expected, they are ignored in any rendering of the document.
+--
+
+
+// end::comment[]
+[.comment]
+end::comment1[]
 
 [[caerbannog]]
 == The Mythos of Caerbannog
