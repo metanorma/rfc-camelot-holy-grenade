@@ -37,14 +37,14 @@ may be usefully supplemented by other renowned figures
 of Internet and more general lore. This is a preliminary
 attempt to extend the menagerie to the seminal fable of the
 Holy Hand Grenade of Antioch, as depicted in the Monty Python
-film _Monty Python and the Holy Grail_, as well as
+film _Monty Python and the Holy Grail_ <<grail_film>>, as well as
 _Spamalot_, the musical inspired by the movie.
 
 [NOTE,remove-in-rfc=false]
 .Spamalot
 The relevance of the musical _Spamalot_ to Internet lore
 should be obvious to the reader; but in case of doubt,
-see also <<RFC2635,1 of What is Spam*?>>
+see also <<RFC2635,1 of What is Spam*?>>.
 
 // end::preamble[]
 [.comment]
@@ -289,19 +289,43 @@ end::comment1[]
 [[caerbannog]]
 == The Mythos of Caerbannog
 
+[.comment]
+tag::xref1[]
+// tag::xref[]
+
 The _Cave of Caerbannog_ has been well-established in the mythology of
 Camelot (as recounted by Monty Python) as the lair of the Legendary
 Black Beast of Arrrghhh, more commonly known today as the
-*Killer Rabbit of Caerbannog*. It is the encounter between
+*Killer Rabbit of Caerbannog* <<killer_rabbit_caerbannog>>. 
+It is the encounter between
 the Killer Rabbit of Caerbannog and the Knights of the Round Table,
-armed with the Holy Hand Grenade of Antioch, that we recount here
+armed with the Holy Hand Grenade of Antioch (see the
+<<holy_hand_grenade,following section>>), that we recount here 
 through monospace font and multiple spaces.
 
+[[killer_rabbit_caerbannog]]
 === The Killer Rabbit of Caerbannog
+
+// end::xref[]
+[.comment]
+end::xref1[]
+
+[.comment]
+tag::relref1[]
+// tag::relref[]
 
 The *Killer Rabbit of Caerbannog*, that most formidable foe of
 the Knights and of all that is holy or carrot-like, has been
-depicted diversely in lay and in song.
+depicted diversely in lay and in song. We venture to say,
+_contra_ the claim made in <<RFC8140,4.1 of: Ze Vompyre>>,
+that the Killer Rabbit of Caerbannog truly is the most afeared
+of all the creatures. Short of sanctified ordnance such as
+<<holy_hand_grenade,format=title>>, there are few remedies
+known against its awful lapine powers.
+
+// end::relref[]
+[.comment]
+end::relref1[] 
 
 [.comment]
 tag::hyperlink1[]
@@ -393,6 +417,7 @@ end::ul1[]
 
 
 
+[[holy_hand_grenade]]
 === Holy Hand Grenade of Antioch
 
 [.comment]
@@ -400,7 +425,7 @@ tag::figure2[]
 
 // tag::figure2a[]
 
-[[holy_hand_grenade]]
+[[holy_hand_grenade_figure]]
 .Figure 2
 [alt=Holy Hand Grenade of Antioch]
 ....
@@ -452,7 +477,8 @@ tag::index1[]
 // tag::index[]
 
 The solution to the impasse at the ((Cave of Caerbannog)) was provided
-by the successful deployment of the ((*Holy Hand Grenade of Antioch*)).
+by the successful deployment of the *Holy Hand Grenade of Antioch*
+(((Holy Hand Grenade of Antioch))).
 Any similarity between the Holy Hand Grenade of Antioch and the
 mythical _Holy Spear of Antioch_ is purely intentional; 
 (((relics, Christian))) any similarity
@@ -585,6 +611,35 @@ tag::table1[]
 [.comment]
 end::table1[]
 
+=== Past the Killer Rabbit
+
+Once the Killer Rabbit of Caerbannog had been dispatched,
+the Knights of the Round Table uncovered the last words of Joseph
+of Arimathea, inscribed on the Cave of Caerbannog in Aramaic.
+While the precise Aramaic wording has not survived, we trust
+the following Hebrew subtitles will serve as an acceptable
+substitute:
+
+[.comment]
+tag::hebrew1[]
+// tag::hebrew[]
+
+____
+&#x2e;כאן אולי ימצאו המילים האחרונות של יוסף מארמתיה 
+&#x2e;מי אשר יהיה אמיץ ובעל נפש טהורה יוכל למצוא את הגביע הקדוש בטירת אאאאאאאה
+
+"Here may be found the last words of Joseph&nbsp;of Arimathea.
+He who is valiant and pure of spirit may find the Holy Grail 
+in the castle of &mdash; Aaaargh."
+____
+
+// end::hebrew[]
+[.comment]
+end::hebrew1[]
+
+[.comment]
+tag::bibliography1[]
+// tag::bibliography[]
 
 [bibliography]
 == Normative References
@@ -605,9 +660,24 @@ end::table1[]
 </reference>
 ++++
 
+
 [bibliography]
 == Informative References
 ++++
+
+<reference anchor="grail_film">
+  <front>
+    <title>Monty Python and the Holy Grail</title>
+    <author initials="G." surname="Chapman"/>
+    <author initials="J." surname="Cleese"/>
+    <author initials="E." surname="Idle"/>
+    <author initials="T." surname="Gilliam"/>
+    <author initials="T." surname="Jones"/>
+    <author initials="M." surname="Palin"/>
+    <date year="1975"/>
+  </front>
+</reference>
+
 <reference anchor="RFC2635"
     target="https://www.rfc-editor.org/info/rfc2635">
   <front>
@@ -657,3 +727,6 @@ Character
 </reference>
 ++++
 
+// end::bibliography[]
+[.comment]
+end::bibliography1[]
