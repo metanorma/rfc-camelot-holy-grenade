@@ -333,7 +333,8 @@ tag::hyperlink1[]
 
 <<killer_bunny,The following depiction>> of the fearsome beast
 has been sourced from
-http://ascii.co.uk/art/rabbit[RABBIT - ASCII ART], accompanied
+http://ascii.co.uk/art/rabbit[RABBIT - ASCII ART], 
+<<killer_source,accompanied>>
 by some C code that was certainly not utilised to generate it
 (from https://github.com/symisc/ascii_art):
 
@@ -346,7 +347,7 @@ tag::figure1[]
 // tag::figure1a[]
 
 [[killer_bunny]]
-.Figure 1
+.Figure 1a
 ====
 [alt=Killer Bunny ASCII art]
 ....
@@ -363,7 +364,11 @@ tag::figure1[]
 
 unknown
 ....
+====
 
+[[killer_source]]
+.Figure 1b
+====
 [source,c]
 ----
 /* Load an image from disk */
