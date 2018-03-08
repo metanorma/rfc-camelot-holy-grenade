@@ -67,7 +67,7 @@ and *OPTIONAL* are to be interpreted as described in BCP 14,
 == Introduction
 
 <<RFC8140>> refers to the intended move of RFC formatting to
-XML2RFC v3 <<RFC7790>>, in the following terms:
+XML2RFC v3 <<RFC7990>>, in the following terms:
 
 // end::sectnums[]
 [.comment]

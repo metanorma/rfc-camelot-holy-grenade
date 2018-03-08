@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/riboseinc/asciidoctor-rfc
-  revision: 776404ec517dc2d63c2133b535e1d4eb4e913270
+  revision: 8dda5f1fcc3b41e1ec5123bd87d76027ac14d41b
   specs:
     asciidoctor-rfc (0.8.0)
       asciidoctor (~> 1.5.6)
@@ -25,7 +25,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     asciidoctor (1.5.6.1)
-    bibtex-ruby (4.4.4)
+    bibtex-ruby (4.4.5)
       latex-decode (~> 0.0)
     citeproc (1.0.8)
       namae (~> 1.0)
@@ -40,7 +40,7 @@ GEM
     latex-decode (0.2.2)
       unicode (~> 0.4)
     mini_portile2 (2.3.0)
-    namae (1.0.0)
+    namae (1.0.1)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
     optout (0.0.2)
