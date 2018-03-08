@@ -473,8 +473,8 @@ end::figure2[]
 .Figure 2a
 ====
 .Sovereign's Orb
-[link=https://en.wikipedia.org/wiki/File:British_Sovereigns_Orb.jpg,align=right]
-image::https://en.wikipedia.org/wiki/File:British_Sovereigns_Orb.jpg[Orb,124,135]
+[link=https://example.com/British_Sovereigns_Orb.jpg,align=right]
+image::https://example.com/British_Sovereigns_Orb.jpg[Orb,124,135]
 ====
 
 [.comment]
