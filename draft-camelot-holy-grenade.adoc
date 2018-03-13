@@ -12,7 +12,7 @@ Arthur son of Uther Pendragon
 :ipr: trust200902
 :toc-include: true
 :sort-refs: true
-:revdate: 0932-06-23
+:revdate: 2018-03-13
 :fullname: Arthur son of Uther Pendragon
 :forename_initials: A.
 :lastname: Pendragon

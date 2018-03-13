@@ -12,12 +12,12 @@ GIT
 
 GIT
   remote: https://github.com/riboseinc/asciidoctor-rfc
-  revision: 8dda5f1fcc3b41e1ec5123bd87d76027ac14d41b
+  revision: 981c8f3b0b425bc519ed6f0691f5700fcf615f0c
   specs:
-    asciidoctor-rfc (0.8.0)
+    asciidoctor-rfc (0.8.1)
       asciidoctor (~> 1.5.6)
       htmlentities (~> 4.3.4)
-      nokogiri (~> 1.8.1)
+      nokogiri
       ruby-jing
       thread_safe
 
