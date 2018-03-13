@@ -12,7 +12,6 @@ Arthur son of Uther Pendragon
 :ipr: trust200902
 :toc-include: true
 :sort-refs: true
-:link: http://questionthekillerrabbit.tumblr.com preview
 :revdate: 0932-06-23
 :fullname: Arthur son of Uther Pendragon
 :forename_initials: A.
