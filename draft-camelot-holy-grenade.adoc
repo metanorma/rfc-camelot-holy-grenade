@@ -472,8 +472,8 @@ end::figure2[]
 .Figure 2a
 ====
 .Sovereign's Orb
-[link=https://example.com/British_Sovereigns_Orb.jpg,align=right]
-image::https://example.com/British_Sovereigns_Orb.jpg[Orb,124,135]
+[link=https://camelot.gov.example/british_sovereigns_Orb.jpg,align=right]
+image::https://camelot.gov.example/british_sovereigns_Orb.jpg[Orb,124,135]
 ====
 
 [.comment]
