@@ -12,7 +12,7 @@ Arthur son of Uther Pendragon
 :ipr: trust200902
 :toc-include: true
 :sort-refs: true
-:revdate: 2018-03-13
+:revdate: 2018-04-01
 :fullname: Arthur son of Uther Pendragon
 :forename_initials: A.
 :lastname: Pendragon
@@ -31,19 +31,19 @@ tag::preamble[]
 // tag::preamble[]
 
 [abstract]
-The menagerie of beasts and artefacts depicted in <<RFC8140>>
+The menagerie of beasts and artefacts depicted in RFC8140
 may be usefully supplemented by other renowned figures of
 Internet and more general lore. This document extends the
-menagerie to the seminal fable of the Holy Hand Grenade of
-Antioch, as depicted in the Monty Python film _Monty Python and
-the Holy Grail_ <<grail_film>>, as well as _Spamalot_, the
-musical inspired by the movie.
+menagerie to the seminal fable of the
+"Holy Hand Grenade of Antioch", as depicted in the
+Monty Python film "Monty Python and the Holy Grail",
+as well as "Spamalot", the musical inspired by the movie.
 
 [NOTE,remove-in-rfc=false]
 .Spamalot
-The relevance of the musical _Spamalot_ to Internet lore should be
+The relevance of the musical "Spamalot" to Internet lore should be
 obvious to the reader; but in case of doubt, see also
-<<RFC2635,1 of What is Spam*?>>.
+Section 1 ("What is Spam*?") of RFC2635.
 
 // end::preamble[]
 [.comment]
@@ -255,7 +255,7 @@ tag::note1[]
 [NOTE,display=true,source=Author]
 ====
 Image courtesy of
-\https://manytools.org/hacker-tools/convert-images-to-ascii-art/
+https://camelot.gov.example/creatures-in-ascii/
 ====
 
 // end::note[]
@@ -332,10 +332,10 @@ tag::hyperlink1[]
 
 <<killer_bunny,The following depiction>> of the fearsome beast
 has been sourced from
-http://ascii.co.uk/art/rabbit[RABBIT - ASCII ART],
+http://camelot.gov.example/avatars/rabbit[Rabbit-SCII],
 <<killer_source,accompanied>>
-by some C code that was certainly not utilised to generate it
-(from https://github.com/symisc/ascii_art):
+by C code that was used in this accurate depiction of the
+Killer Rabbit:
 
 // end::hyperlink[]
 [.comment]
@@ -348,7 +348,7 @@ tag::figure1[]
 [[killer_bunny]]
 .Figure 1a
 ====
-[alt=Killer Bunny ASCII art]
+[alt=The Killer Bunny, in ASCII]
 ....
 
            /\ /|
@@ -370,21 +370,35 @@ unknown
 ====
 [source,c]
 ----
-/* Load an image from disk */
-int width, height;
-unsigned char *zBlob = AsciiArtLoadImage(argv[1],&width,&height);
-if( zBlob == 0 ){
-  puts("Cannot load image");
-  return;
+<CODE BEGINS>
+/* Locate the Killer Rabbit */
+int type;
+unsigned char *killerRabbit =
+  LocateCreature(&caerbannog, "killer rabbit");
+if( killerRabbit == 0 ){
+  puts("We've lost the Killer Rabbit of Caerbannog.");
+  return LOST_CREATURE;
 }
 
-/* Allocate a buffer big enough to hold the entire text output */
-size_t nBytes = AsciiArtTextBufSize(&sRender, width, height);
-unsigned char *zText = malloc(nBytes);
+/* Load Cave */
+unsigned char *cave = LoadPlace(&caerbannog,
+  "Cave of Caerbannog");
+if( cave == 0 ){
+  puts("The Cave of Caerbannog must have moved.");
+  return LOST_PLACE;
+}
 
-/* Finally, process */
-AsciiArtRender(&sRender, zBlob, &width, &height, zText,1);
-/* zBlob[] hold the binary ASCII glyphs now */
+/* Lure the Killer Rabbit into the Cave */
+unsigned char *carrot = allocateObjectInPlace(
+  carrot("fresh"), cave);
+if( carrot == 0 ){
+  puts("No carrot, no rabbit.");
+  return LOST_LURE;
+}
+
+/* Finally, notify the Killer Rabbit to act */
+return notifyCreature(killerRabbit, &carrot);
+<CODE ENDS>
 ----
 ====
 
@@ -472,8 +486,8 @@ end::figure2[]
 .Figure 2a
 ====
 .Sovereign's Orb
-[link=https://camelot.gov.example/british_sovereigns_Orb.jpg,align=right]
-image::https://camelot.gov.example/british_sovereigns_Orb.jpg[Orb,124,135]
+[link=https://camelot.gov.example/british_sovereigns_orb.jpg,align=right]
+image::https://camelot.gov.example/british_sovereigns_orb.jpg[Orb,124,135]
 ====
 
 [.comment]
@@ -641,6 +655,20 @@ ____
 // end::hebrew[]
 [.comment]
 end::hebrew1[]
+
+
+== IANA Considerations
+
+IANA might consider a registry to track the mythical, especially
+ravaging beasts, such as the Killer Rabbit, who haunt the Internet.
+
+
+== Security Considerations
+
+Do not let the Killer Rabbit out under any circumstance.
+
+I repeat. Do not let the Killer Rabbit out.
+
 
 [.comment]
 tag::bibliography1[]
