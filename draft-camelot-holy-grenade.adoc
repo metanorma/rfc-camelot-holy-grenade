@@ -463,8 +463,8 @@ end::figure2[]
 .Figure 2a
 ====
 .Sovereign's Orb
-[link=https://camelot.gov.example/british_sovereigns_orb.jpg,align=right]
-image::https://camelot.gov.example/british_sovereigns_orb.jpg[Orb,124,135]
+[link=https://camelot.gov.example/sovereigns_orb.jpg,align=right]
+image::https://camelot.gov.example/sovereigns_orb.jpg[Orb,124,135]
 ====
 
 [.comment]
