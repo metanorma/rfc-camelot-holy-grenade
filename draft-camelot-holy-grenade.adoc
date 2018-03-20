@@ -471,7 +471,7 @@ tag::figure2[]
 
 // tag::figure2a[]
 
-[[hand-granade-figure]]
+[[hand-grenade-figure]]
 .The Holy Hand Grenade of Antioch (don't pull the pin)
 ====
 [alt=Holy Hand Grenade of Antioch, in ASCII]
@@ -524,7 +524,7 @@ tag::index1[]
 
 The solution to the impasse at the ((Cave of Caerbannog)) was
 provided by the successful deployment of the
-*Holy Hand Grenade of Antioch* (see <<hand-granade-figure>>)
+*Holy Hand Grenade of Antioch* (see <<hand-grenade-figure>>)
 (((Holy Hand Grenade of Antioch))).
 Any similarity between the Holy Hand Grenade of Antioch and the
 mythical _Holy Spear of Antioch_ is purely intentional;
@@ -544,7 +544,7 @@ tag::dl1[]
 Holy Hand Grenade of Antioch::
   Ordnance deployed by Brother Maynard under the incantation of a
   lector, in order to dispense with the Foes of the Virtuous.
-  See <<hand-granade-figure>>.
+  See <<hand-grenade-figure>>.
 
 Holy Spear of Antioch::
   A supposed relic of the crucifixion of Jesus Christ, this is one
