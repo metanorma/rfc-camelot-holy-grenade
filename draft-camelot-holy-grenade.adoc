@@ -544,7 +544,7 @@ tag::dl1[]
 Holy Hand Grenade of Antioch::
   Ordnance deployed by Brother Maynard under the incantation of a
   lector, in order to dispense with the Foes of the Virtuous.
-  See <<[[hand-granade-figure]]>>.
+  See <<hand-granade-figure>>.
 
 Holy Spear of Antioch::
   A supposed relic of the crucifixion of Jesus Christ, this is one
