@@ -148,60 +148,91 @@ or less human. Notwithstanding, several^ish^ beasts both animate~d~
 and wooden played a significant part in this encounter; most
 notably:
 
+* The Projectile Cow, see <<projectile-cow>>
+* The Trojan Rabbit, see <<trojan-rabbit>>
+
 // end::inline_formatting[]
 [.comment]
 end::inline_formatting1[]
 
 
-The Projectile Cow:
-
+[[projectile-cow]]
+.The Projectile Cow with an accompanying cannon
+====
+[alt=The Projectile Cow with an accompanying cannon in ASCII]
 ....
-                        (__)
-                        (oo)
-         *-----\_______\/\/
-       ^_______/        \______^
-      ^--------\        /\_____^
-                \______/
-
+.-.-.-.-.-.-.-.-.-.-.-.--.-.-.-.-.-.-.--.-.-.-.-.-.-.-.--.-.
+_-_---__--__--___-___-__-____---___-________---____-____-__-
+._.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-…-.-.--..-.-.-.-.-.-..--.-
+,..,.,.,.,.,..,.,,..,.,.,.,.,.,,  ^^  .,,.,.,  ^^   .,.,.,.=
+_>-.-.-.-._>_>_>_.-.-.-.-.-.-.-.  \\\  .,.,.  ///  .-.-.-.-.
+.,.,.,.,..,.,..,.,.,..,.,.,,..,.,  \ \_______/ /    .,.,.,.,
+.,.,.,.,..,.,.,.,..,,..,,.,.,.,.,.  <[ {o} . ]>  #   .,.,.,.
+.-.-.--.-.-.-.-.-.--.-.-.-.--.-.-.   [ ______]       .-.-.-.
+.-.--.-.-.-.--.-.-.-.--.-.-.,.,.,  / [ !  ‘ ‘!   .,.,..,.,.-
+.,.,.,.-.-,l,-,l.-,.,.,.,-.,*.    /  {_!MOO!_]    . ., . . ,
+.-.-.-.-.-.-.-.-.-.-.-.-.-.-    /M      /    -.-<>.,.,..-.-,
+.-.-.--.-.-.-.-.-.-.-.-.--..   /MI    LK\____    .-.-.-.-.-.
+.-.-.-.--.-.-.-.-.-.-.-.-.-   /MILK   mil_____k   ,.,.,..-,-
+.-,-.-,-.,-.-,-.`-.-/-..     //    -`  //       .-.p . .-.-.
+.-.--.-.-.-.-.-.-.-.        //   .,   //    .-.-.-.-.-.-.-.-
+.-.-.--.-.-.-.-.-.-.  %____============    .-.-.--.-.-.-.-.-
+-.-.-.-.--.-.-.-.-.-.      !  !           .,-.-.-,-,--,-.-,-
+,--.-.-,--.--.-.,--,        \ \      .-,-,--.-,--,-.---,-.-,
+,-.-.-,-,-.-,-,-.--,         +  >    .-,--,-.--,-,-.-.-,--,-
+,--.-,--,-,--.---,-               .-,-,--.--,--,-.---,-,-.-.
+.,.,.,.,..,.,.,.{A\      .,.,.,.,..,.,.,.,.,.,..,.,.,.,..,.,
+.,.,.,.,.,.,.{GLASS\   .,..,.,.,.,.,..,.,.,.,.,.,.,..,.,.,.
+,..,.,,.,,.,{OF|MILK\..,.,.,.,.,..,.,.,.,.,.,..,.,.,.,.,.,.
+,.,..,.,,.,{ISWORTH},.,.,..,.,.,.,.,..,..,.,.,..,.,.,.,.,.,.
+.,.,.,.,.{EVERYTNG}.-.-.--..-.-.-.-.--..--.-.-.-.-.--.-.-.-.
+-.-.-.-{FORINFANTS}___--___-_-__-___--*(0~`~.,.,.,.,><><.><>
+_-__-_{BUTBETTER}-.-,-,-,-,-,-,-,-,.-^^^^.-.-.-.-.^^^7>>>,.,
+.._...{WITHHONEY}-.-.-.-.-.-.-.-.-.-.-.RANDOM(BUSH)SHRUBS>_>
+GRASS_GRASS_GRASS_GRASS_GRASS_SOMEROCKS>GRASS>GRASS<GRASS>PC
+SOIL_ROOTS_SOIL_SOIL_ROCKS_SOIL_GRASS_GRASS_GRASS_ROCKS
+CLAY_ROCKS_REBBLES_CLAY_CLAY_CLAY_CLAY_GOLD_CLAY_CLAY><
+CLAY_CLAY_SKLETONS_MORESOIL_CLAY_CLAY_CLAY_CLAY_CLAY_VR
 ....
+====
 
-And the Trojan Rabbit:
-
+[[trojan-rabbit]]
+.The Trojan Rabbit with an automatic sliding door
+====
+[alt=The Trojan Rabbit with an automatic sliding door, in ASCII]
 ....
-                       #%&%#
-                    /%       /%
-         /###   % %      %( /    %
-        %    #%  (#     &    /   %
-      /(         (/    (#        %
-      \          #      %/      /(
-        \ /     /        \##&%
-          &                /(
-        /#/                  %
-       %/      /(#>           %
-      %      #(@ )/           %
-     %(      \---/              %
-  #(                           /  //
- %  /                      /      ((//////
- (/               /          //(////////////
-  %                /         (( /////////////(///&
-   # &&&&&&&%/_     /      /(//  ////  /           &
-   || &        &          /                  // //  (%
-   ((            #      (                            / %/
-                  #/////////////////                       &
-                  &/           /////                       //%(
-                %                                                (
-                %/               %%%%%%%#%%%%&%*                 &
-                %/ //            &     /       %           /     %
-                %               []  /  (  /    %     (          %
-                %  /////         #  /  (  /    %                /(#&%%()
-               % /      /       /#  (  /  /    %                /     %
-                &&%%%/    //     #  /          %           #&%%%/  # (#
-              %(/  ( #&         /#     /       %        (%  /    %&/
-            /##   /  / #/       []     /    /  &  /    % (  (///   %
-           (%/  /   (   %&&&&&&&&&&&%%%%##%&%#%#/((((#%%   #/  /   %
-            %  (  (    %/                               %  /     /%
-              (#   / &/                                 (%// / %)
+                           ___  ____
+                          //_ \//\__\
+                            || ||  |
+                         -__||_||__|
+                       //         \--_
+                      //     ____     --___
+                     //     //   \         \-_
+                    //      \\  @/        o ||
+                   //        ----      _____||
+                  //                   //
+             //\_//__                 //
+           //--  --- \____           //
+          //          --- \______   //
+         //   , .          ----- \_//_
+        //       ,.               --- \____
+       //              .,v             --- \___
+      //                                 __ -- \_
+     ||  ,         _______________       //||     |-_
+     ||           |   |''''''''''|     // ||     |  |
+     ||     '     |   |          |        ||     |  |
+     ||           |   |          |        ||     |  |
+     ||      "    |   | 0        |     ___||___  |  |
+     ||           |   |          |     --------  |  |
+     ||___        |   |          |        ______ |  |-
+    //     \      |   |          |       //     \| _| \
+   //       \ ____|---|__________|______//       \/    |
+  ||    X    |      /                  ||    X    |   /
+   \\       /\\____/                    \\       /___/
+    \\_____/ -----                       \\_____/---
+     -----                                -----
 ....
+====
 
 [.comment]
 tag::aside1[]
@@ -307,10 +338,10 @@ end::relref1[]
 tag::hyperlink1[]
 // tag::hyperlink[]
 
-<<killer_bunny,The following depiction>> of the fearsome beast
+<<killer-bunny,The following depiction>> of the fearsome beast
 has been sourced from
 http://camelot.gov.example/avatars/rabbit[Rabbit-SCII],
-<<killer_source,accompanied>>
+<<killer-source,accompanied>>
 by C code that was used in this accurate depiction of the
 Killer Rabbit:
 
@@ -322,28 +353,48 @@ end::hyperlink1[]
 tag::figure1[]
 // tag::figure1a[]
 
-[[killer_bunny]]
-.Figure 1a
+[[killer-bunny]]
+.A Photo Of The Killer Rabbit of Caerbannog Taken In Secret
 ====
 [alt=The Killer Bunny, in ASCII]
 ....
-
-           /\ /|
-          |||| |
-           \ | \
-       _ _ /  @ @
-     /    \   =>X<=
-   /|      |   /
-   \|     /__| |
-     \_____\ \__\
-
-
-unknown
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\^^^^^^^^^^^^^^^^^^^^^^\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\<<#MWSHARPMWMWMWTEETHWMWWM>>>\\\\\\\\\\\\
+\\\\\\\\\\\\\\\<<<#WMMWMWDEEPMDARKWCAVEMWWMMWM##>>>>\\\\\\\\
+\\\\\\\\\\\\\<<#WMWMWMWMWWM/^MWMWMWMWMWMW^WMWMWMMW#>>>\\\\\\
+\\\\\\\\\\\\<<#WMWMBEASTMW// \MWABBITWMW/ \MWMWMWMW##\\\\\\\
+\\\\\\\\\\##MWMWMMWMWMWMWM\\  \MWMWMWMW/  /MWMWMWMWM##\\\\\\
+\\\\\\\\##WMWMWMWMMWMWMWMWM\\  \MWMWMW/  /MWMWMWMMWMWMWM##\\
+\\\\\\\##MWMMRAVENOUSMWMWMWM\\  \====/  /MWMRABBITMWMWMWMW##
+\\\\\\##MWMWMWMWMMWMWMWMWMW[[            ]WMWMWMMWMWMWMWMWMW
+\\\\\##MWMWMWMWCARNIVOROUSW[[   3    3   ]MWMWTOOMDARKWMWMMW
+\\\\##MWMWDARKMWMWMWMWMWMWM//\     o    /MWMWMWMMWMWMWMMWMWM
+\\##MWMWMMKILLERABBITWMWMM//| \___vv___/ \WMPITCHWBLACKWMWMW
+\##MWMWMWMMWMWMWMWMWMMWMW// |   \-^^-/   |MWMWMWMMWMWMWMWMWM
+MWMWMWMMWMWVERYMDARKWMMW//  |            |MWMCAERBANNOGWMWMW
+MWMWMWMMWMWMWMWMWMWMWMM{{  /             /MWMWMMWMWMWMWMWMWM
+MULTRADARKWMWMHELPMWMWMW\\ \  |      |  |MWMCANMMWMWMWMMWMWW
+MWMWMWMWMMWMWMWMWMMWMWMWM\\ | |_     |  |_WMWMMYOUMWMMWWMWMW
+MWMMWMWMWMWMBLACKWMWMWMWWM\_|__-\-----\__-\MWMWMWMREADMWMWWM
+MWMWMWMMWMWMWMWMMWMWMWWMWMWMWMMWMWMWMWMWMWMWMWMWMWMWMMTHISWW
+MWVERYMMSCARYMWMWWMWMMWMWMWMWMWMWMWMWMWMWMWMWWMWMMWMWIWM'.',
+MWMWMMWMW======MWMMCANTWSEEMAMTHINGMMWMWMWMWMWMWMBETMMW` . `
+MWMWMWM// SKULL \MWMWMWMMWSCREAMMMWMWMWMMWMNOTMWMWMWW  ` . \
+MWMWMW|| |X||X| |MWMWCALLMMEWMMWMWMMWMWMWMWWM - ` ~ . , '
+MWMWMW||___ O __|MWMWMWMMWMWMWMWMMW'   ___________//   -_^_-
+MWMWMW \\||_|_||MWMW      '   . .     <_|_|_||_|__|     \O/
+MW   \\/\||v v||  -\\-------___     .   .,         \     |
+    \\|  \_CHIN/  ==-(|CARROT/)\>     \\/||//         v\/||/
+       )          /--------^-^            ,.            \|//
+ #  \(/ .\\|x//                              " ' '
+  . ,                \\||//        \||\\\//   \\
 ....
 ====
 
-[[killer_source]]
-.Figure 1b
+[[killer-source]]
+.C Code To Lure Killer Rabbit Back To Cave
 ====
 [source,c]
 ----
@@ -353,19 +404,19 @@ int type;
 unsigned char *killerRabbit =
   LocateCreature(&caerbannog, "killer rabbit");
 if( killerRabbit == 0 ){
-  puts("We've lost the Killer Rabbit of Caerbannog.");
+  puts("The Killer Rabbit of Caerbannog is out of town.");
   return LOST_CREATURE;
 }
 
 /* Load Cave */
 unsigned char *cave = LoadPlace(&caerbannog,
-  "Cave of Caerbannog");
+  "The Cave Of Caerbannog");
 if( cave == 0 ){
   puts("The Cave of Caerbannog must have moved.");
   return LOST_PLACE;
 }
 
-/* Lure the Killer Rabbit into the Cave */
+/* Lure the Killer Rabbit back into the Cave */
 unsigned char *carrot = allocateObjectInPlace(
   carrot("fresh"), cave);
 if( carrot == 0 ){
@@ -384,8 +435,8 @@ return notifyCreature(killerRabbit, &carrot);
 [.comment]
 end::figure1[]
 
-On the beast's encounter with the Knights of the Round Table, the
-following personnel engaged with it in combat:
+On the beast's encounter with the Knights of the Round Table,
+the following personnel engaged with it in combat:
 
 [.comment]
 tag::ul1[]
@@ -420,38 +471,38 @@ tag::figure2[]
 
 // tag::figure2a[]
 
-[[holy_hand_grenade_figure]]
-.Figure 2
-[alt=Holy Hand Grenade of Antioch]
+[[hand-granade-figure]]
+.The Holy Hand Grenade of Antioch (don't pull the pin)
+====
+[alt=Holy Hand Grenade of Antioch, in ASCII]
 ....
-
-                          __
-                         |  |
-                       __|  |__
-                      |   /\   |
-                      |__ \/ __|
-                         |  |
-                         |  |
-                         |  |
-                      ,--'#`--.
-                      |#######|
-                   _.-'#######`-._
-                ,-'###############`-.
-              ,'#####################`,
-             /#########################\
-            |###########################|
-           |#############################|
-           |#############################|
-           |#############################|
-           |#############################|
-            |###########################|
-             \#########################/
-              `.#####################,'
-                `._###############_,'
-                   `--..#####..--'
-
-
+                        ______
+                       \\/  \/
+                      __\\  /__
+                     ||  //\   |
+                     ||__\\/ __|
+                        ||  |    ,---,
+                        ||  |====`\  |
+                        ||  |    '---'
+                      ,--'*`--,
+                    _||#|***|#|
+                 _,/.-'#|* *|#`-._
+               ,,-'#####|   |#####`-.
+             ,,'########|   |########`,
+            //##########| o |##########\
+           ||###########|   |###########|
+          ||############| o |############|
+          ||------------'   '------------|
+          ||o  o  o  o  o   o  o  o  o  o|
+           |-----------------------------|
+           ||###########################|
+            \\#########################/
+             `..#####################,'
+               ``..###############_,'
+                  ``--.._____..--'
+                     `''-----''`
 ....
+====
 
 // end::figure2a[]
 
@@ -459,10 +510,10 @@ tag::figure2[]
 end::figure2[]
 
 
-[[sovereign_orb]]
-.Figure 2a
+[[sovereign-orb]]
+.The Sovereign's Orb made invisible
 ====
-.Sovereign's Orb
+.Outlines of the Sovereign's Orb
 [link=https://camelot.gov.example/sovereigns_orb.jpg,align=right]
 image::https://camelot.gov.example/sovereigns_orb.jpg[Orb,124,135]
 ====
@@ -473,12 +524,13 @@ tag::index1[]
 
 The solution to the impasse at the ((Cave of Caerbannog)) was
 provided by the successful deployment of the
-*Holy Hand Grenade of Antioch* (((Holy Hand Grenade of Antioch))).
+*Holy Hand Grenade of Antioch* (see <<hand-granade-figure>>)
+(((Holy Hand Grenade of Antioch))).
 Any similarity between the Holy Hand Grenade of Antioch and the
 mythical _Holy Spear of Antioch_ is purely intentional;
 (((relics, Christian))) any similarity between the Holy Hand Grenade
-of Antioch and the _Sovereign's Orb of the United Kingdom_ is
-putatively fortuitous.
+of Antioch and the _Sovereign's Orb of the United Kingdom_
+(see <<sovereign-orb>>) is putatively fortuitous.
 (((relics, monarchic)))
 
 // end::index[]
@@ -492,6 +544,7 @@ tag::dl1[]
 Holy Hand Grenade of Antioch::
   Ordnance deployed by Brother Maynard under the incantation of a
   lector, in order to dispense with the Foes of the Virtuous.
+  See <<[[hand-granade-figure]]>>.
 
 Holy Spear of Antioch::
   A supposed relic of the crucifixion of Jesus Christ, this is one
@@ -502,7 +555,7 @@ Holy Spear of Antioch::
 Sovereign's Orb of the United Kingdom::
   Part of the Crown Jewels of the United Kingdom, the Sovereign's
   Orb is a hollow gold sphere set with jewels and topped with a
-  cross.  It was made for Charles II in 1661.
+  cross.  It was made for Charles II in 1661. See <<sovereign-orb>>.
 
 // end::dl[]
 [.comment]
@@ -610,11 +663,12 @@ end::table1[]
 
 === Past the Killer Rabbit
 
-Once the Killer Rabbit of Caerbannog had been dispatched, the
-Knights of the Round Table uncovered the last words of Joseph of
-Arimathea, inscribed on the Cave of Caerbannog in Aramaic.  While
-the precise Aramaic wording has not survived, we trust the following
-Hebrew subtitles will serve as an acceptable substitute:
+Once the Killer Rabbit of Caerbannog (<<killer-bunny>>) had been
+dispatched, the Knights of the Round Table uncovered the last
+words of Joseph of Arimathea, inscribed on the Cave of Caerbannog
+in Aramaic.  While the precise Aramaic wording has not survived,
+we trust the following Hebrew subtitles will serve as an
+acceptable substitute:
 
 [.comment]
 tag::hebrew1[]
@@ -644,7 +698,7 @@ ravaging beasts, such as the Killer Rabbit, who haunt the Internet.
 
 Do not let the Killer Rabbit out under any circumstance.
 
-I repeat. Do not let the Killer Rabbit out.
+I repeat. Do not let the Killer Rabbit (<<killer-bunny>>) out.
 
 
 [.comment]
