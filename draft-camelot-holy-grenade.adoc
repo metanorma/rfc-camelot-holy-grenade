@@ -27,7 +27,7 @@ Arthur son of Uther Pendragon
 :smart-quotes: false
 
 [.comment]
-tag::preamble[]
+tag::preamble1[]
 // tag::preamble[]
 
 [abstract]
@@ -47,7 +47,7 @@ Section 1 ("What is Spam*?") of RFC2635.
 
 // end::preamble[]
 [.comment]
-end::preamble[]
+end::preamble1[]
 
 [.comment]
 tag::sectnums1[]
