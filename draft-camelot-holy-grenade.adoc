@@ -548,7 +548,7 @@ Holy Hand Grenade of Antioch::
 
 Holy Spear of Antioch::
   A supposed relic of the crucifixion of Jesus Christ, this is one
-  of at least four claimed instances of the lance that pierces
+  of at least four claimed instances of the lance that pierced
   Christ's side. Its historical significance lies in inspiring
   crusaders to continue their siege of Antioch in 1098.
 
