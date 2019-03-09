@@ -1,12 +1,12 @@
 = The Holy Hand Grenade of Antioch (in AsciiRFC)
 
-image:https://img.shields.io/travis/riboseinc/rfc-camelot-holy-grenade/master.svg[
-	Build Status, link="https://travis-ci.org/riboseinc/rfc-camelot-holy-grenade"]
+image:https://img.shields.io/travis/metanorma/rfc-camelot-holy-grenade/master.svg[
+	Build Status, link="https://travis-ci.org/metanorma/rfc-camelot-holy-grenade"]
 
 This Internet-Draft is written in
 https://datatracker.ietf.org/doc/draft-ribose-asciirfc/[AsciiRFC]
 using the excellent
-https://github.com/riboseinc/asciidoctor-rfc[`asciidoctor-rfc` gem].
+https://github.com/metanorma/asciidoctor-rfc[`asciidoctor-rfc` gem].
 
 == Quick Start
 
@@ -22,7 +22,7 @@ For a blank slate start of your Internet-Draft written in AsciiRFC:
 
 [source,sh]
 ----
-git clone https://github.com/riboseinc/rfc-camelot-holy-grenade
+git clone https://github.com/metanorma/rfc-camelot-holy-grenade
 ----
 
 === Installing Build Tools
