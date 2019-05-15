@@ -1,19 +1,26 @@
-= The Holy Hand Grenade of Antioch (in AsciiRFC)
+= The Holy Hand Grenade of Antioch (in AsciiRFC / Metanorma-IETF)
 
-image:https://img.shields.io/travis/metanorma/rfc-camelot-holy-grenade/master.svg[
-	Build Status, link="https://travis-ci.org/metanorma/rfc-camelot-holy-grenade"]
+image:https://travis-ci.org/metanorma/rfc-camelot-holy-grenade.svg?branch=master["Build Status", link="https://travis-ci.org/metanorma/rfc-camelot-holy-grenade"]
+
+This document is available in its rendered forms here:
+
+* https://metanorma.github.io/rfc-camelot-holy-grenade/[AsciiRFC Template For Writing RFC (HTML)]
+* https://metanorma.github.io/rfc-camelot-holy-grenade/draft-camelot-holy-grenade.txt[TXT]
+* https://metanorma.github.io/rfc-camelot-holy-grenade/draft-camelot-holy-grenade.nits[NITS]
+* https://metanorma.github.io/rfc-camelot-holy-grenade/draft-camelot-holy-grenade.xml[RFC XML v2]
+//* https://metanorma.github.io/rfc-camelot-holy-grenade/draft-camelot-holy-grenade.rxl[Relaton XML (Bibliographic item)]
 
 This Internet-Draft is written in
 https://datatracker.ietf.org/doc/draft-ribose-asciirfc/[AsciiRFC]
-using the excellent
-https://github.com/metanorma/asciidoctor-rfc[`asciidoctor-rfc` gem].
+using the https://www.metanorma.com[Metanorma framework], via the
+https://github.com/metanorma/metanorma-ietf[`metanorma-ietf` gem].
 
 == Quick Start
 
 For a blank slate start of your Internet-Draft written in AsciiRFC:
 
-1. Simply clone this repository 
-2. Copy out all the files (including the dot-files) 
+1. Clone this repository
+2. Copy out all the files (including the dot-files)
 3. Done!
 
 == Usage
@@ -27,7 +34,9 @@ git clone https://github.com/metanorma/rfc-camelot-holy-grenade
 
 === Installing Build Tools
 
-You will need Ruby, `xml2rfc` and `idnits` (for submission preflight).
+You will need to install Metanorma, `xml2rfc` and `idnits` (for submission preflight).
+
+Please see https://www.metanorma.com for installation instructions.
 
 === On macOS
 
@@ -46,9 +55,6 @@ bundle install
 [source,sh]
 ----
 make all
-# or
-export ID_NAME=camelot-holy-grenade
-make draft-${ID_NAME}.txt
 ----
 
 === Checking Against idnits
@@ -62,7 +68,7 @@ document attribute and puts the file in the right place before calling
 
 [source,sh]
 ----
-export ID_NAME=camelot-holy-grenade
+export ID_NAME=asciirfc-minimal
 make draft-${ID_NAME}.nits
 ----
 
@@ -70,7 +76,7 @@ make draft-${ID_NAME}.nits
 
 [source,sh]
 ----
-export ID_NAME=camelot-holy-grenade
+export ID_NAME=asciirfc-minimal
 pcregrep --color='auto' -n "[\x80-\xFF]" draft-${ID_NAME}.xml
 ----
 
@@ -78,7 +84,7 @@ pcregrep --color='auto' -n "[\x80-\xFF]" draft-${ID_NAME}.xml
 
 [source,sh]
 ----
-export ID_NAME=camelot-holy-grenade
+export ID_NAME=asciirfc-minimal
 make clean all; open draft-${ID_NAME}.txt
 ----
 
