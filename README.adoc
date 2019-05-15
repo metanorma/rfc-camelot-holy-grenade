@@ -4,7 +4,7 @@ image:https://travis-ci.org/metanorma/rfc-camelot-holy-grenade.svg?branch=master
 
 This document is available in its rendered forms here:
 
-* https://metanorma.github.io/rfc-camelot-holy-grenade/[AsciiRFC Template For Writing RFC (HTML)]
+* https://metanorma.github.io/rfc-camelot-holy-grenade/[The Holy Hand Grenade of Antioch (HTML)]
 * https://metanorma.github.io/rfc-camelot-holy-grenade/draft-camelot-holy-grenade.txt[TXT]
 * https://metanorma.github.io/rfc-camelot-holy-grenade/draft-camelot-holy-grenade.nits[NITS]
 * https://metanorma.github.io/rfc-camelot-holy-grenade/draft-camelot-holy-grenade.xml[RFC XML v2]
