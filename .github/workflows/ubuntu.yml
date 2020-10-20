@@ -6,23 +6,23 @@ on:
   push:
     branches: [ master ]
   pull_request:
+    paths-ignore:
+      - .github/workflows/test.yml
+      - .github/workflows/macos.yml
+      - .github/workflows/docker.yml
+      - .github/workflows/windows.yml
+      - Makefile.win
 
 jobs:
   test-linux:
-    name: Test on Ruby ${{ matrix.ruby }} Ubuntu
+    name: Test on Ubuntu
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        ruby: [ '2.6', '2.5', '2.4' ]
     steps:
-      - uses: actions/checkout@master
-      - name: Checkout submodules
-        shell: bash
-        run: |
-          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
-          git submodule sync --recursive
-          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.METANORMA_CI_PAT_TOKEN || github.token }}
+          submodules: true
       - name: Cache xml2rfc
         id: cache-xml2rfc
         uses: actions/cache@v1
@@ -30,21 +30,22 @@ jobs:
           path: ~/.cache/xml2rfc
           key: xml2rfc
           restore-key: xml2rfc
-      - name: Use Ruby
-        uses: actions/setup-ruby@v1
-        with:
-          ruby-version: ${{ matrix.ruby }}
-          architecture: 'x64'
-      - name: Install bundler
-        run: |
-          gem install bundler
       - name: Use Metanorma
         run: |
+          sudo apt-get update
           curl -L https://raw.githubusercontent.com/metanorma/metanorma-linux-setup/master/ubuntu.sh | sudo bash
           sudo chown -R $USER:$(id -gn $USER) $HOME/.config
+      - name: Setup Fonts
+        run: |
+          sudo gem install rake metanorma-cli
+          sudo metanorma setup --agree-to-terms
       - name: Install yq
         run: |
           sudo snap install yq
+          echo "::add-path::/snap/bin"
+      - name: Install bundler
+        run: |
+          sudo gem install bundler
       - name: Metanorma compile
         env:
           JAVA_OPTS: "java.awt.headless=true"
