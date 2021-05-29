@@ -1,0 +1,9 @@
+---
+metanorma:
+  source:
+    files:
+      - draft-camelot-holy-grenade.adoc
+
+  collection:
+    organization: "Metanorma : AsciiRFC"
+    name: "AsciiRFC Template For Writing RFC / Internet Drafts"
