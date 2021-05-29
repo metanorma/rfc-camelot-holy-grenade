@@ -39,6 +39,12 @@ jobs:
           key: fontist-${{ runner.os }}
           restore-keys: fontist-${{ runner.os }}
 
+      - uses: actions/cache@v2
+        with:
+          path: ~/.metanorma-ietf-workgroup-cache.json
+          key: metanorma-ietf-workgroup-cache
+          restore-keys: metanorma-ietf-workgroup-cache
+
       - uses: actions-mn/setup@master
 
       - uses: actions-mn/cli/site-gen@main

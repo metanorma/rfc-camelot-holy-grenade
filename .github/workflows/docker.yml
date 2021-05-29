@@ -32,6 +32,12 @@ jobs:
           key: fontist-docker
           restore-keys: fontist-docker
 
+      - uses: actions/cache@v2
+        with:
+          path: ~/.metanorma-ietf-workgroup-cache.json
+          key: metanorma-ietf-workgroup-cache
+          restore-keys: metanorma-ietf-workgroup-cache
+
       - uses: metanorma/metanorma-build-scripts/gh-rubygems-setup-action@master
         with:
           token: ${{ secrets.METANORMA_CI_PAT_TOKEN }}
