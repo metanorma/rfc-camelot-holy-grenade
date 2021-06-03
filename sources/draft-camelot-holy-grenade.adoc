@@ -2,9 +2,9 @@
 Arthur son of Uther Pendragon
 :doctype: internet-draft
 :abbrev: Hand Grenade of Antioch
-:updates: 8140
+:updates: RFC8140
 :submission-type: independent
-:name: draft-camelot-holy-grenade-01
+:name: draft-camelot-holy-grenade-02
 :status: informational
 :consensus: false
 :area: General, Operations and Management
@@ -12,23 +12,20 @@ Arthur son of Uther Pendragon
 :ipr: trust200902
 :toc-include: true
 :sort-refs: true
-:revdate: 2018-04-15T00:00:00Z
+:revdate: 2021-06-03
 :fullname: Arthur son of Uther Pendragon
 :forename_initials: A.
 :lastname: Pendragon
 :email: arthur.pendragon@ribose.com
 :organization: Camelot
 :uri: http://camelot.gov.example
-:street: Palace\ Camel Lot 1
+:street: Palace + \
+Camel Lot 1
 :city: Camelot
 :region: England
 :country: United Kingdom
-:comments: yes
-:notedraftinprogress: yes
-:smart-quotes: false
-:docfile: draft-camelot-holy-grenade.adoc
 :mn-document-class: ietf
-:mn-output-extensions: xmlrfc2,txt,html,nits
+:mn-output-extensions: rfc,rxl,txt,html
 
 [.comment]
 tag::preamble1[]
@@ -39,15 +36,15 @@ The menagerie of beasts and artefacts depicted in RFC8140
 may be usefully supplemented by other renowned figures of
 Internet and more general lore. This document extends the
 menagerie to the seminal fable of the
-"Holy Hand Grenade of Antioch", as depicted in the
-Monty Python film "Monty Python and the Holy Grail",
-as well as "Spamalot", the musical inspired by the movie.
+"`Holy Hand Grenade of Antioch`", as depicted in the
+Monty Python film "`Monty Python and the Holy Grail`",
+as well as "`Spamalot`", the musical inspired by the movie.
 
 [NOTE,remove-in-rfc=false]
 .Spamalot
-The relevance of the musical "Spamalot" to Internet lore should be
+The relevance of the musical "`Spamalot`" to Internet lore should be
 obvious to the reader; but in case of doubt, see also
-Section 1 ("What is Spam*?") of RFC2635.
+Section 1 ("`What is Spam*?`") of <<RFC2635>>.
 
 // end::preamble[]
 [.comment]
@@ -57,8 +54,6 @@ end::preamble1[]
 tag::sectnums1[]
 // tag::sectnums[]
 
-[toc=exclude]
-:sectnums!:
 == Terminology
 
 The key words "*MUST*", "*MUST NOT*", "*REQUIRED*", "*SHALL*",
@@ -106,7 +101,7 @@ tag::escaped_hyperlink1[]
 
 The screaming move into the twenty-*first* century is accompanied by
 a move back to the late twentieth century, with ASCII stylings more
-wonted in haunts like \ftp://ftp.wwa.com/pub/Scarecrow (known to be
+wonted in haunts like ftp://ftp.wwa.com/pub/Scarecrow (known to be
 accessible in 1996.)
 
 // end::escaped_hyperlink[]
@@ -711,109 +706,48 @@ tag::bibliography1[]
 
 [bibliography]
 == Normative References
-++++
-<reference anchor="RFC2119"
-  target="https://www.rfc-editor.org/info/rfc2119">
-  <front>
-    <title>Key words for use in RFCs to Indicate
-      Requirement Levels</title>
-    <author initials="S." surname="Bradner" fullname="S. Bradner">
-      <organization/>
-    </author>
-    <date year="1997" month="March"/>
-  </front>
-  <seriesInfo name="BCP" value="14"/>
-  <seriesInfo name="RFC" value="2119"/>
-  <seriesInfo name="DOI" value="10.17487/RFC2119"/>
-</reference>
-++++
+
+* [[[RFC2119,IETF RFC 2119]]]
 
 
 [bibliography]
 == Informative References
-++++
 
-<reference anchor="grail_film">
-  <front>
-    <title>Monty Python and the Holy Grail</title>
-    <author initials="G." surname="Chapman"/>
-    <author initials="J." surname="Cleese"/>
-    <author initials="E." surname="Idle"/>
-    <author initials="T." surname="Gilliam"/>
-    <author initials="T." surname="Jones"/>
-    <author initials="M." surname="Palin"/>
-    <date year="1975"/>
-  </front>
-</reference>
+* [[[RFC2635,IETF RFC 2635]]]
 
-<reference anchor="RFC2635"
-  target="https://www.rfc-editor.org/info/rfc2635">
-<front>
-  <title>DON'T SPEW A Set of Guidelines for Mass Unsolicited
-  Mailings and Postings (spam*)</title>
-  <author initials="S." surname="Hambridge" fullname="S. Hambridge">
-    <organization />
-  </author>
-  <author initials="A." surname="Lunde" fullname="A. Lunde">
-    <organization />
-  </author>
-  <date year="1999" month="June" />
-</front>
-<seriesInfo name="FYI" value="35" />
-<seriesInfo name="RFC" value="2635" />
-<seriesInfo name="DOI" value="10.17487/RFC2635" />
-</reference>
+* [[[RFC7990,IETF RFC 7990]]]
 
-<reference anchor="RFC7990"
-  target="https://www.rfc-editor.org/info/rfc7990">
-<front>
-<title>RFC Format Framework</title>
-<author initials="H." surname="Flanagan" fullname="H. Flanagan">
-<organization/>
-</author>
-<date year="2016" month="December"/>
-</front>
-<seriesInfo name="RFC" value="7990"/>
-<seriesInfo name="DOI" value="10.17487/RFC7990"/>
-</reference>
+* [[[RFC8140,IETF RFC 8140]]]
 
-<reference anchor="RFC8140"
-  target="https://www.rfc-editor.org/info/rfc8140">
-<front>
-<title>
-The Arte of ASCII: Or, An True and Accurate Representation of
-an Menagerie of Thynges Fabulous and Wonderful in Ye Forme of
-Character
-</title>
-<author initials="A." surname="Farrel" fullname="A. Farrel">
-<organization/>
-</author>
-<date year="2017" month="April"/>
-</front>
-<seriesInfo name="RFC" value="8140"/>
-<seriesInfo name="DOI" value="10.17487/RFC8140"/>
-</reference>
+* [[[RFC8174,IETF RFC 8174]]]
 
-<reference anchor='RFC8174'
-  target='https://www.rfc-editor.org/info/rfc8174'>
-<front>
-<title>Ambiguity of Uppercase vs Lowercase in RFC 2119 Key
-Words</title>
-<author initials='B.' surname='Leiba' fullname='B. Leiba'>
-<organization />
-</author>
-<date year='2017' month='May' />
-<abstract><t>RFC 2119 specifies common key words that may be used
-in protocol specifications.  This document aims to reduce
-the ambiguity by clarifying that only UPPERCASE usage of the
-key words have the defined special meanings.</t></abstract>
-</front>
-<seriesInfo name='BCP' value='14'/>
-<seriesInfo name='RFC' value='8174'/>
-<seriesInfo name='DOI' value='10.17487/RFC8174'/>
-</reference>
-
-++++
+[%bibitem]
+[[grail_film]]
+== Monty Python and the Holy Grail
+docid::
+docid.id:: grail_film
+language:: en
+script:: Latn
+date::
+date.type:: published
+date.on:: 1975
+contributor::
+contributor.role.type:: author
+contributor.person.name.initial:: F.
+contributor.person.name.surname:: Cleese
+contributor.role.type:: author
+contributor.person.name.initial:: E.
+contributor.person.name.surname:: Idle
+contributor.role.type:: author
+contributor.person.name.initial:: T.
+contributor.person.name.surname:: Gilliam
+contributor.role.type:: author
+contributor.person.name.initial:: T.
+contributor.person.name.surname:: Jones
+contributor::
+contributor.role.type:: author
+contributor.person.name.initial:: M.
+contributor.person.name.surname:: Palin
 
 // end::bibliography[]
 [.comment]

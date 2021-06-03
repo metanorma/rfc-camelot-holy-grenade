@@ -2,7 +2,7 @@
 metanorma:
   source:
     files:
-      - draft-camelot-holy-grenade.adoc
+      - sources/draft-camelot-holy-grenade.adoc
 
   collection:
     organization: "Metanorma : AsciiRFC"
