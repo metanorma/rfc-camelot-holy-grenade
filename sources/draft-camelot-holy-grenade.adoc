@@ -2,7 +2,7 @@
 Arthur son of Uther Pendragon
 :doctype: internet-draft
 :abbrev: Hand Grenade of Antioch
-:updates: RFC8140
+:updates: IETF RFC 8140
 :submission-type: independent
 :name: draft-camelot-holy-grenade-02
 :status: informational
@@ -32,7 +32,7 @@ tag::preamble1[]
 // tag::preamble[]
 
 [abstract]
-The menagerie of beasts and artefacts depicted in RFC8140
+The menagerie of beasts and artefacts depicted in RFC 8140
 may be usefully supplemented by other renowned figures of
 Internet and more general lore. This document extends the
 menagerie to the seminal fable of the
