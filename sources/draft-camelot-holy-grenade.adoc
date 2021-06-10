@@ -7,7 +7,6 @@ Arthur son of Uther Pendragon
 :intended-series: informational
 :docnumber: draft-camelot-holy-grenade-01
 :status: informational
-:consensus: false
 :area: General, Operations and Management
 :keyword: rabbits, grenades, antioch, camelot
 :ipr: trust200902
@@ -27,6 +26,7 @@ Arthur son of Uther Pendragon
 :docfile: draft-camelot-holy-grenade.adoc
 :mn-document-class: ietf
 :mn-output-extensions: rfc,txt,html
+:data-uri-image:
 
 ////
 [.comment]
@@ -40,7 +40,7 @@ may be usefully supplemented by other renowned figures of
 Internet and more general lore. This document extends the
 menagerie to the seminal fable of the
 "Holy Hand Grenade of Antioch", as depicted in the
-Monty Python film "Monty Python and the Holy Grail",
+Monty Python film "Monty Python and the Holy Grail" <<grail_film>>,
 as well as "Spamalot", the musical inspired by the movie.
 
 [NOTE,remove-in-rfc=false]
