@@ -54,7 +54,8 @@ bundle install
 
 [source,sh]
 ----
-make all
+. `bundle update`
+. `bundle exec metanorma site generate`
 ----
 
 === Checking Against idnits
