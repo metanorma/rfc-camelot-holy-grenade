@@ -1,0 +1,35 @@
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>AsciiRFC Template For Writing RFC / Internet Drafts</title><contributor><role type='author'/><organization><name>Metanorma : AsciiRFC</name></organization></contributor><relation type='partOf'><bibdata type="standard">
+  <fetched>2022-09-06</fetched>
+  <title format="text/plain" language="en" script="Latn">The Holy Hand Grenade of Antioch</title>
+  <uri type="xml">documents/draft-camelot-holy-grenade.rfc.xml</uri>
+  <docidentifier type="Internet-Draft" primary="true">draft-camelot-holy-grenade-01</docidentifier>
+  <docidentifier type="IETF" scope="docName">draft-camelot-holy-grenade-01</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Internet Engineering Task Force</name>
+      <abbreviation>IETF</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename language="en">Arthur son of Uther Pendragon</completename>
+      </name>
+      <address>
+        <city/>
+        <country/>
+      </address>
+      <email>arthur.pendragon@ribose.com</email>
+      <uri>http://camelot.gov.example</uri>
+    </person>
+  </contributor>
+  <language>en</language>
+  <script>Latn</script>
+  <abstract format="text/html" language="en" script="Latn">&amp;lt;t&amp;gt;&amp;lt;/&amp;gt;The menagerie of beasts and artefacts depicted in RFC8140 may be usefully supplemented by other renowned figures of Internet and more general lore. This document extends the menagerie to the seminal fable of the "Holy Hand Grenade of Antioch", as depicted in the Monty Python film "Monty Python and the Holy Grail" <relref target="grail_film" section="" relative=""/>, as well as "Spamalot", the musical inspired by the movie.&amp;lt;/p&amp;gt;</abstract>
+  <ext>
+    <doctype>rfc</doctype>
+  </ext>
+</bibdata></relation>
+</relaton-collection>

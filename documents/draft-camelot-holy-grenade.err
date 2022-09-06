@@ -1,0 +1,31 @@
+/__w/rfc-camelot-holy-grenade/rfc-camelot-holy-grenade/site/documents/draft-camelot-holy-grenade.err errors
+
+
+== Metanorma XML Style Warning
+
+(XML Line 000225): Hanging paragraph in clause
+	<clause id="caerbannog" inline-header="false" obligation="normative">
+	<title>The Mythos of Caerbannog</title>
+	<p id="_b99a7b3f-68b2-9069-41a8-61d893309d4e">The <em>Cave of Caerbannog</em> has been well-established in the mythology
+	of Camelot (as recounted by Monty Python) as the lair of the
+	Legendary Black Beast of Arrrghhh, more commonly known today as the
+(XML Line 000484): Hanging paragraph in clause
+	<clause id="_dramatis_personae" inline-header="false" obligation="normative">
+	<title>Dramatis Personae</title>
+	<p id="_7bc7055d-1cdd-acaf-a5a7-8482246119e6">The following human (more-or-less) protagonists were involved
+	in the two incidents recounted as lore of the Knights of the
+	Round Table:</p>
+(XML Line 000490): Table should have title
+	<table id="_f87ba086-52e3-9b5d-05fc-52c5b027fec9"><thead><tr><th valign="top" align="left">French Castle</th>
+	<th valign="top" align="left">Cave of Caerbannog</th>
+	</tr></thead>
+	<tbody><tr><td colspan="2" valign="top" align="left">King Arthur</td>
+	</tr><tr><td colspan="2" valign="top" align="left">Patsy</td>
+
+
+== Metanorma XML Syntax
+
+(XML Line 000011:123): character content of element "revision-date" invalid; must be a string matching the regular expression "([\+\-]?\d{4})((-?)((0[1-9]|1[0-2])((-?)([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6]))))?"
+(XML Line 000059:88): attribute "obligation" not allowed here; expected attribute "language", "numbered", "removeInRFC", "script" or "toc"
+(XML Line 000389:7): element "svg" not allowed here; expected the element end-tag or element "audio", "dl", "figure", "fn", "image", "note", "p", "pre" or "video"
+(XML Line 000564:18): element "docidentifier" not allowed yet; missing required element "title"
