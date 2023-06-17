@@ -1,5 +1,4 @@
 = The Holy Hand Grenade of Antioch
-Arthur son of Uther Pendragon
 :doctype: internet-draft
 :abbrev: Hand Grenade of Antioch
 :updates: IETF RFC 8140
@@ -12,7 +11,7 @@ Arthur son of Uther Pendragon
 :ipr: trust200902
 :toc-include: true
 :sort-refs: true
-:revdate: 2018-04-15T00:00:00Z
+:revdate: 2018-04-15
 :fullname: Arthur son of Uther Pendragon
 :initials: A.
 :surname: Pendragon
@@ -28,41 +27,22 @@ Arthur son of Uther Pendragon
 :mn-output-extensions: rfc,txt,html
 :data-uri-image:
 
-////
-[.comment]
-tag::preamble1[]
-// tag::preamble[]
-////
-
-//[abstract]
-The menagerie of beasts and artefacts depicted in RFC8140
+[abstract]
+== Abstract
+The menagerie of beasts and artefacts depicted in <<RFC8140>>
 may be usefully supplemented by other renowned figures of
 Internet and more general lore. This document extends the
 menagerie to the seminal fable of the
 "Holy Hand Grenade of Antioch", as depicted in the
-Monty Python film "Monty Python and the Holy Grail" <<grail_film>>,
+Monty Python film <<grail_film,"Monty Python and the Holy Grail">>,
 as well as "Spamalot", the musical inspired by the movie.
 
-[NOTE,remove-in-rfc=false]
-.Spamalot
+[preface]
+== Spamalot
 The relevance of the musical "Spamalot" to Internet lore should be
 obvious to the reader; but in case of doubt, see also
-Section 1 ("What is Spam*?") of <<RFC2635>>.
+<<RFC2635,section=1>> ("What is Spam*?").
 
-////
-// end::preamble[]
-[.comment]
-end::preamble1[]
-////
-
-////
-[.comment]
-tag::sectnums1[]
-// tag::sectnums[]
-////
-
-[toc=exclude]
-:sectnums!:
 == Terminology
 
 The key words "*MUST*", "*MUST NOT*", "*REQUIRED*", "*SHALL*",
@@ -77,32 +57,14 @@ when, and only when, they appear in all capitals, as shown here.
 <<RFC8140>> refers to the intended move of RFC formatting to
 XML2RFC v3 <<RFC7990>>, in the following terms:
 
-////
-// end::sectnums[]
-[.comment]
-end::sectnums1[]
-////
-
-////
-[.comment]
-tag::quote1[]
-// tag::quote[]
-////
-
 [quote,attribution="A. Farrel"]
 ____
 Although the RFC Editor has recently dragged the IETF kicking and
-screaming into the twentieth century [RFC7990] [RFC7996], there is a
+screaming into the twentieth century <<RFC7990>> <<RFC7996>>, there is a
 yearning among all right-thinking Internet architects to "keep it
 simple" and to return to the olden days when pigs could be given
 thrust without anyone taking undue offence.
 ____
-
-////
-// end::quote[]
-[.comment]
-end::quote1[]
-////
 
 While no pigs, flying or otherwise, are involved in the transition
 to RFC XML v3, it is opportune to enhance the <<RFC8140>>
@@ -110,31 +72,13 @@ legendarium in the service of RFC XML v3, by illustrating its
 functionality through references to the mythology of Camelot, and
 particularly the incidents at the Cave of Caerbannog.
 
-////
-[.comment]
-tag::escaped_hyperlink1[]
-// tag::escaped_hyperlink[]
-////
-
 The screaming move into the twenty-*first* century is accompanied by
 a move back to the late twentieth century, with ASCII stylings more
-wonted in haunts like \ftp://ftp.wwa.com/pub/Scarecrow (known to be
+wonted in haunts like ftp://ftp.wwa.com/pub/Scarecrow (known to be
 accessible in 1996.)
-
-////
-// end::escaped_hyperlink[]
-[.comment]
-end::escaped_hyperlink1[]
-////
 
 There are two references to rabbits in
 _Monty Python and the Holy Grail_ which are expounded on herewith:
-
-////
-[.comment]
-tag::listcontinuation1[]
-// tag::listcontinuation[]
-////
 
 Trojan Rabbit::
 In their siege of the French-occupied castle which may already
@@ -142,26 +86,16 @@ contain an instance of the Grail, Sir Bedevere the Wise proposes to
 use a Trojan Rabbit to infiltrate the castle, with a raiding party
 to take the French "not only by surprise, but totally unarmed."
 +
+--
 The proposal, unsurprisingly, proved abortive. The more so as the
 raiding party forgot to hide within the Trojan Rabbit, before the
 French soldiers took the Trojan Rabbit inside the castle.
+--
 
 Killer Rabbit of Caerbannog::
 Guarding the entrance to the Cave of Caerbannog; see <<caerbannog>>.
 
-////
-// end::listcontinuation[]
-[.comment]
-end::listcontinuation1[]
-////
-
 == The French-occupied castle
-
-////
-[.comment]
-tag::inline_formatting1[]
-// tag::inline_formatting[]
-////
 
 The participants of that renowned exercise in cross-cultural
 communication, to wit the exchange between the
@@ -174,13 +108,6 @@ notably:
 
 * The Projectile Cow, see <<projectile-cow>>
 * The Trojan Rabbit, see <<trojan-rabbit>>
-
-////
-// end::inline_formatting[]
-[.comment]
-end::inline_formatting1[]
-////
-
 
 [[projectile-cow]]
 .The Projectile Cow with an accompanying cannon
@@ -256,13 +183,6 @@ ROOTS_CLAY_SKELETON_MORESOIL_CLAY_CLAY_CLAY_CLAY_<MUSHROOMS>
      -----                                -----
 ....
 
-////
-[.comment]
-tag::aside1[]
-// tag::aside[]
-////
-
-****
 While the exchange at the French-occupied castle is one of
 the more memorable scenes of _Monty Python and the Holy Grail_,
 the Trojan Rabbit has not reached the same level of cultural
@@ -273,39 +193,8 @@ may include:
 
 * The Trojan Rabbit as projectile has already been anticipated
 by the Cow as projectile.
-****
 
-////
-// end::aside[]
-
-[.comment]
-end::aside1[]
-////
-
-////
-[.comment]
-tag::note1[]
-// tag::note[]
-////
-
-[NOTE,display=true,source=Author]
-====
-Image courtesy of
-https://camelot.gov.example/creatures-in-ascii/
-====
-
-////
-// end::note[]
-[.comment]
-end::note1[]
-////
-
-
-////
-[.comment]
-tag::comment1[]
-// tag::comment[]
-////
+EDITOR: Image courtesy of https://camelot.gov.example/creatures-in-ascii/
 
 The exchange of projectile animals was the beginning of a
 long-running fruitful relationship between the British and the
@@ -330,21 +219,8 @@ As expected, they are ignored in any rendering of the document.
 --
 ////
 
-
-////
-// end::comment[]
-[.comment]
-end::comment1[]
-////
-
 [[caerbannog]]
 == The Mythos of Caerbannog
-
-////
-[.comment]
-tag::xref1[]
-// tag::xref[]
-////
 
 The _Cave of Caerbannog_ has been well-established in the mythology
 of Camelot (as recounted by Monty Python) as the lair of the
@@ -358,57 +234,21 @@ recount here through monospace font and multiple spaces.
 [[killer_rabbit_caerbannog]]
 === The Killer Rabbit of Caerbannog
 
-////
-// end::xref[]
-[.comment]
-end::xref1[]
-////
-
-////
-[.comment]
-tag::relref1[]
-// tag::relref[]
-////
-
 The *Killer Rabbit of Caerbannog*, that most formidable foe of
 the Knights and of all that is holy or carrot-like, has been
 depicted diversely in lay and in song. We venture to say,
-_contra_ the claim made in <<RFC8140,of,section=4.1>>,
+_contra_ the claim made in <<RFC8140,section=4.1>> of Ze Vompyre,
 that the Killer Rabbit of Caerbannog truly is the most afeared
 of all the creatures. Short of sanctified ordnance such as
-<<holy_hand_grenade,format=title>>, there are few remedies
+<<holy_hand_grenade,Holy Hand Grenade of Antioch>>, there are few remedies
 known against its awful lapine powers.
-
-////
-// end::relref[]
-[.comment]
-end::relref1[]
-////
-
-////
-[.comment]
-tag::hyperlink1[]
-// tag::hyperlink[]
-////
 
 <<killer-bunny,The following depiction>> of the fearsome beast
 has been sourced from
 http://camelot.gov.example/avatars/rabbit[Rabbit-SCII],
-<<killer-source,accompanied>>
+<<killer-source>>, accompanied (<<killer-bunny>>)
 by C code that was used in this accurate depiction of the
 Killer Rabbit:
-
-////
-// end::hyperlink[]
-[.comment]
-end::hyperlink1[]
-////
-
-////
-[.comment]
-tag::figure1[]
-// tag::figure1a[]
-////
 
 [[killer-bunny]]
 .A Photo Of The Killer Rabbit of Caerbannog Taken In Secret
@@ -450,7 +290,7 @@ MW   \\/\||v v||  -\\-------___     .   .,         \     |
 
 [[killer-source]]
 .C Code To Lure Killer Rabbit Back To Cave
-[source,c,markers=true]
+[source,c]
 ----
 /* Locate the Killer Rabbit */
 int type;
@@ -481,21 +321,8 @@ if( carrot == 0 ){
 return notifyCreature(killerRabbit, &carrot);
 ----
 
-
-////
-// end::figure1a[]
-[.comment]
-end::figure1[]
-////
-
 On the beast's encounter with the Knights of the Round Table,
 the following personnel engaged with it in combat:
-
-////
-[.comment]
-tag::ul1[]
-// tag::ul[]
-////
 
 * Killed
 ** Sir Bors
@@ -511,24 +338,8 @@ tag::ul1[]
 * Scoffed
 ** Tim the Enchanter
 
-////
-// end::ul[]
-[.comment]
-end::ul1[]
-////
-
-
-
-
 [[holy_hand_grenade]]
 === Holy Hand Grenade of Antioch
-
-////
-[.comment]
-tag::figure2[]
-////
-
-// tag::figure2a[]
 
 [[hand-grenade-figure]]
 .The Holy Hand Grenade of Antioch (don't pull the pin)
@@ -561,24 +372,10 @@ tag::figure2[]
                      `''-----''`
 ....
 
-////
-// end::figure2a[]
-
-[.comment]
-end::figure2[]
-////
-
-
 [[sovereign-orb]]
 .The Sovereign's Orb made invisible
 [link=https://upload.wikimedia.org/wikipedia/commons/b/bf/Coa_Illustration_Elements_Globus_cruciger.svg,align=right]
-image::cruciger.svg[Orb,124,135]
-
-////
-[.comment]
-tag::index1[]
-// tag::index[]
-////
+image::cruciger.svg[]
 
 The solution to the impasse at the ((Cave of Caerbannog)) was
 provided by the successful deployment of the
@@ -591,63 +388,26 @@ of Antioch and the _Sovereign's Orb of the United Kingdom_
 (see <<sovereign-orb>>) is putatively fortuitous.
 (((relics, monarchic)))
 
-////
-// end::index[]
-[.comment]
-end::index1[]
-////
-
-////
-[.comment]
-tag::dl1[]
-// tag::dl[]
-////
-
 Holy Hand Grenade of Antioch::
-  Ordnance deployed by Brother Maynard under the incantation of a
-  lector, in order to dispense with the Foes of the Virtuous.
-  See <<hand-grenade-figure>>.
+Ordnance deployed by Brother Maynard under the incantation of a
+lector, in order to dispense with the Foes of the Virtuous.
+See <<hand-grenade-figure>>.
 
 Holy Spear of Antioch::
-  A supposed relic of the crucifixion of Jesus Christ, this is one
-  of at least four claimed instances of the lance that pierced
-  Christ's side. Its historical significance lies in inspiring
-  crusaders to continue their siege of Antioch in 1098.
+A supposed relic of the crucifixion of Jesus Christ, this is one
+of at least four claimed instances of the lance that pierced
+Christ's side. Its historical significance lies in inspiring
+crusaders to continue their siege of Antioch in 1098.
 
 Sovereign's Orb of the United Kingdom::
-  Part of the Crown Jewels of the United Kingdom, the Sovereign's
-  Orb is a hollow gold sphere set with jewels and topped with a
-  cross.  It was made for Charles II in 1661. See <<sovereign-orb>>.
-
-////
-// end::dl[]
-[.comment]
-end::dl1[]
-////
-
-////
-[.comment]
-tag::bcp14_1[]
-// tag::bcp14[]
-////
+Part of the Crown Jewels of the United Kingdom, the Sovereign's
+Orb is a hollow gold sphere set with jewels and topped with a
+cross.  It was made for Charles II in 1661. See <<sovereign-orb>>.
 
 The instructions in the _Book of Armaments_ on the proper deployment
 of the Holy Hand Grenade of Antioch [bcp14]#may# be summarized as
 follows, although this summary *SHALL NOT* be used as a substitute
 for a reading from the Book of Armaments:
-
-////
-// end::bcp14[]
-[.comment]
-end::bcp14_1[]
-////
-
-
-////
-[.comment]
-tag::ol1[]
-// tag::ol[]
-////
 
 . Preamble: St Attila Benediction
 . Feast of the People on Sundry Foods
@@ -669,19 +429,7 @@ tag::ol1[]
 . Lob the Holy Hand Grenade of Antioch towards the Foe
 . The Foe, being naughty in the *LORD's* sight, [bcp14]#shall# snuff it
 
-////
-// end::ol[]
-[.comment]
-end::ol1[]
-////
-
 This could also be represented in pseudocode as follows:
-
-////
-[.comment]
-tag::listcontinuationblock1[]
-// tag::listcontinuationblock[]
-////
 
 . Take out the Holy Pin
 . The Count
@@ -695,25 +443,13 @@ comment Five is Right Out
 . Lob the Holy Hand Grenade of Antioch towards the Foe
 . Foe snuffs it
 
-////
-// end::listcontinuationblock[]
-[.comment]
-end::listcontinuationblock1[]
-////
-
 == Dramatis Personae
 
 The following human (more-or-less) protagonists were involved
 in the two incidents recounted as lore of the Knights of the
 Round Table:
 
-////
-[.comment]
-tag::table1[]
-// tag::table[]
-////
-
-[grid=all,options="footer"]
+[%unnumbered,grid=all,options="footer"]
 |===
 |French Castle | Cave of Caerbannog
 
@@ -735,12 +471,6 @@ tag::table1[]
 |Retinue of sundry more knights than at the French Castle
 |===
 
-////
-// end::table[]
-[.comment]
-end::table1[]
-////
-
 === Past the Killer Rabbit
 
 Once the Killer Rabbit of Caerbannog (<<killer-bunny>>) had been
@@ -750,28 +480,27 @@ in Aramaic.  While the precise Aramaic wording has not survived,
 we trust the following Hebrew subtitles will serve as an
 acceptable substitute:
 
-////
-[.comment]
-tag::hebrew1[]
-// tag::hebrew[]
-////
-
 [quote, Joseph of Arimathea, https://context.reverso.net]
 ____
-&#x2e;כאן אולי ימצאו המילים האחרונות של יוסף מארמתיה
-&#x2e;מי אשר יהיה אמיץ ובעל נפש טהורה יוכל למצוא את הגביע הקדוש בטירת אאאאאאאה
+.&#1499;&#1488;&#1503; &#1488;&#1493;&#1500;&#1497;
+&#1497;&#1502;&#1510;&#1488;&#1493;
+&#1492;&#1502;&#1497;&#1500;&#1497;&#1501;
+&#1492;&#1488;&#1495;&#1512;&#1493;&#1504;&#1493;&#1514;
+&#1513;&#1500; &#1497;&#1493;&#1505;&#1507;
+&#1502;&#1488;&#1512;&#1502;&#1514;&#1497;&#1492; .&#1502;&#1497;
+&#1488;&#1513;&#1512; &#1497;&#1492;&#1497;&#1492;
+&#1488;&#1502;&#1497;&#1509; &#1493;&#1489;&#1506;&#1500;
+&#1504;&#1508;&#1513; &#1496;&#1492;&#1493;&#1512;&#1492;
+&#1497;&#1493;&#1499;&#1500; &#1500;&#1502;&#1510;&#1493;&#1488;
+&#1488;&#1514; &#1492;&#1490;&#1489;&#1497;&#1506;
+&#1492;&#1511;&#1491;&#1493;&#1513;
+&#1489;&#1496;&#1497;&#1512;&#1514;
+&#1488;&#1488;&#1488;&#1488;&#1488;&#1488;&#1488;&#1492;
 
-"Here may be found the last words of Joseph&nbsp;of Arimathea.
+"Here may be found the last words of Joseph of Arimathea.
 He who is valiant and pure of spirit may find the Holy Grail
-in the castle of &mdash; Aaaargh."
+in the castle of -- Aaaargh."
 ____
-
-////
-// end::hebrew[]
-[.comment]
-end::hebrew1[]
-////
-
 
 == IANA Considerations
 
@@ -786,29 +515,26 @@ Do not let the Killer Rabbit out under any circumstance.
 I repeat. Do not let the Killer Rabbit (<<killer-bunny>>) out.
 
 
-////
-[.comment]
-tag::bibliography1[]
-// tag::bibliography[]
-////
+== References
 
-[bibliography]
-== Normative References
+[bibliography,normative=true]
+=== Normative References
 
 * [[[RFC2119,RFC 2119]]]
 
-[bibliography]
-== Informative References
+[bibliography,normative=false]
+=== Informative References
 
-* [[[grail_film,Grail]]] G. Chapman, J. Cleese, E. Idle, T. Gilliam, T. Jones, M. Palin. 1975. _Monty Python and the Holy Grail_.
+* [[[grail_film,1]]], G. Chapman, J. Cleese, E. Idle, T. Gilliam, T. Jones, M. Palin. 1975. _Monty Python and the Holy Grail_.
+
 * [[[RFC2635,RFC 2635]]]
+
 * [[[RFC7990,RFC 7990]]]
+
 * [[[RFC8140,RFC 8140]]]
+
 * [[[RFC8174,RFC 8174]]]
 
+* [[[RFC7996,RFC 7996]]]
 
-////
-// end::bibliography[]
-[.comment]
-end::bibliography1[]
-////
+* [[BC14,hidden(IETF BC 14)]]]
