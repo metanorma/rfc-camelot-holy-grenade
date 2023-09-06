@@ -1,6 +1,7 @@
 = The Holy Hand Grenade of Antioch (in AsciiRFC / Metanorma-IETF)
 
-image:https://travis-ci.org/metanorma/rfc-camelot-holy-grenade.svg?branch=master["Build Status", link="https://travis-ci.org/metanorma/rfc-camelot-holy-grenade"]
+image:https://github.com/metanorma/rfc-camelot-holy-grenade/actions/workflows/docker.yml/badge.svg["Build Status", link="https://github.com/metanorma/rfc-camelot-holy-grenade/actions/workflows/docker.yml"]
+image:https://github.com/metanorma/rfc-camelot-holy-grenade/actions/workflows/generate.yml/badge.svg["Build Status", link="https://github.com/metanorma/rfc-camelot-holy-grenade/actions/workflows/generate.yml"]
 
 This document is available in its rendered forms here:
 
