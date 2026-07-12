@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?rfc comments="yes"?>
 <?rfc notedraftinprogress="yes"?>
 <?rfc strict="yes"?>
@@ -15,95 +15,54 @@
     <seriesInfo name="" value="" status="informational"></seriesInfo>
     <author fullname="Arthur son of Uther Pendragon">
       <address>
-        <postal></postal>
         <email>arthur.pendragon@ribose.com</email>
         <uri>http://camelot.gov.example</uri>
       </address>
     </author>
+    <date day="12" year="2026" month="July"></date>
     <area>General</area>
     <area>Operations and Management</area>
-    <abstract anchor="_160fd9fe-eaae-799c-dde3-7b4ff9ea7cfb">
-
-<t anchor="_797136f3-e7a0-11b7-bddb-213fa3753a9c">The menagerie of beasts and artefacts depicted in RFC8140
-may be usefully supplemented by other renowned figures of
-Internet and more general lore. This document extends the
-menagerie to the seminal fable of the
-"Holy Hand Grenade of Antioch", as depicted in the
-Monty Python film "Monty Python and the Holy Grail" <relref target="grail_film" section="" relative=""></relref>,
-as well as "Spamalot", the musical inspired by the movie.</t>
-
-
+    <abstract><t anchor="_17f2b9cf-954a-2e77-d43f-6c64323fe1e5">The menagerie of beasts and artefacts depicted in RFC 8140, Section  may be usefully supplemented by other renowned figures of Internet and more general lore. This document extends the menagerie to the seminal fable of the "Holy Hand Grenade of Antioch", as depicted in the Monty Python film  "Monty Python and the Holy Grail", as well as "Spamalot", the musical inspired by the movie.</t>
 </abstract>
-    <note removeInRFC="false"><name>Spamalot</name>
-
-<t anchor="_34f5d06f-ca2b-25ab-1694-3147b44f4cee">The relevance of the musical "Spamalot" to Internet lore should be
-obvious to the reader; but in case of doubt, see also
-Section 1 ("What is Spam*?") of <relref target="RFC2635" section="" relative=""></relref>.</t>
-</note>
   </front>
   <middle>
-    <section anchor="_terminology" toc="exclude"><name>Terminology</name>
+    <section anchor="_a59120bc-c760-b477-f851-c442bc00cc8c"><name>Introduction</name>
 
-<t anchor="_01ac205e-b2bf-7191-22d6-a5ea09983274">The key words "<bcp14>MUST</bcp14>", "<bcp14>MUST NOT</bcp14>", "<bcp14>REQUIRED</bcp14>", "<bcp14>SHALL</bcp14>",
-"<bcp14>SHALL NOT</bcp14>", "<bcp14>SHOULD</bcp14>", "<bcp14>SHOULD NOT</bcp14>", "<bcp14>RECOMMENDED</bcp14>",
-"<strong>NOT RECOMMENDED</strong>", "<bcp14>MAY</bcp14>", and "<bcp14>OPTIONAL</bcp14>" in this document
-are to be interpreted as described in BCP 14 <relref target="RFC2119" section="" relative=""></relref> <relref target="RFC8174" section="" relative=""></relref>
-when, and only when, they appear in all capitals, as shown here.</t>
-</section>
-    <section anchor="_introduction"><name>Introduction</name>
+<t anchor="_5c340588-7e78-22a8-3c34-a34b201b6278"><xref target="RFC8140" section="" relative=""></xref> refers to the intended move of RFC formatting to XML2RFC v3  <xref target="RFC7990" section="" relative=""></xref>, in the following terms:</t>
 
-<t anchor="_a73d9b76-7eb0-af99-3590-8c36fc333e03"><relref target="RFC8140" section="" relative=""></relref> refers to the intended move of RFC formatting to
-XML2RFC v3 <relref target="RFC7990" section="" relative=""></relref>, in the following terms:</t>
-
-<blockquote quotedFrom="A. Farrel"><t anchor="_0408e70f-7195-8d05-b468-d68df5a64517">Although the RFC Editor has recently dragged the IETF kicking and
-screaming into the twentieth century [RFC7990] [RFC7996], there is a
-yearning among all right-thinking Internet architects to "keep it
-simple" and to return to the olden days when pigs could be given
-thrust without anyone taking undue offence.</t>
+<blockquote quotedFrom="A. Farrel"><t anchor="_957acc32-06ac-666a-b1fc-0bd47612b877">Although the RFC Editor has recently dragged the IETF kicking and screaming into the twentieth century  <xref target="RFC7990" section="" relative=""></xref> <xref target="RFC7996" section="" relative=""></xref>, there is a yearning among all right-thinking Internet architects to "keep it simple" and to return to the olden days when pigs could be given thrust without anyone taking undue offence.</t>
 </blockquote>
 
-<t anchor="_d193374a-3481-a41a-7248-ed3364fed60b">While no pigs, flying or otherwise, are involved in the transition
-to RFC XML v3, it is opportune to enhance the <relref target="RFC8140" section="" relative=""></relref>
-legendarium in the service of RFC XML v3, by illustrating its
-functionality through references to the mythology of Camelot, and
-particularly the incidents at the Cave of Caerbannog.</t>
+<t anchor="_26b019cf-f8f5-b8b8-fbab-c42adcd62f2f">While no pigs, flying or otherwise, are involved in the transition to RFC XML v3, it is opportune to enhance the  <xref target="RFC8140" section="" relative=""></xref> legendarium in the service of RFC XML v3, by illustrating its functionality through references to the mythology of Camelot, and particularly the incidents at the Cave of Caerbannog.</t>
 
-<t anchor="_dea71de6-ee9c-9c22-d00a-6b6099490388">The screaming move into the twenty-<strong>first</strong> century is accompanied by
-a move back to the late twentieth century, with ASCII stylings more
-wonted in haunts like ftp://ftp.wwa.com/pub/Scarecrow (known to be
-accessible in 1996.)</t>
+<t anchor="_9e82b34e-6dba-fc20-ef2f-9770bd8d135c">The screaming move into the twenty-<strong>first</strong> century is accompanied by a move back to the late twentieth century, with ASCII stylings more wonted in haunts like  <eref target="ftp://ftp.wwa.com/pub/Scarecrow"></eref> (known to be accessible in 1996.)</t>
 
-<t anchor="_2ff88cfa-3d6e-9ade-e8c1-650c43868b09">There are two references to rabbits in
-<em>Monty Python and the Holy Grail</em> which are expounded on herewith:</t>
+<t anchor="_9f19f55f-3d0a-593b-7066-74e5d032a424">There are two references to rabbits in <em>Monty Python and the Holy Grail</em> which are expounded on herewith:</t>
 
-<dl anchor="_7b1abed3-abec-d2ff-e193-87e39333f86d"><dt>Trojan Rabbit</dt><dd><t anchor="_d2d105da-6b72-4c97-bb7a-f52518aeac0d">In their siege of the French-occupied castle which may already
-contain an instance of the Grail, Sir Bedevere the Wise proposes to
-use a Trojan Rabbit to infiltrate the castle, with a raiding party
-to take the French "not only by surprise, but totally unarmed."</t>
-<t anchor="_6fdefa59-fa0e-2b84-e1d2-a924e52e4c67">The proposal, unsurprisingly, proved abortive. The more so as the
-raiding party forgot to hide within the Trojan Rabbit, before the
-French soldiers took the Trojan Rabbit inside the castle.</t>
-</dd><dt>Killer Rabbit of Caerbannog</dt><dd><t anchor="_33394e42-b536-d995-5ac4-f150acbdca65">Guarding the entrance to the Cave of Caerbannog; see <xref target="caerbannog"></xref>.</t>
+<dl anchor="_4306ea84-b2d7-270d-db49-1663656ced8b"><dt>Trojan Rabbit:</dt><dd anchor="_065c88ca-e7d7-565c-9cac-abbeb5b44d68"><t anchor="_1252dc9a-181e-3bf0-8be0-115d857b8123">In their siege of the French-occupied castle which may already contain an instance of the Grail, Sir Bedevere the Wise proposes to use a Trojan Rabbit to infiltrate the castle, with a raiding party to take the French "not only by surprise, but totally unarmed."</t>
+<t anchor="_fbcfaf2c-947f-a103-988a-97f6e501b72f">The proposal, unsurprisingly, proved abortive. The more so as the raiding party forgot to hide within the Trojan Rabbit, before the French soldiers took the Trojan Rabbit inside the castle.</t>
+</dd><dt>Killer Rabbit of Caerbannog:</dt><dd anchor="_a0bb133a-b1d0-77bc-d002-08c42ffcd65a"><t anchor="_4e1db884-dd13-466e-94a2-3cfe952727b4">Guarding the entrance to the Cave of Caerbannog; see <xref target="caerbannog"></xref>.</t>
 </dd></dl>
 </section>
-    <section anchor="_the_french_occupied_castle"><name>The French-occupied castle</name>
+    <section anchor="_a9ab3518-4764-ce85-718c-270ebde69663"><name>Spamalot</name>
 
-<t anchor="_0928412a-d13a-d335-67df-414b33c5f2a1">The participants of that renowned exercise in cross-cultural
-communication, to wit the exchange between the
-<em>Knights of the Round Table</em>
-and the taunting French soldiers serving under <strong>Guy de Lombard</strong> are,
-properly speaking, outside the scope of this <tt>menagerie</tt>, being more
-or less human. Notwithstanding, several<sup>ish</sup> beasts both animate<sub>d</sub>
-and wooden played a significant part in this encounter; most
-notably:</t>
+<t anchor="_f182e1b0-73d5-9309-241a-7ec3677ff2de">The relevance of the musical "Spamalot" to Internet lore should be obvious to the reader; but in case of doubt, see also <xref target="RFC2635" section="1" relative=""></xref> ("What is Spam*?").</t>
+</section>
+    <section anchor="_08bd50aa-42fb-0c21-d0c3-a6d66aec208e"><name>Terminology</name>
 
-<ul anchor="_bec0c670-65d8-d3fd-32b9-05e0f843990d"><li>The Projectile Cow, see <xref target="projectile-cow"></xref></li>
+<t anchor="_c222f435-9faa-c647-2d00-90283e2b1982">The key words "<bcp14>MUST</bcp14>", "<bcp14>MUST NOT</bcp14>", "<bcp14>REQUIRED</bcp14>", "<bcp14>SHALL</bcp14>", "<bcp14>SHALL NOT</bcp14>", "<bcp14>SHOULD</bcp14>", "<bcp14>SHOULD NOT</bcp14>", "<bcp14>RECOMMENDED</bcp14>", "<bcp14>NOT RECOMMENDED</bcp14>", "<bcp14>MAY</bcp14>", and "<bcp14>OPTIONAL</bcp14>" in this document are to be interpreted as described in BCP 14  <xref target="RFC2119" section="" relative=""></xref> <xref target="RFC8174" section="" relative=""></xref> when, and only when, they appear in all capitals, as shown here.</t>
+</section>
+    <section anchor="_1ef5eb88-01c2-6599-3047-83cb7ed46080"><name>The French-occupied castle</name>
+
+<t anchor="_3d94ef2c-f9a3-97fd-73e3-4934c98a9951">The participants of that renowned exercise in cross-cultural communication, to wit the exchange between the <em>Knights of the Round Table</em> and the taunting French soldiers serving under  <strong>Guy de Lombard</strong> are, properly speaking, outside the scope of this  <tt>menagerie</tt>, being more or less human. Notwithstanding, several<sup>ish</sup> beasts both animate<sub>d</sub> and wooden played a significant part in this encounter; most notably:</t>
+
+<ul anchor="_497b39f1-a55a-a419-94aa-36637f434ba0"><li>The Projectile Cow, see <xref target="projectile-cow"></xref></li>
 <li>The Trojan Rabbit, see <xref target="trojan-rabbit"></xref></li>
 </ul>
 
 <figure anchor="projectile-cow">
 
-<name>The Projectile Cow with an accompanying cannon</name><artwork anchor="_50e7e9d3-b038-000e-e691-56652a224404" alt="The Projectile Cow with an accompanying cannon in ASCII" type="ascii-art"><![CDATA[.-.-.-.-.-.-.-.-.-.-.-.--.-.-.-.-.-.-.--.-.-.-.-.-.-.-.--.-.
+<name>The Projectile Cow with an accompanying cannon</name><artwork alt="The Projectile Cow with an accompanying cannon in ASCII" type="ascii-art"><![CDATA[.-.-.-.-.-.-.-.-.-.-.-.--.-.-.-.-.-.-.--.-.-.-.-.-.-.-.--.-.
 _-_---__--__--___-___-__-____---___-________---____-____-__-
 ._.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.--..-.-.-.-.-.-..--.-
 ,..,.,.,.,.,..,.,,..,.,.,.,.,.,,  ^^  .,,.,.,  ^^   .,.,.,.=
@@ -138,7 +97,7 @@ ROOTS_CLAY_SKELETON_MORESOIL_CLAY_CLAY_CLAY_CLAY_<MUSHROOMS>]]></artwork></figur
 
 <figure anchor="trojan-rabbit">
 
-<name>The Trojan Rabbit with an automatic sliding door</name><artwork anchor="_c6c5ecfe-7591-b9b5-28ab-6128742ced6b" alt="The Trojan Rabbit with an automatic sliding door" type="ascii-art"><![CDATA[                           ___  ____
+<name>The Trojan Rabbit with an automatic sliding door</name><artwork alt="The Trojan Rabbit with an automatic sliding door" type="ascii-art"><![CDATA[                           ___  ____
                           //_ \//\__\
                             || ||  |
                          -__||_||__|
@@ -167,54 +126,33 @@ ROOTS_CLAY_SKELETON_MORESOIL_CLAY_CLAY_CLAY_CLAY_<MUSHROOMS>]]></artwork></figur
   ||    X    |      /                  ||    X    |   /
    \\       /\\____/                    \\       /___/
     \\_____/ -----                       \\_____/---
-     -----                                -----]]></artwork></figure><aside anchor="_3caf312a-0b8c-d8bf-818e-ff33019b0102">
-  <t>NOTE: Image courtesy of
-<eref target="https://camelot.gov.example/creatures-in-ascii/"></eref></t>
+     -----                                -----]]></artwork></figure>
+
+<t anchor="_0fe53cde-0961-437c-59a9-9004334f54d4">While the exchange at the French-occupied castle is one of the more memorable scenes of  <em>Monty Python and the Holy Grail</em>, the Trojan Rabbit has not reached the same level of cultural resonance as its more murderous counterpart. Reasons for this may include:</t>
+
+<ul anchor="_278cdf0a-b6ee-82e8-3e15-7ddc0b3bc46b"><li>Less overall screen-time dedicated to the Trojan Rabbit.</li>
+<li>The Trojan Rabbit as projectile has already been anticipated by the Cow as projectile.</li>
+</ul>
+
+<aside anchor="_5d0ba0b8-f872-7a5f-9df8-77dc2a4f5dcc"><t keepWithNext="true">EDITORIAL NOTE</t><t anchor="_4b8cd744-8548-bfc3-062b-031460641ce6">Image courtesy of <eref target="https://camelot.gov.example/creatures-in-ascii/"></eref></t>
 </aside>
-
-
-
-
-<t anchor="_a67f0cbc-69a4-99f9-fdc9-dfb5f6ffba0d">The exchange of projectile animals was the beginning of a
-long-running fruitful relationship between the British and the
-French peoples, which
-arguably predates the traditional English enmity with the
-French.</t>
+<t anchor="_414ea0eb-b632-99a3-dcd8-402468f8af4b">The exchange of projectile animals was the beginning of a long-running fruitful relationship between the British and the French peoples, which arguably predates the traditional English enmity with the French.</t>
 
 
 </section>
     <section anchor="caerbannog"><name>The Mythos of Caerbannog</name>
 
-<t anchor="_b99a7b3f-68b2-9069-41a8-61d893309d4e">The <em>Cave of Caerbannog</em> has been well-established in the mythology
-of Camelot (as recounted by Monty Python) as the lair of the
-Legendary Black Beast of Arrrghhh, more commonly known today as the
-<strong>Killer Rabbit of Caerbannog</strong> <xref target="killer_rabbit_caerbannog"></xref>.
-It is the encounter between the Killer Rabbit of Caerbannog and the
-Knights of the Round Table, armed with the Holy Hand Grenade of
-Antioch (see the <xref target="holy_hand_grenade">following section</xref>), that we
-recount here through monospace font and multiple spaces.</t>
+<t anchor="_e7155306-e1dd-dd7a-601c-33e46ba192fd">The <em>Cave of Caerbannog</em> has been well-established in the mythology of Camelot (as recounted by Monty Python) as the lair of the Legendary Black Beast of Arrrghhh, more commonly known today as the <strong>Killer Rabbit of Caerbannog</strong> <xref target="killer_rabbit_caerbannog"></xref>. It is the encounter between the Killer Rabbit of Caerbannog and the Knights of the Round Table, armed with the Holy Hand Grenade of Antioch (see the  <xref target="holy_hand_grenade">following section</xref>), that we recount here through monospace font and multiple spaces.</t>
 
 <section anchor="killer_rabbit_caerbannog"><name>The Killer Rabbit of Caerbannog</name>
 
-<t anchor="_0809af30-ba34-0d0c-e845-41a4779bc717">The <strong>Killer Rabbit of Caerbannog</strong>, that most formidable foe of
-the Knights and of all that is holy or carrot-like, has been
-depicted diversely in lay and in song. We venture to say,
-<em>contra</em> the claim made in <relref target="RFC8140" section="4.1" relative="" displayFormat="of"></relref>,
-that the Killer Rabbit of Caerbannog truly is the most afeared
-of all the creatures. Short of sanctified ordnance such as
-<xref target="holy_hand_grenade" format="title"></xref>, there are few remedies
-known against its awful lapine powers.</t>
+<t anchor="_96e8803d-daf7-0ea3-d15a-5bc79a67614a">The <strong>Killer Rabbit of Caerbannog</strong>, that most formidable foe of the Knights and of all that is holy or carrot-like, has been depicted diversely in lay and in song. We venture to say, <em>contra</em> the claim made in <xref target="RFC8140" section="4.1" relative=""></xref> of Ze Vompyre, that the Killer Rabbit of Caerbannog truly is the most afeared of all the creatures. Short of sanctified ordnance such as <xref target="holy_hand_grenade">Holy Hand Grenade of Antioch</xref>, there are few remedies known against its awful lapine powers.</t>
 
-<t anchor="_7901f5c0-f670-166e-c0c5-555b20de8652"><xref target="killer-bunny">The following depiction</xref> of the fearsome beast
-has been sourced from
-<eref target="http://camelot.gov.example/avatars/rabbit">Rabbit-SCII</eref>,
-<xref target="killer-source">accompanied</xref>
-by C code that was used in this accurate depiction of the
-Killer Rabbit:</t>
+<t anchor="_e58de452-e9c5-aa77-1784-b5447640f2fe"><xref target="killer-bunny">The following depiction</xref> of the fearsome beast has been sourced from <eref target="http://camelot.gov.example/avatars/rabbit">Rabbit-SCII</eref>, <xref target="killer-source"></xref>, accompanied (<xref target="killer-bunny"></xref>) by C code that was used in this accurate depiction of the Killer Rabbit:</t>
 
 <figure anchor="killer-bunny">
 
-<name>A Photo Of The Killer Rabbit of Caerbannog Taken In Secret</name><artwork anchor="_8cef5b89-ce3b-3961-53f0-98685635087f" alt="The Killer Bunny, in ASCII" type="ascii-art"><![CDATA[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<name>A Photo Of The Killer Rabbit of Caerbannog Taken In Secret</name><artwork alt="The Killer Bunny, in ASCII" type="ascii-art"><![CDATA[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\^^^^^^^^^^^^^^^^^^^^^^\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\<<#MWSHARPMWMWMWTEETHWMWWM>>>\\\\\\\\\\\\
@@ -247,10 +185,10 @@ MW   \\/\||v v||  -\\-------___     .   .,         \     |
  #  \(/ .\\|x//                              " ' '
   . ,                \\||//        \||\\\//   \\]]></artwork></figure>
 
-<sourcecode anchor="killer-source" type="c" markers="true"><![CDATA[/* Locate the Killer Rabbit */
+<sourcecode anchor="killer-source" type="c"><![CDATA[/* Locate the Killer Rabbit */
 int type;
 unsigned char *killerRabbit =
-  LocateCreature(&#x26;caerbannog, &#x22;killer rabbit&#x22;);
+  LocateCreature(&caerbannog, "killer rabbit");
 if( killerRabbit == 0 ){
   puts("The Killer Rabbit of Caerbannog is out of town.");
   return LOST_CREATURE;
@@ -276,30 +214,29 @@ if( carrot == 0 ){
 return notifyCreature(killerRabbit, &#x26;carrot);]]></sourcecode>
 
 
-<t anchor="_11b86bec-69ec-4603-cd68-a1ada112709a">On the beast's encounter with the Knights of the Round Table,
-the following personnel engaged with it in combat:</t>
+<t anchor="_a24b52b1-1878-8716-9041-b38e3d77eeab">On the beast's encounter with the Knights of the Round Table, the following personnel engaged with it in combat:</t>
 
-<ul anchor="_8f956f8f-bce4-67db-82ca-75741d102f4f"><li><t anchor="_989d5f3b-0eae-b328-7862-17ce76ebea16">Killed</t>
-<ul anchor="_3da6b2c3-c509-f1a3-7e8a-cfe8ac09f764"><li>Sir Bors</li>
+<ul anchor="_9d5a894f-c80b-433f-57cf-befb3ac197cf"><li><t anchor="_2a9d4b7a-3ffa-d5cf-ce38-4e053e2b7b21">Killed</t>
+<ul anchor="_b9b74368-1b20-2500-c142-3eb083a9b0b3"><li>Sir Bors</li>
 <li>Sir Gawain</li>
 <li>Sir Ector</li>
 </ul>
 </li>
-<li><t anchor="_97c13b8d-557c-9956-080e-8a83dc342fca">Soiled Himself</t>
-<ul anchor="_d252c445-f00c-e2e3-32e2-7c8401d973c5"><li>Sir Robin</li>
+<li><t anchor="_b97731b5-084e-bfa2-f34a-c88b6e6f95e2">Soiled Himself</t>
+<ul anchor="_f7090f39-65d1-046b-52a8-05ba7b5b4ae5"><li>Sir Robin</li>
 </ul>
 </li>
-<li><t anchor="_441b9d93-dc5a-6a1a-6cad-c5d11f1aa6fe">Panicked</t>
-<ul anchor="_cb440b98-1e19-1ee5-dcdc-0aaa79a34fd0"><li>King Arthur</li>
+<li><t anchor="_e7279d6c-73c2-d290-552e-a9026a688e9d">Panicked</t>
+<ul anchor="_85d47474-aea7-7567-f73b-88e7c5afa739"><li>King Arthur</li>
 </ul>
 </li>
-<li><t anchor="_3abf7915-80c6-4e1d-36bc-f1f2a7fce516">Employed Ordnance</t>
-<ul anchor="_3104a73d-0eb4-9097-70ef-a87e282f572a"><li>The Lector</li>
+<li><t anchor="_dead0613-058c-0b27-2e2a-85545e9b11d7">Employed Ordnance</t>
+<ul anchor="_b987da72-2b5d-243c-337a-821b1b85c99a"><li>The Lector</li>
 <li>Brother Maynard</li>
 </ul>
 </li>
-<li><t anchor="_2c41276d-e2e0-7829-4752-004e6eeec9eb">Scoffed</t>
-<ul anchor="_a1bf5259-0172-b62e-5ecc-a3a8e93f9c49"><li>Tim the Enchanter</li>
+<li><t anchor="_569c3db0-67ef-2617-2d23-eb3b47294336">Scoffed</t>
+<ul anchor="_41949580-96ff-d93a-bbd1-8534d422bbcb"><li>Tim the Enchanter</li>
 </ul>
 </li>
 </ul>
@@ -309,7 +246,7 @@ the following personnel engaged with it in combat:</t>
 
 <figure anchor="hand-grenade-figure">
 
-<name>The Holy Hand Grenade of Antioch (don't pull the pin)</name><artwork anchor="_6eb7df73-d8d2-77da-7a19-f5745ca65322" alt="Holy Hand Grenade of Antioch" type="ascii-art"><![CDATA[                        ______
+<name>The Holy Hand Grenade of Antioch (don't pull the pin)</name><artwork alt="Holy Hand Grenade of Antioch" type="ascii-art"><![CDATA[                        ______
                        \\/  \/
                       __\\  /__
                      ||  //\   |
@@ -335,360 +272,22 @@ the following personnel engaged with it in combat:</t>
                   ``--.._____..--'
                      `''-----''`]]></artwork></figure>
 
-<figure anchor="sovereign-orb"><name>The Sovereign's Orb made invisible</name>
+<figure anchor="sovereign-orb">
 
-<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg2" width="182px" height="291.834px" viewBox="0 0 182 291.834" xml:space="preserve" preserveAspectRatio="xMidYMid meet">
-<defs>
+<name>The Sovereign's Orb made invisible</name><artwork src="cruciger.svg" align="right" name="cruciger.svg" anchor="_efe37bfd-26ed-a61a-584b-df5af1ab7cd7" type="svg"></artwork></figure>
 
-	</defs>
-<g id="g9086" transform="translate(-1746.880086548266,-573.0087829088379)">
-</g>
-<g id="g9088" transform="translate(-1690.451366548266,-649.6491229088378)">
-</g>
-<g id="layer2" transform="translate(-1690.451366548266,-649.6491229088378)">
-</g>
-<g id="g9289" transform="translate(-1690.451366548266,-649.6491229088378)">
-</g>
-<g id="g37035" transform="matrix(0.9237377118884799,0,0,0.9429539308521999,483.6880577846864,1.575469548636931)">
-	<g id="g6354" transform="translate(-60.773519,-125.20693)">
-		<g id="g17924">
-			<g id="layer1-6" transform="matrix(1.2221,0,0,1.2221,-165.70439,197.10938)">
-				<g id="g11519" transform="matrix(0.7444093,0,0,0.8304389999999999,193.26207,73.149234)">
-					<g id="g11521" transform="translate(-20.469655,-278.11235)">
-						<g id="g12111" transform="matrix(1,0,0,0.9,-94.24011699999998,-7.106950300000002)">
-						</g>
-					</g>
-				</g>
-			</g>
-		</g>
-	</g>
-</g>
-<g id="Field" transform="matrix(0.22804124,0,0,0.22804124,-2650.692839698353,1488.771754623614)">
-</g>
-<g id="Trick" transform="matrix(0.22804124,0,0,0.22804124,-2650.692839698353,1488.771754623614)">
-</g>
-<g id="Border" transform="matrix(0.22804124,0,0,0.22804124,-2650.692839698353,1488.771754623614)">
-</g>
-<g id="Field-5" transform="matrix(0.22804124,0,0,0.22804124,-2668.430139698353,1464.871054623613)">
-</g>
-<g id="Trick-0" transform="matrix(0.22804124,0,0,0.22804124,-2668.430139698353,1464.871054623613)">
-</g>
-<g id="Border-7" transform="matrix(0.22804124,0,0,0.22804124,-2668.430139698353,1464.871054623613)">
-</g>
-<g id="Field-3" transform="matrix(0.22804124,0,0,0.22804124,-2668.464039698354,1488.055254623614)">
-</g>
-<g id="Border-5" transform="matrix(0.22804124,0,0,0.22804124,-2668.464039698354,1488.055254623614)">
-</g>
-<g id="use3104" transform="matrix(0.22804124,0,0,0.22804124,-2668.414139698354,1488.069054623613)">
-</g>
-<g id="Trick-4" transform="matrix(0.22804124,0,0,0.22804124,-2668.282139698354,1488.018854623613)">
-</g>
-<g id="Field-2" transform="matrix(0.22804124,0,0,0.22804124,-2668.430139698353,1511.239454623613)">
-</g>
-<g id="Trick-2" transform="matrix(0.22804124,0,0,0.22804124,-2668.430139698353,1511.239454623613)">
-</g>
-<g id="Border-1" transform="matrix(0.22804124,0,0,0.22804124,-2668.430139698353,1511.239454623613)">
-</g>
-<g id="Field-36" transform="matrix(0.22804124,0,0,0.22804124,-2668.430139698353,1534.423654623613)">
-</g>
-<g id="Trick-08" transform="matrix(0.22804124,0,0,0.22804124,-2668.430139698353,1534.423654623613)">
-</g>
-<g id="Border-8" transform="matrix(0.22804124,0,0,0.22804124,-2668.430139698353,1534.423654623613)">
-</g>
-<g id="Field-9" transform="matrix(0.22804124,0,0,0.22804124,-2668.430139698353,1557.607854623614)">
-</g>
-<g id="Trick-8" transform="matrix(0.22804124,0,0,0.22804124,-2668.430139698353,1557.607854623614)">
-</g>
-<g id="Border-4" transform="matrix(0.22804124,0,0,0.22804124,-2668.430139698353,1557.607854623614)">
-</g>
-<g id="Field-1" transform="matrix(0.22804124,0,0,0.22804124,-2650.370139698353,1555.637154623613)">
-</g>
-<g id="Trick-5" transform="matrix(0.22804124,0,0,0.22804124,-2650.370139698353,1555.637154623613)">
-</g>
-<g id="Border-9" transform="matrix(0.22804124,0,0,0.22804124,-2650.370139698353,1555.637154623613)">
-</g>
-<g id="Field-17" transform="matrix(0.22804124,0,0,0.22804124,-2649.725239698354,1533.348954623613)">
-</g>
-<g id="Trick-1" transform="matrix(0.22804124,0,0,0.22804124,-2649.725239698354,1533.348954623613)">
-</g>
-<g id="Border-99" transform="matrix(0.22804124,0,0,0.22804124,-2649.725239698354,1533.348954623613)">
-</g>
-<g id="Field-53" transform="matrix(0.22804124,0,0,0.22804124,-2689.070139698354,1489.775854623613)">
-</g>
-<g id="Trick-12" transform="matrix(0.22804124,0,0,0.22804124,-2689.070139698354,1489.775854623613)">
-</g>
-<g id="Border-12" transform="matrix(0.22804124,0,0,0.22804124,-2689.070139698354,1489.775854623613)">
-</g>
-<g id="Field-94" transform="matrix(0.22804124,0,0,0.22804124,-2648.757639698354,1511.025054623613)">
-</g>
-<g id="Trick-09" transform="matrix(0.22804124,0,0,0.22804124,-2648.757639698354,1511.025054623613)">
-</g>
-<g id="Border-51" transform="matrix(0.22804124,0,0,0.22804124,-2648.757639698354,1511.025054623613)">
-</g>
-<g id="Field-21" transform="matrix(0.22804124,0,0,0.22804124,-2666.172739698353,1582.225854623613)">
-</g>
-<g id="Trick-46" transform="matrix(0.22804124,0,0,0.22804124,-2666.172739698353,1582.225854623613)">
-</g>
-<g id="Border-0" transform="matrix(0.22804124,0,0,0.22804124,-2666.172739698353,1582.225854623613)">
-</g>
-<ellipse id="ellipse5679" fill="black" cx="1322.121" cy="1054.151" rx="0" ry="0"></ellipse>
-<ellipse id="ellipse5683" fill="#FFFFFF" cx="1322.121" cy="1053.923" rx="0" ry="0"></ellipse>
-<ellipse id="ellipse5749" fill="black" cx="1353.546" cy="1053.468" rx="0" ry="0"></ellipse>
-<ellipse id="ellipse5753" fill="#FFFFFF" cx="1353.546" cy="1053.468" rx="0" ry="0"></ellipse>
-<ellipse id="ellipse5819" fill="black" cx="1337.606" cy="1081.477" rx="0" ry="0"></ellipse>
-<ellipse id="ellipse5823" fill="#FFFFFF" cx="1337.606" cy="1081.249" rx="0" ry="0"></ellipse>
-<g id="Field-23" transform="matrix(0.22804124,0,0,0.22804124,-886.3839396983538,1402.608744623613)">
-</g>
-<g id="Trick-18" transform="matrix(0.22804124,0,0,0.22804124,-886.3839396983538,1402.608744623613)">
-</g>
-<g id="Border-74" transform="matrix(0.22804124,0,0,0.22804124,-886.3839396983538,1402.608744623613)">
-</g>
-<g id="Field-5-6" transform="matrix(0.22804124,0,0,0.22804124,-904.1211396983535,1378.708064623613)">
-</g>
-<g id="Trick-0-3" transform="matrix(0.22804124,0,0,0.22804124,-904.1211396983535,1378.708064623613)">
-</g>
-<g id="Border-7-8" transform="matrix(0.22804124,0,0,0.22804124,-904.1211396983535,1378.708064623613)">
-</g>
-<g id="Field-3-5" transform="matrix(0.22804124,0,0,0.22804124,-904.1551396983536,1401.892214623613)">
-</g>
-<g id="Border-5-0" transform="matrix(0.22804124,0,0,0.22804124,-904.1551396983536,1401.892214623613)">
-</g>
-<g id="use3104-1" transform="matrix(0.22804124,0,0,0.22804124,-904.1051396983538,1401.906034623613)">
-</g>
-<g id="Trick-4-2" transform="matrix(0.22804124,0,0,0.22804124,-903.9731396983537,1401.855824623613)">
-</g>
-<g id="Field-2-4" transform="matrix(0.22804124,0,0,0.22804124,-904.1211396983535,1425.076454623613)">
-</g>
-<g id="Trick-2-8" transform="matrix(0.22804124,0,0,0.22804124,-904.1211396983535,1425.076454623613)">
-</g>
-<g id="Border-1-5" transform="matrix(0.22804124,0,0,0.22804124,-904.1211396983535,1425.076454623613)">
-</g>
-<g id="Field-36-2" transform="matrix(0.22804124,0,0,0.22804124,-904.1211396983535,1448.260654623613)">
-</g>
-<g id="Trick-08-5" transform="matrix(0.22804124,0,0,0.22804124,-904.1211396983535,1448.260654623613)">
-</g>
-<g id="Border-8-2" transform="matrix(0.22804124,0,0,0.22804124,-904.1211396983535,1448.260654623613)">
-</g>
-<g id="Field-9-9" transform="matrix(0.22804124,0,0,0.22804124,-904.1211396983535,1471.444754623613)">
-</g>
-<g id="Trick-8-1" transform="matrix(0.22804124,0,0,0.22804124,-904.1211396983535,1471.444754623613)">
-</g>
-<g id="Border-4-3" transform="matrix(0.22804124,0,0,0.22804124,-904.1211396983535,1471.444754623613)">
-</g>
-<g id="Field-1-1" transform="matrix(0.22804124,0,0,0.22804124,-886.0612396983533,1469.474154623613)">
-</g>
-<g id="Trick-5-5" transform="matrix(0.22804124,0,0,0.22804124,-886.0612396983533,1469.474154623613)">
-</g>
-<g id="Border-9-2" transform="matrix(0.22804124,0,0,0.22804124,-886.0612396983533,1469.474154623613)">
-</g>
-<g id="Field-17-9" transform="matrix(0.22804124,0,0,0.22804124,-885.4163396983534,1447.185954623613)">
-</g>
-<g id="Trick-1-4" transform="matrix(0.22804124,0,0,0.22804124,-885.4163396983534,1447.185954623613)">
-</g>
-<g id="Border-99-4" transform="matrix(0.22804124,0,0,0.22804124,-885.4163396983534,1447.185954623613)">
-</g>
-<g id="Field-53-0" transform="matrix(0.22804124,0,0,0.22804124,-924.7611396983536,1403.612784623613)">
-</g>
-<g id="Trick-12-7" transform="matrix(0.22804124,0,0,0.22804124,-924.7611396983536,1403.612784623613)">
-</g>
-<g id="Border-12-4" transform="matrix(0.22804124,0,0,0.22804124,-924.7611396983536,1403.612784623613)">
-</g>
-<g id="Field-94-7" transform="matrix(0.22804124,0,0,0.22804124,-884.4487396983536,1424.862054623613)">
-</g>
-<g id="Trick-09-9" transform="matrix(0.22804124,0,0,0.22804124,-884.4487396983536,1424.862054623613)">
-</g>
-<g id="Border-51-0" transform="matrix(0.22804124,0,0,0.22804124,-884.4487396983536,1424.862054623613)">
-</g>
-<g id="Field-21-2" transform="matrix(0.22804124,0,0,0.22804124,-901.8637396983533,1496.062854623613)">
-</g>
-<g id="Trick-46-2" transform="matrix(0.22804124,0,0,0.22804124,-901.8637396983533,1496.062854623613)">
-</g>
-<g id="Border-0-6" transform="matrix(0.22804124,0,0,0.22804124,-901.8637396983533,1496.062854623613)">
-</g>
-<path id="path4156" fill="#FFFFFF" d="M0-4.5"></path>
-<g id="Field-20" transform="matrix(0.22804124,0,0,0.22804124,-2519.962039698354,1990.890954623613)">
-</g>
-<g id="Trick-3" transform="matrix(0.22804124,0,0,0.22804124,-2519.962039698354,1990.890954623613)">
-</g>
-<g id="Border-04" transform="matrix(0.22804124,0,0,0.22804124,-2519.962039698354,1990.890954623613)">
-</g>
-<g id="Field-5-0" transform="matrix(0.22804124,0,0,0.22804124,-2537.699339698353,1966.990354623613)">
-</g>
-<g id="Trick-0-0" transform="matrix(0.22804124,0,0,0.22804124,-2537.699339698353,1966.990354623613)">
-</g>
-<g id="Border-7-5" transform="matrix(0.22804124,0,0,0.22804124,-2537.699339698353,1966.990354623613)">
-</g>
-<g id="Field-3-57" transform="matrix(0.22804124,0,0,0.22804124,-2537.733239698353,1990.174454623613)">
-</g>
-<g id="Border-5-03" transform="matrix(0.22804124,0,0,0.22804124,-2537.733239698353,1990.174454623613)">
-</g>
-<g id="use3104-8" transform="matrix(0.22804124,0,0,0.22804124,-2537.683339698353,1990.188354623614)">
-</g>
-<g id="Trick-4-6" transform="matrix(0.22804124,0,0,0.22804124,-2537.551339698353,1990.138054623613)">
-</g>
-<g id="Field-2-9" transform="matrix(0.22804124,0,0,0.22804124,-2537.699339698353,2013.358754623614)">
-</g>
-<g id="Trick-2-1" transform="matrix(0.22804124,0,0,0.22804124,-2537.699339698353,2013.358754623614)">
-</g>
-<g id="Border-1-0" transform="matrix(0.22804124,0,0,0.22804124,-2537.699339698353,2013.358754623614)">
-</g>
-<g id="Field-36-0" transform="matrix(0.22804124,0,0,0.22804124,-2537.699339698353,2036.542854623613)">
-</g>
-<g id="Trick-08-58" transform="matrix(0.22804124,0,0,0.22804124,-2537.699339698353,2036.542854623613)">
-</g>
-<g id="Border-8-5" transform="matrix(0.22804124,0,0,0.22804124,-2537.699339698353,2036.542854623613)">
-</g>
-<g id="Field-9-7" transform="matrix(0.22804124,0,0,0.22804124,-2537.699339698353,2059.727054623613)">
-</g>
-<g id="Trick-8-9" transform="matrix(0.22804124,0,0,0.22804124,-2537.699339698353,2059.727054623613)">
-</g>
-<g id="Border-4-6" transform="matrix(0.22804124,0,0,0.22804124,-2537.699339698353,2059.727054623613)">
-</g>
-<g id="Field-1-9" transform="matrix(0.22804124,0,0,0.22804124,-2519.639339698353,2057.756354623613)">
-</g>
-<g id="Trick-5-6" transform="matrix(0.22804124,0,0,0.22804124,-2519.639339698353,2057.756354623613)">
-</g>
-<g id="Border-9-28" transform="matrix(0.22804124,0,0,0.22804124,-2519.639339698353,2057.756354623613)">
-</g>
-<g id="Field-17-8" transform="matrix(0.22804124,0,0,0.22804124,-2518.994439698353,2035.468154623613)">
-</g>
-<g id="Trick-1-43" transform="matrix(0.22804124,0,0,0.22804124,-2518.994439698353,2035.468154623613)">
-</g>
-<g id="Border-99-2" transform="matrix(0.22804124,0,0,0.22804124,-2518.994439698353,2035.468154623613)">
-</g>
-<g id="Field-53-6" transform="matrix(0.22804124,0,0,0.22804124,-2558.339339698353,1991.895054623613)">
-</g>
-<g id="Trick-12-8" transform="matrix(0.22804124,0,0,0.22804124,-2558.339339698353,1991.895054623613)">
-</g>
-<g id="Border-12-2" transform="matrix(0.22804124,0,0,0.22804124,-2558.339339698353,1991.895054623613)">
-</g>
-<g id="Field-94-1" transform="matrix(0.22804124,0,0,0.22804124,-2518.026839698353,2013.144254623613)">
-</g>
-<g id="Trick-09-8" transform="matrix(0.22804124,0,0,0.22804124,-2518.026839698353,2013.144254623613)">
-</g>
-<g id="Border-51-3" transform="matrix(0.22804124,0,0,0.22804124,-2518.026839698353,2013.144254623613)">
-</g>
-<g id="Field-21-6" transform="matrix(0.22804124,0,0,0.22804124,-2535.441939698353,2084.345054623614)">
-</g>
-<g id="Trick-46-5" transform="matrix(0.22804124,0,0,0.22804124,-2535.441939698353,2084.345054623614)">
-</g>
-<g id="Border-0-0" transform="matrix(0.22804124,0,0,0.22804124,-2535.441939698353,2084.345054623614)">
-</g>
-<ellipse id="ellipse5679-0" fill="black" cx="1452.853" cy="1556.271" rx="0" ry="0"></ellipse>
-<ellipse id="ellipse5683-1" fill="#FFFFFF" cx="1452.853" cy="1556.043" rx="0" ry="0"></ellipse>
-<ellipse id="ellipse5749-7" fill="black" cx="1484.276" cy="1555.587" rx="0" ry="0"></ellipse>
-<ellipse id="ellipse5753-0" fill="#FFFFFF" cx="1484.276" cy="1555.587" rx="0" ry="0"></ellipse>
-<ellipse id="ellipse5819-6" fill="black" cx="1468.337" cy="1583.596" rx="0" ry="0"></ellipse>
-<ellipse id="ellipse5823-7" fill="#FFFFFF" cx="1468.337" cy="1583.368" rx="0" ry="0"></ellipse>
-<g id="Field-23-7" transform="matrix(0.22804124,0,0,0.22804124,-755.6530396983537,1904.727954623613)">
-</g>
-<g id="Trick-18-6" transform="matrix(0.22804124,0,0,0.22804124,-755.6530396983537,1904.727954623613)">
-</g>
-<g id="Border-74-7" transform="matrix(0.22804124,0,0,0.22804124,-755.6530396983537,1904.727954623613)">
-</g>
-<g id="Field-5-6-5" transform="matrix(0.22804124,0,0,0.22804124,-773.3902396983537,1880.827254623613)">
-</g>
-<g id="Trick-0-3-5" transform="matrix(0.22804124,0,0,0.22804124,-773.3902396983537,1880.827254623613)">
-</g>
-<g id="Border-7-8-3" transform="matrix(0.22804124,0,0,0.22804124,-773.3902396983537,1880.827254623613)">
-</g>
-<g id="Field-3-5-8" transform="matrix(0.22804124,0,0,0.22804124,-773.4242396983537,1904.011454623613)">
-</g>
-<g id="Border-5-0-6" transform="matrix(0.22804124,0,0,0.22804124,-773.4242396983537,1904.011454623613)">
-</g>
-<g id="use3104-1-4" transform="matrix(0.22804124,0,0,0.22804124,-773.3742396983534,1904.025254623613)">
-</g>
-<g id="Trick-4-2-2" transform="matrix(0.22804124,0,0,0.22804124,-773.2422396983538,1903.975054623613)">
-</g>
-<g id="Field-2-4-9" transform="matrix(0.22804124,0,0,0.22804124,-773.3902396983537,1927.195654623613)">
-</g>
-<g id="Trick-2-8-6" transform="matrix(0.22804124,0,0,0.22804124,-773.3902396983537,1927.195654623613)">
-</g>
-<g id="Border-1-5-9" transform="matrix(0.22804124,0,0,0.22804124,-773.3902396983537,1927.195654623613)">
-</g>
-<g id="Field-36-2-9" transform="matrix(0.22804124,0,0,0.22804124,-773.3902396983537,1950.379854623613)">
-</g>
-<g id="Trick-08-5-9" transform="matrix(0.22804124,0,0,0.22804124,-773.3902396983537,1950.379854623613)">
-</g>
-<g id="Border-8-2-2" transform="matrix(0.22804124,0,0,0.22804124,-773.3902396983537,1950.379854623613)">
-</g>
-<g id="Field-9-9-9" transform="matrix(0.22804124,0,0,0.22804124,-773.3902396983537,1973.564054623613)">
-</g>
-<g id="Trick-8-1-2" transform="matrix(0.22804124,0,0,0.22804124,-773.3902396983537,1973.564054623613)">
-</g>
-<g id="Border-4-3-0" transform="matrix(0.22804124,0,0,0.22804124,-773.3902396983537,1973.564054623613)">
-</g>
-<g id="Field-1-1-4" transform="matrix(0.22804124,0,0,0.22804124,-755.3303396983535,1971.593354623613)">
-</g>
-<g id="Trick-5-5-4" transform="matrix(0.22804124,0,0,0.22804124,-755.3303396983535,1971.593354623613)">
-</g>
-<g id="Border-9-2-8" transform="matrix(0.22804124,0,0,0.22804124,-755.3303396983535,1971.593354623613)">
-</g>
-<g id="Field-17-9-5" transform="matrix(0.22804124,0,0,0.22804124,-754.6853896983534,1949.305154623613)">
-</g>
-<g id="Trick-1-4-4" transform="matrix(0.22804124,0,0,0.22804124,-754.6853896983534,1949.305154623613)">
-</g>
-<g id="Border-99-4-5" transform="matrix(0.22804124,0,0,0.22804124,-754.6853896983534,1949.305154623613)">
-</g>
-<g id="Field-53-0-7" transform="matrix(0.22804124,0,0,0.22804124,-794.0302396983536,1905.732054623613)">
-</g>
-<g id="Trick-12-7-5" transform="matrix(0.22804124,0,0,0.22804124,-794.0302396983536,1905.732054623613)">
-</g>
-<g id="Border-12-4-2" transform="matrix(0.22804124,0,0,0.22804124,-794.0302396983536,1905.732054623613)">
-</g>
-<g id="Field-94-7-7" transform="matrix(0.22804124,0,0,0.22804124,-753.7178096983534,1926.981254623613)">
-</g>
-<g id="Trick-09-9-4" transform="matrix(0.22804124,0,0,0.22804124,-753.7178096983534,1926.981254623613)">
-</g>
-<g id="Border-51-0-2" transform="matrix(0.22804124,0,0,0.22804124,-753.7178096983534,1926.981254623613)">
-</g>
-<g id="Field-21-2-6" transform="matrix(0.22804124,0,0,0.22804124,-771.1328396983534,1998.182054623614)">
-</g>
-<g id="Trick-46-2-0" transform="matrix(0.22804124,0,0,0.22804124,-771.1328396983534,1998.182054623614)">
-</g>
-<g id="Border-0-6-9" transform="matrix(0.22804124,0,0,0.22804124,-771.1328396983534,1998.182054623614)">
-</g>
-<path id="path4156-2" fill="#FFFFFF" d="M0-4.5"></path>
-<g id="g4228" transform="translate(138.7720053711232,8.967595210688955)">
-	<g id="g4223" transform="matrix(1.266344880121791,0,0,1.266344880121791,35.32188888810447,-75.78375396645282)">
-		<path id="path3069" fill="black" stroke="#000000" stroke-width="2.369" d="M-0.552,216.819    c-0.012,35.623-28.9,64.491-64.522,64.479c-35.606-0.012-64.467-28.872-64.478-64.479c0-35.622,28.877-64.5,64.5-64.5    C-29.431,152.319-0.552,181.197-0.552,216.819z"></path>
-		<path id="path3853" fill="black" stroke="#000000" stroke-width="2.369" d="M-64.493,54.683c-4.971,0-9,4.029-9,9    c0,2.892,1.38,5.447,3.5,7.094v28.906h-31.063c-1.646-2.12-4.202-3.5-7.094-3.5c-4.971,0-9,4.03-9,9c0,4.971,4.029,9,9,9    c2.892,0,5.448-1.38,7.094-3.5h31.063v55.719h11v-55.719h31.032c1.646,2.122,4.231,3.5,7.124,3.5c4.971,0,9-4.029,9-9    c0-4.97-4.029-9-9-9c-2.893,0-5.478,1.378-7.124,3.5h-31.032V70.776c2.119-1.647,3.5-4.202,3.5-7.094    C-55.493,58.712-59.522,54.683-64.493,54.683z"></path>
-		<path id="path3071" fill="black" stroke="#000000" stroke-width="2.369" d="M-65.056,149.807c-4.659,0-9.202,0.501-13.593,1.406    v48.875c-19.18,1.011-37.12,4.153-52.937,8.938c-0.297,2.557-0.469,5.144-0.469,7.781c0,5.802,0.738,11.443,2.125,16.812    c19.123-5.596,41.268-8.812,64.875-8.812c23.605,0,45.752,3.216,64.875,8.812c1.388-5.372,2.125-11.007,2.125-16.812    c0-2.637-0.173-5.224-0.469-7.781c-15.817-4.785-33.757-7.927-52.937-8.938v-48.875    C-55.853,150.308-60.396,149.807-65.056,149.807z"></path>
-	</g>
-</g>
-</svg></figure>
+<t anchor="_94a53d2c-90c4-08b6-c08f-322ecd7de049">The solution to the impasse at the Cave of Caerbannog<iref item="Cave of Caerbannog"></iref> was provided by the successful deployment of the <strong>Holy Hand Grenade of Antioch</strong> (see <xref target="hand-grenade-figure"></xref>) <iref item="Holy Hand Grenade of Antioch"></iref>. Any similarity between the Holy Hand Grenade of Antioch and the mythical  <em>Holy Spear of Antioch</em> is purely intentional; <iref item="relics" subitem="Christian"></iref> any similarity between the Holy Hand Grenade of Antioch and the  <em>Sovereign's Orb of the United Kingdom</em> (see  <xref target="sovereign-orb"></xref>) is putatively fortuitous. <iref item="relics" subitem="monarchic"></iref></t>
 
-<t anchor="_5049d583-cd6a-f1c5-6cc6-9aba6bb740d4">The solution to the impasse at the Cave of Caerbannog<iref item="Cave of Caerbannog"></iref> was
-provided by the successful deployment of the
-<strong>Holy Hand Grenade of Antioch</strong> (see <xref target="hand-grenade-figure"></xref>)
-<iref item="Holy Hand Grenade of Antioch"></iref>.
-Any similarity between the Holy Hand Grenade of Antioch and the
-mythical <em>Holy Spear of Antioch</em> is purely intentional;
-<iref item="relics" subitem="Christian"></iref> any similarity between the Holy Hand Grenade
-of Antioch and the <em>Sovereign's Orb of the United Kingdom</em>
-(see <xref target="sovereign-orb"></xref>) is putatively fortuitous.
-<iref item="relics" subitem="monarchic"></iref></t>
-
-<dl anchor="_79a5618b-434e-dbc9-1c21-6aa3d2bd05a1"><dt>Holy Hand Grenade of Antioch</dt><dd><t anchor="_22e145e6-957a-b0df-bb60-bea08ef36b55">Ordnance deployed by Brother Maynard under the incantation of a
-lector, in order to dispense with the Foes of the Virtuous.
-See <xref target="hand-grenade-figure"></xref>.</t>
-</dd><dt>Holy Spear of Antioch</dt><dd><t anchor="_4b9ed31d-ce52-628f-7c9f-27e6922108a4">A supposed relic of the crucifixion of Jesus Christ, this is one
-of at least four claimed instances of the lance that pierced
-Christ's side. Its historical significance lies in inspiring
-crusaders to continue their siege of Antioch in 1098.</t>
-</dd><dt>Sovereign's Orb of the United Kingdom</dt><dd><t anchor="_1757dfaa-7c9a-fe8d-a9a1-1797eee72e7e">Part of the Crown Jewels of the United Kingdom, the Sovereign's
-Orb is a hollow gold sphere set with jewels and topped with a
-cross.  It was made for Charles II in 1661. See <xref target="sovereign-orb"></xref>.</t>
+<dl anchor="_9ee1b6c9-33c7-923c-a0b6-237805f5e0d0"><dt>Holy Hand Grenade of Antioch:</dt><dd anchor="_46d8fc76-0f2f-52aa-481a-e7b11bc4d7dd"><t anchor="_0ad81e58-933d-6858-b930-edd805d09219">Ordnance deployed by Brother Maynard under the incantation of a lector, in order to dispense with the Foes of the Virtuous. See  <xref target="hand-grenade-figure"></xref>.</t>
+</dd><dt>Holy Spear of Antioch:</dt><dd anchor="_f5a79238-4ace-a6c9-251f-166611fff5c6"><t anchor="_aea21a5a-eecc-32ea-7c54-2f894e7329a2">A supposed relic of the crucifixion of Jesus Christ, this is one of at least four claimed instances of the lance that pierced Christ's side. Its historical significance lies in inspiring crusaders to continue their siege of Antioch in 1098.</t>
+</dd><dt>Sovereign's Orb of the United Kingdom:</dt><dd anchor="_d3b093fd-340e-5986-3c69-ffefac817a42"><t anchor="_2e543547-ca2d-40ac-5db9-54dd2ea52979">Part of the Crown Jewels of the United Kingdom, the Sovereign's Orb is a hollow gold sphere set with jewels and topped with a cross.  It was made for Charles II in 1661. See  <xref target="sovereign-orb"></xref>.</t>
 </dd></dl>
 
-<t anchor="_333abc95-c1fb-de22-2de3-7e2b4113a913">The instructions in the <em>Book of Armaments</em> on the proper deployment
-of the Holy Hand Grenade of Antioch <bcp14>MAY</bcp14> be summarized as
-follows, although this summary <bcp14>SHALL NOT</bcp14> be used as a substitute
-for a reading from the Book of Armaments:</t>
+<t anchor="_db7e2f47-fc90-039f-ac3c-f29d532bb07d">The instructions in the <em>Book of Armaments</em> on the proper deployment of the Holy Hand Grenade of Antioch  <bcp14>MAY</bcp14> be summarized as follows, although this summary  <bcp14>SHALL NOT</bcp14> be used as a substitute for a reading from the Book of Armaments:</t>
 
-<ol anchor="_faccdcc2-8ec3-9bd2-fa8d-528f9782dcde" type="1"><li>Preamble: St Attila Benediction</li>
-<li><t anchor="_81fa7dba-5e02-a1f5-a21a-ad6677107ffe">Feast of the People on Sundry Foods</t>
-<ul anchor="_c83286b7-9aca-3f64-4fcb-2337a7aa1c07"><li>Lambs</li>
+<ol anchor="_95a9b8eb-22d3-29a7-4009-34b4c87791d3" type="1"><li>Preamble: St Attila Benediction</li>
+<li><t anchor="_5a5c410b-d914-d93b-9e31-60100bb86e3b">Feast of the People on Sundry Foods</t>
+<ul anchor="_fbf6acb5-17ef-ad8e-94d1-ff9b260fcaa4"><li>Lambs</li>
 <li>Sloths</li>
 <li>Carp</li>
 <li>Anchovies</li>
@@ -699,8 +298,8 @@ for a reading from the Book of Armaments:</t>
 </ul>
 </li>
 <li>Take out the Holy Pin</li>
-<li><t anchor="_20b33e5d-744c-4a63-c6bc-034b3cedc253">The Count</t>
-<ol anchor="_d61c1d46-b79e-353e-d629-fb859c98f51f" type="A"><li>Count is to Three: no more, no less</li>
+<li><t anchor="_b3da1780-6795-4483-2567-06390b39f631">The Count</t>
+<ol anchor="_6bd0b499-dcf6-7d1c-534e-fef91e50dc9e" type="A"><li>Count is to Three: no more, no less</li>
 <li>Not Four</li>
 <li>Nor Two, except if the count then proceeds to Three</li>
 <li>Five is Right Out</li>
@@ -710,11 +309,11 @@ for a reading from the Book of Armaments:</t>
 <li>The Foe, being naughty in the <strong>LORD's</strong> sight, <bcp14>SHALL</bcp14> snuff it</li>
 </ol>
 
-<t anchor="_f72919cc-8deb-c8bc-e834-0cbf7a33e232">This could also be represented in pseudocode as follows:</t>
+<t anchor="_9080b18a-416b-4a5d-5798-1e42d70f407b">This could also be represented in pseudocode as follows:</t>
 
-<ol anchor="_12562cff-d2a8-ced2-f9e3-84e0009e2071" type="1"><li>Take out the Holy Pin</li>
-<li><t anchor="_4604c8a0-0911-f477-24e8-7238a4626d2d">The Count</t>
-<sourcecode anchor="_cb59e4b9-8e98-b86d-01b6-e6624b43170b"><![CDATA[integer count;
+<ol anchor="_5ce0eca2-bf3b-6cb1-5acd-7e3b27644e8b" type="1"><li>Take out the Holy Pin</li>
+<li><t anchor="_f19ba91d-e481-969f-9ab4-462897cfd1e1">The Count</t>
+<sourcecode anchor="_bba4e35d-1ceb-1b39-e9e1-f5ea62898720"><![CDATA[integer count;
 for count := 1 step 1 until 3 do
   say(count)
 comment Five is Right Out]]></sourcecode>
@@ -725,136 +324,53 @@ comment Five is Right Out]]></sourcecode>
 </ol>
 </section>
 </section>
-    <section anchor="_dramatis_personae"><name>Dramatis Personae</name>
+    <section anchor="_6f4f1654-3921-99e6-9e9c-e57e83f51a1d"><name>Dramatis Personae</name>
 
-<t anchor="_7bc7055d-1cdd-acaf-a5a7-8482246119e6">The following human (more-or-less) protagonists were involved
-in the two incidents recounted as lore of the Knights of the
-Round Table:</t>
+<t anchor="_c1d7aaf9-2e61-2089-1087-bd45af02072d">The following human (more-or-less) protagonists were involved in the two incidents recounted as lore of the Knights of the Round Table:</t>
 
-<table anchor="_f87ba086-52e3-9b5d-05fc-52c5b027fec9"><thead><tr><th align="left">French Castle</th><th align="left">Cave of Caerbannog</th></tr></thead><tbody><tr><td colspan="2" align="left">King Arthur</td></tr><tr><td colspan="2" align="left">Patsy</td></tr><tr><td colspan="2" align="left">Sir Bedevere the Wise</td></tr><tr><td colspan="2" align="left">Sir Galahad the Pure</td></tr><tr><td colspan="2" align="left">Sir Lancelot the Brave</td></tr><tr><td colspan="2" align="left">Sir Robin the Not-quite-so-brave-as-Sir-Lancelot</td></tr><tr><td align="left">French Guard with Outrageous Accent</td><td align="left">Tim the Enchanter</td></tr><tr><td align="left">Other French Guards</td><td align="left">Brother Maynard</td></tr><tr><td align="left"></td><td align="left">The Lector</td></tr><tr><td rowspan="3" align="center">not yet recruited</td><td align="right">Sir Bors</td></tr><tr><td align="right">Sir Gawain</td></tr><tr><td align="right">Sir Ector</td></tr></tbody><tfoot><tr><td align="left">Retinue of sundry knights</td><td align="left">Retinue of sundry more knights than at the French Castle</td></tr></tfoot></table>
+<table anchor="_74460974-c990-afb0-db1d-a39fa3ccd7c9"><thead><tr><th align="left">French Castle</th><th align="left">Cave of Caerbannog</th></tr></thead><tbody><tr><td colspan="2" align="left">King Arthur</td></tr><tr><td colspan="2" align="left">Patsy</td></tr><tr><td colspan="2" align="left">Sir Bedevere the Wise</td></tr><tr><td colspan="2" align="left">Sir Galahad the Pure</td></tr><tr><td colspan="2" align="left">Sir Lancelot the Brave</td></tr><tr><td colspan="2" align="left">Sir Robin the Not-quite-so-brave-as-Sir-Lancelot</td></tr><tr><td align="left">French Guard with Outrageous Accent</td><td align="left">Tim the Enchanter</td></tr><tr><td align="left">Other French Guards</td><td align="left">Brother Maynard</td></tr><tr><td align="left"></td><td align="left">The Lector</td></tr><tr><td rowspan="3" align="center">not yet recruited</td><td align="right">Sir Bors</td></tr><tr><td align="right">Sir Gawain</td></tr><tr><td align="right">Sir Ector</td></tr></tbody><tfoot><tr><td align="left">Retinue of sundry knights</td><td align="left">Retinue of sundry more knights than at the French Castle</td></tr></tfoot></table>
 
-<section anchor="_past_the_killer_rabbit"><name>Past the Killer Rabbit</name>
+<section anchor="_9678e182-8cf2-2fdb-68ea-5e616e537223"><name>Past the Killer Rabbit</name>
 
-<t anchor="_f5365173-0ce5-8322-bd97-99393379c8ec">Once the Killer Rabbit of Caerbannog (<xref target="killer-bunny"></xref>) had been
-dispatched, the Knights of the Round Table uncovered the last
-words of Joseph of Arimathea, inscribed on the Cave of Caerbannog
-in Aramaic.  While the precise Aramaic wording has not survived,
-we trust the following Hebrew subtitles will serve as an
-acceptable substitute:</t>
+<t anchor="_a558edf7-557b-be47-8c7d-0f3cff880384">Once the Killer Rabbit of Caerbannog (<xref target="killer-bunny"></xref>) had been dispatched, the Knights of the Round Table uncovered the last words of Joseph of Arimathea, inscribed on the Cave of Caerbannog in Aramaic.  While the precise Aramaic wording has not survived, we trust the following Hebrew subtitles will serve as an acceptable substitute:</t>
 
-<blockquote quotedFrom="Joseph of Arimathea" cite="https://context.reverso.net"><t anchor="_63dd6cf5-98f2-585d-bcca-73623f2302b0">.<u>&#x5DB;</u><u>&#x5D0;</u><u>&#x5DF;</u> <u>&#x5D0;</u><u>&#x5D5;</u><u>&#x5DC;</u><u>&#x5D9;</u> <u>&#x5D9;</u><u>&#x5DE;</u><u>&#x5E6;</u><u>&#x5D0;</u><u>&#x5D5;</u> <u>&#x5D4;</u><u>&#x5DE;</u><u>&#x5D9;</u><u>&#x5DC;</u><u>&#x5D9;</u><u>&#x5DD;</u> <u>&#x5D4;</u><u>&#x5D0;</u><u>&#x5D7;</u><u>&#x5E8;</u><u>&#x5D5;</u><u>&#x5E0;</u><u>&#x5D5;</u><u>&#x5EA;</u> <u>&#x5E9;</u><u>&#x5DC;</u> <u>&#x5D9;</u><u>&#x5D5;</u><u>&#x5E1;</u><u>&#x5E3;</u> <u>&#x5DE;</u><u>&#x5D0;</u><u>&#x5E8;</u><u>&#x5DE;</u><u>&#x5EA;</u><u>&#x5D9;</u><u>&#x5D4;</u>
-.<u>&#x5DE;</u><u>&#x5D9;</u> <u>&#x5D0;</u><u>&#x5E9;</u><u>&#x5E8;</u> <u>&#x5D9;</u><u>&#x5D4;</u><u>&#x5D9;</u><u>&#x5D4;</u> <u>&#x5D0;</u><u>&#x5DE;</u><u>&#x5D9;</u><u>&#x5E5;</u> <u>&#x5D5;</u><u>&#x5D1;</u><u>&#x5E2;</u><u>&#x5DC;</u> <u>&#x5E0;</u><u>&#x5E4;</u><u>&#x5E9;</u> <u>&#x5D8;</u><u>&#x5D4;</u><u>&#x5D5;</u><u>&#x5E8;</u><u>&#x5D4;</u> <u>&#x5D9;</u><u>&#x5D5;</u><u>&#x5DB;</u><u>&#x5DC;</u> <u>&#x5DC;</u><u>&#x5DE;</u><u>&#x5E6;</u><u>&#x5D5;</u><u>&#x5D0;</u> <u>&#x5D0;</u><u>&#x5EA;</u> <u>&#x5D4;</u><u>&#x5D2;</u><u>&#x5D1;</u><u>&#x5D9;</u><u>&#x5E2;</u> <u>&#x5D4;</u><u>&#x5E7;</u><u>&#x5D3;</u><u>&#x5D5;</u><u>&#x5E9;</u> <u>&#x5D1;</u><u>&#x5D8;</u><u>&#x5D9;</u><u>&#x5E8;</u><u>&#x5EA;</u> <u>&#x5D0;</u><u>&#x5D0;</u><u>&#x5D0;</u><u>&#x5D0;</u><u>&#x5D0;</u><u>&#x5D0;</u><u>&#x5D0;</u><u>&#x5D4;</u></t>
+<blockquote quotedFrom="Joseph of Arimathea" cite="https://context.reverso.net"><t anchor="_fac8720e-c87f-d91c-ab1d-fed197467071"><u>י</u><u>מ</u><u>צ</u><u>א</u><u>ו</u> <u>ה</u><u>מ</u><u>י</u><u>ל</u><u>י</u><u>ם</u> <u>ה</u><u>א</u><u>ח</u><u>ר</u><u>ו</u><u>נ</u><u>ו</u><u>ת</u> <u>ש</u><u>ל</u> <u>י</u><u>ו</u><u>ס</u><u>ף</u> <u>מ</u><u>א</u><u>ר</u><u>מ</u><u>ת</u><u>י</u><u>ה</u> .<u>מ</u><u>י</u> <u>א</u><u>ש</u><u>ר</u> <u>י</u><u>ה</u><u>י</u><u>ה</u> <u>א</u><u>מ</u><u>י</u><u>ץ</u> <u>ו</u><u>ב</u><u>ע</u><u>ל</u> <u>נ</u><u>פ</u><u>ש</u> <u>ט</u><u>ה</u><u>ו</u><u>ר</u><u>ה</u> <u>י</u><u>ו</u><u>כ</u><u>ל</u> <u>ל</u><u>מ</u><u>צ</u><u>ו</u><u>א</u> <u>א</u><u>ת</u> <u>ה</u><u>ג</u><u>ב</u><u>י</u><u>ע</u> <u>ה</u><u>ק</u><u>ד</u><u>ו</u><u>ש</u> <u>ב</u><u>ט</u><u>י</u><u>ר</u><u>ת</u> <u>א</u><u>א</u><u>א</u><u>א</u><u>א</u><u>א</u><u>א</u><u>ה</u></t>
 
-<t anchor="_7fd1a197-5084-281f-8896-f19d2de88252">"Here may be found the last words of Joseph<u>&#xA0;</u>of Arimathea.
-He who is valiant and pure of spirit may find the Holy Grail
-in the castle of - Aaaargh."</t>
+<t anchor="_51a0ed89-a88b-7866-d62e-db7ddafe14b9">"Here may be found the last words of Joseph of Arimathea. He who is valiant and pure of spirit may find the Holy Grail in the castle of - Aaaargh."</t>
 </blockquote>
 </section>
 </section>
-    <section anchor="_iana_considerations"><name>IANA Considerations</name>
+    <section anchor="_7dc20233-2c29-4d69-e854-93466c34b03a"><name>IANA Considerations</name>
 
-<t anchor="_3959b9b8-c353-837b-e22b-7b4e24936a24">IANA might consider a registry to track the mythical, especially
-ravaging beasts, such as the Killer Rabbit, who haunt the Internet.</t>
+<t anchor="_ef934c79-8ce4-0792-a59b-7de5ff3a72b0">IANA might consider a registry to track the mythical, especially ravaging beasts, such as the Killer Rabbit, who haunt the Internet.</t>
 </section>
-    <section anchor="_security_considerations"><name>Security Considerations</name>
+    <section anchor="_7ff6c8b6-36b4-61fe-69ed-974c6d96838c"><name>Security Considerations</name>
 
-<t anchor="_d75cbeca-2a38-b6ca-7014-e1a0f31a5d9c">Do not let the Killer Rabbit out under any circumstance.</t>
+<t anchor="_4de22d8c-7ea3-b268-639a-226a7e82cdd7">Do not let the Killer Rabbit out under any circumstance.</t>
 
-<t anchor="_d3294f14-5312-48ba-7084-f817f2fb0783">I repeat. Do not let the Killer Rabbit (<xref target="killer-bunny"></xref>) out.</t>
+<t anchor="_e8ebcc82-f944-7c90-256c-81baa795cf72">I repeat. Do not let the Killer Rabbit (<xref target="killer-bunny"></xref>) out.</t>
 </section>
   </middle>
   <back>
-    <references anchor="_normative_references">
-      <name>Normative References</name>
-      <reference target="https://www.rfc-editor.org/info/rfc2119" anchor="RFC2119">
-        <front>
-          <title>Key words for use in RFCs to Indicate Requirement Levels</title>
-          <author fullname="S. Bradner" asciiFullname="S. Bradner"></author>
-          <date month="March" year="1997"></date>
-          <keyword>Standards</keyword>
-          <keyword>Track</keyword>
-          <keyword>Documents</keyword>
-          <abstract>    <t anchor="_267023c6-6e6e-e8cf-e0f6-eaad84fc4808">In many standards track documents several words are used to signify the requirements in the specification.  These words are often capitalized.  This document defines these words as they should be interpreted in IETF documents.  This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.</t>
-  </abstract>
-        </front>
-        <format target="https://www.rfc-editor.org/info/rfc2119" type="src"></format>
-        <refcontent>RFC 2119</refcontent>
-        <seriesInfo value="2119" name="RFC"></seriesInfo>
-        <seriesInfo value="10.17487/RFC2119" name="DOI"></seriesInfo>
-      </reference>
-    </references>
-    <references anchor="_informative_references">
-      <name>Informative References</name>
-      <reference anchor="grail_film">
-        <front>
-          <title>G. Chapman, J. Cleese, E. Idle, T. Gilliam, T. Jones, M. Palin. 1975. Monty Python and the Holy Grail.</title><author surname="Unknown"></author>
-        </front>
-        <refcontent>Grail</refcontent>
-      </reference>
-      <reference target="https://www.rfc-editor.org/info/rfc2635" anchor="RFC2635">
-        <front>
-          <title>DON'T SPEW A Set of Guidelines for Mass Unsolicited Mailings and Postings (spam*)</title>
-          <author fullname="S. Hambridge" asciiFullname="S. Hambridge"></author>
-          <author fullname="A. Lunde" asciiFullname="A. Lunde"></author>
-          <date month="June" year="1999"></date>
-          <keyword>electronic</keyword>
-          <keyword>mail</keyword>
-          <keyword>email</keyword>
-          <keyword>users</keyword>
-          <keyword>administrators</keyword>
-          <keyword>managers</keyword>
-          <abstract>    <t anchor="_ad8955e4-68b1-b652-014b-42e7e5f0173b">This document explains why mass unsolicited electronic mail messages are harmful in the Internetworking community.  This memo provides information for the Internet community.</t>
-  </abstract>
-        </front>
-        <format target="https://www.rfc-editor.org/info/rfc2635" type="src"></format>
-        <refcontent>RFC 2635</refcontent>
-        <seriesInfo value="2635" name="RFC"></seriesInfo>
-        <seriesInfo value="10.17487/RFC2635" name="DOI"></seriesInfo>
-      </reference>
-      <reference target="https://www.rfc-editor.org/info/rfc7990" anchor="RFC7990">
-        <front>
-          <title>RFC Format Framework</title>
-          <author fullname="H. Flanagan" asciiFullname="H. Flanagan"></author>
-          <date month="December" year="2016"></date>
-          <keyword>Format</keyword>
-          <keyword>xml2rfcv3</keyword>
-          <keyword>v3</keyword>
-          <abstract>    <t anchor="_8048c754-398d-0b50-f17c-be9818685fd9">In order to improve the readability of RFCs while supporting their archivability, the canonical format of the RFC Series will be transitioning from plain-text ASCII to XML using the xml2rfc version 3 vocabulary; different publication formats will be rendered from that base document.  With these changes comes an increase in complexity for authors, consumers, and the publisher of RFCs.  This document serves as the framework that provides the problem statement, lays out a road map of the documents that capture the specific requirements, and describes the transition plan.</t>
-  </abstract>
-        </front>
-        <format target="https://www.rfc-editor.org/info/rfc7990" type="src"></format>
-        <refcontent>RFC 7990</refcontent>
-        <seriesInfo value="7990" name="RFC"></seriesInfo>
-        <seriesInfo value="10.17487/RFC7990" name="DOI"></seriesInfo>
-      </reference>
-      <reference target="https://www.rfc-editor.org/info/rfc8140" anchor="RFC8140">
-        <front>
-          <title>The Arte of ASCII: Or, An True and Accurate Representation of an Menagerie of Thynges Fabulous and Wonderful in Ye Forme of Character</title>
-          <author fullname="A. Farrel" asciiFullname="A. Farrel"></author>
-          <date month="April" year="2017"></date>
-          <abstract>    <t anchor="_78488992-92ba-1273-71aa-c93efc0e8ae3">Ever since Gutenberg discovered and patented ASCII and the corresponding "Courier New" font with its now-famous "ten" point size, artisans and artificers have striven to represent their views of the world in print.</t>
-    <t anchor="_591ac6d5-a9a3-08e7-1d36-708c65dab8d0">Similarly, starting from Darwin's discovery of the hippogriff and his subsequent registration of the creature as an International Trade Mark, men (and some women) have struggled to catalog the fabulous variety that is called "nature".</t>
-    <t anchor="_f358ecb1-dfde-8846-1df4-6e2f7a0b5444">This document supplies a number of representations of all manner of things (both elemental and hypothetical) supplied by some of our best collectors of curios and delivered in a manner that may well be reused by the cunning document author.</t>
-  </abstract>
-        </front>
-        <format target="https://www.rfc-editor.org/info/rfc8140" type="src"></format>
-        <refcontent>RFC 8140</refcontent>
-        <seriesInfo value="8140" name="RFC"></seriesInfo>
-        <seriesInfo value="10.17487/RFC8140" name="DOI"></seriesInfo>
-      </reference>
-      <reference target="https://www.rfc-editor.org/info/rfc8174" anchor="RFC8174">
-        <front>
-          <title>Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words</title>
-          <author fullname="B. Leiba" asciiFullname="B. Leiba"></author>
-          <date month="May" year="2017"></date>
-          <abstract>    <t anchor="_1b9bdfba-34eb-2417-1955-57ddcd2b8196">RFC 2119 specifies common key words that may be used in protocol specifications.  This document aims to reduce the ambiguity by clarifying that only UPPERCASE usage of the key words have the defined special meanings.</t>
-  </abstract>
-        </front>
-        <format target="https://www.rfc-editor.org/info/rfc8174" type="src"></format>
-        <refcontent>RFC 8174</refcontent>
-        <seriesInfo value="8174" name="RFC"></seriesInfo>
-        <seriesInfo value="10.17487/RFC8174" name="DOI"></seriesInfo>
-      </reference>
+    <references anchor="_80e47163-ec5e-3136-1198-c69ef41a4773">
+      <name>References</name>
+      <references anchor="_9548fb71-af5c-268e-e372-5bb0e3e5d70b">
+        <name>Normative References</name>
+        <reference target="https://www.rfc-editor.org/info/rfc2119" anchor="RFC2119"><stream>IETF</stream> <front> <title>Key words for use in RFCs to Indicate Requirement Levels</title> <author surname="Bradner" asciiSurname="Bradner" initials="S." asciiInitials="S."></author> <date month="March" year="1997"></date> <keyword>Standards</keyword><keyword>Track</keyword><keyword>Documents</keyword> <abstract><t>In many standards track documents several words are used to signify the requirements in the specification. These words are often capitalized. This document defines these words as they should be interpreted in IETF documents. This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.</t></abstract> </front> <seriesInfo value="10.17487/RFC2119" name="DOI"></seriesInfo> <seriesInfo value="14" name="BCP"></seriesInfo> <seriesInfo value="2119" name="RFC"></seriesInfo></reference>
+      </references>
+      <references anchor="_2600d867-4c79-679e-5c29-636c65aaec4b">
+        <name>Informative References</name>
+        <reference anchor="grail_film">
+          <front>
+            <title>G. Chapman, J. Cleese, E. Idle, T. Gilliam, T. Jones, M. Palin. 1975. Monty Python and the Holy Grail.</title><author surname="Unknown"></author>
+          </front>
+        </reference>
+        <reference target="https://www.rfc-editor.org/info/rfc2635" anchor="RFC2635"><stream>IETF</stream> <front> <title>DON'T SPEW A Set of Guidelines for Mass Unsolicited Mailings and Postings (spam*)</title> <author surname="Hambridge" asciiSurname="Hambridge" initials="S." asciiInitials="S."></author> <author surname="Lunde" asciiSurname="Lunde" initials="A." asciiInitials="A."></author> <author><organization ascii="Internet Engineering Task Force" abbrev="IETF">Internet Engineering Task Force</organization></author> <date month="June" year="1999"></date> <keyword>electronic</keyword><keyword>mail</keyword><keyword>email</keyword><keyword>users</keyword><keyword>administrators</keyword><keyword>managers</keyword> <abstract><t>This document explains why mass unsolicited electronic mail messages are harmful in the Internetworking community. This memo provides information for the Internet community.</t></abstract> </front> <seriesInfo value="10.17487/RFC2635" name="DOI"></seriesInfo> <seriesInfo value="2635" name="RFC"></seriesInfo></reference>
+        <reference target="https://www.rfc-editor.org/info/rfc7990" anchor="RFC7990"><stream>IAB</stream> <front> <title>RFC Format Framework</title> <author surname="Flanagan" asciiSurname="Flanagan" initials="H." asciiInitials="H."></author> <date month="December" year="2016"></date> <keyword>Format</keyword><keyword>xml2rfcv3</keyword><keyword>v3</keyword> <abstract><t>In order to improve the readability of RFCs while supporting their archivability, the canonical format of the RFC Series will be transitioning from plain-text ASCII to XML using the xml2rfc version 3 vocabulary; different publication formats will be rendered from that base document. With these changes comes an increase in complexity for authors, consumers, and the publisher of RFCs. This document serves as the framework that provides the problem statement, lays out a road map of the documents that capture the specific requirements, and describes the transition plan.</t></abstract> </front> <seriesInfo value="10.17487/RFC7990" name="DOI"></seriesInfo> <seriesInfo value="7990" name="RFC"></seriesInfo></reference>
+        <reference target="https://www.rfc-editor.org/info/rfc8140" anchor="RFC8140"><stream>INDEPENDENT</stream> <front> <title>The Arte of ASCII: Or, An True and Accurate Representation of an Menagerie of Thynges Fabulous and Wonderful in Ye Forme of Character</title> <author surname="Farrel" asciiSurname="Farrel" initials="A." asciiInitials="A."></author> <date month="April" year="2017"></date> <abstract><t>Ever since Gutenberg discovered and patented ASCII and the corresponding "Courier New" font with its now-famous "ten" point size, artisans and artificers have striven to represent their views of the world in print. Similarly, starting from Darwin's discovery of the hippogriff and his subsequent registration of the creature as an International Trade Mark, men (and some women) have struggled to catalog the fabulous variety that is called "nature". This document supplies a number of representations of all manner of things (both elemental and hypothetical) supplied by some of our best collectors of curios and delivered in a manner that may well be reused by the cunning document author.</t></abstract> </front> <seriesInfo value="10.17487/RFC8140" name="DOI"></seriesInfo> <seriesInfo value="8140" name="RFC"></seriesInfo></reference>
+        <reference target="https://www.rfc-editor.org/info/rfc8174" anchor="RFC8174"><stream>IETF</stream> <front> <title>Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words</title> <author surname="Leiba" asciiSurname="Leiba" initials="B." asciiInitials="B."></author> <date month="May" year="2017"></date> <abstract><t>RFC 2119 specifies common key words that may be used in protocol specifications. This document aims to reduce the ambiguity by clarifying that only UPPERCASE usage of the key words have the defined special meanings.</t></abstract> </front> <seriesInfo value="10.17487/RFC8174" name="DOI"></seriesInfo> <seriesInfo value="14" name="BCP"></seriesInfo> <seriesInfo value="8174" name="RFC"></seriesInfo></reference>
+        <reference target="https://www.rfc-editor.org/info/rfc7996" anchor="RFC7996"><stream>IAB</stream> <front> <title>SVG Drawings for RFCs: SVG 1.2 RFC</title> <author surname="Brownlee" asciiSurname="Brownlee" initials="N." asciiInitials="N."></author> <date month="December" year="2016"></date> <keyword>RFC</keyword><keyword>v3</keyword><keyword>xml2rfcv3</keyword><keyword>format</keyword> <abstract><t>This document specifies SVG 1.2 RFC - an SVG profile for use in diagrams that may appear in RFCs - and considers some of the issues concerning the creation and use of such diagrams.</t></abstract> </front> <seriesInfo value="10.17487/RFC7996" name="DOI"></seriesInfo> <seriesInfo value="7996" name="RFC"></seriesInfo></reference>
+      </references>
     </references>
   </back>
 </rfc>
